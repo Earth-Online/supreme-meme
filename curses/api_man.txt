@@ -1,0 +1,42 @@
+﻿initscr()//初始化输出设备，返回win对象
+	noecho()//默认有回显
+	cbreak()//不等待回车键nocbreak()等待回车键输入才读取
+	curs_set(0)//光标可见？
+	keypad(stdscr,TRUE)//默认禁用功能键
+	init_pair(1,COLOR_WHITE,COLOR_BLUE)//初始化序号，颜色对
+
+move()//移动到某某位置
+
+attron(某属性)//打开
+	A_BOLD//粗体
+
+bkgd(COLOR_PAIR(1))//设置背景颜色对？
+
+subwin(stdscr,左上坐标,右下坐标)//定义窗口
+	getyx(WINDOW*, row, col)返回当前光标的坐标
+	getmaxyx(WINDOW* wd, int rows, int cols) 获取窗口wd的长和宽
+
+waddstr(stdscr,string)//打印string
+	box(stdscr,0,0)
+	
+	mvaddstr(x,y,string)//普通添加字符串
+	mvprintw(x,y,string)//携带格式化能力
+	mvhline(x,y,len)//打印横线
+	scanw()和printw()，与scanf和printf类似
+
+	getch()//输入一个字符
+	wgetstr()获取字符串
+	addch()//在当前光标处输入一个字符替换原来的字符，然后光标右移
+	insch()//在当前光标处插入一个字符，其他字符依次右移一位
+	delch()//删除光标处的字符，右边的字符依次左移，光标位置不变
+	char inch()//返回光标处的字符
+	mvaddstr(row, col, *str)//移动光标到(row,col)，然后输出字符串
+	
+
+attroff(某属性)//关闭
+
+refresh();//刷新函数
+
+endwin();//结束关闭设备
+
+COLS和LINES宏

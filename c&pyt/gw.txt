@@ -1,0 +1,7 @@
+gcc 1.c -o 1.exe -lgdi32
+g++ t.cpp -o t.exe -I.\include -L.\libs -lpython27
+pyconfig.h pragma comment(lib,"python25.lib")
+g++ main.c -o main.exe -I.\include -L.\libs -lpython27
+
+
+g++ main.c -o main.exe -Id:\python27\include -Ld:\python27\libs -lpython27

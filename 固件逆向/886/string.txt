@@ -1,0 +1,5824 @@
+%a %b %d %H:%M:%S %Y
+http://download.tplinkcloud.com.cn/brand_mac/
+hello cyassl!
+VxWorks
+5.5.1
+VxWorks5.5.1
+Sep 20 2017, 09:16:35
+Host Name: %s 
+vxTarget
+Target Name: %s 
+target
+User: %s 
+StartUp Script: %s 
+Other: %s 
+/tyCo/
+Attaching interface lo0... 
+done
+usrNetGtfInit: netTaskSemId not initialized
+usrNetGtfInit: failed to create GTF_TIMER_MANAGER
+usrNetEther: can't register ADDR_RES_FUNC for IPv4
+usrNetEther: can't register IPv4 IF_OUTPUT_FUNC
+usrNetEther: can't register MULTI_ADDR_RES_FUNC
+muxDevLoad failed for device entry %d!
+muxDevStart failed for entry %d!
+usrNetBsdSocket: failed sockLibAdd for AF_INET
+usrNetBsdSocket: failed sockLibAdd for PF_ROUTE
+scsi
+tffs
+usrNetDevNameGet: no network device
+passDev
+Error: invalid netmask in boot field "%s".
+Error: invalid inet address in boot field "%s".
+mirror(0,0):vxWorks.st e=192.168.1.1 h=192.168.1.15 g=192.168.1.1 tn=ap121 o=eth1
+bootHost
+/null
+Can't use dynamic address %s without DHCP.
+monitor
+Function %s assertion failed: ERROR != taskNameToId("monitor"), file:%s, line:%d.
+init.c
+%s():Stack overflow, name = %s.
+%s():Task[%s] is running low, %d bytes left.
+control socket setSock error
+control socket bind setSock error
+%s exit.
+packet
+Show cblk or mblk chain.
+/pll
+OS-FILTER
+manage all udp/tcp packet ports.
+help
+-help
+-show
+LOCAL
+GLOBAL
+Moduler name: Port Manage 1.0
+Runtime Status: Working
+Show all open port values:
+PORT-VALUE PROTO PORT-TYPE 
+%-11d%-6s%s
+-close
+Invalid port type, should less than 32.
+-open
+/switch
+/flash0
+flash
+Print flash layout, read/write/erase specify flash.
+Flash ID = 0x%X.
+Flash UID 0x%s
+/conf/flash_sign_pk.pem
+Read file pub-key.sign error.
+Version: 2.0
+Name: FlashIo
+Total Size(K): %d
+Erase Sector Size(K): %d
+Block Num: %d.
+Flash Layout:
+|------------------------| 0x%08x(%d.%dK)
+|                        |
+%s(%d.%dK)
+|%-24s|
+-layout
+Invalid offset and length, Max total falsh is %d(K)
+-erase
+-read
+-write
+/gpio
+FS: path = %s, flags = %X(%s%s) mode = %X.
+FS: Unsupported flag %X.
+FS: Index not found.
+FS: New file index %X.
+FS: WR-only mode is allowed only in RW sector, index %d.
+FS: No free handle.
+FS: Check for open mode conflict, ref=%d, index=%d.
+FS: %d: handle=%X/%X, mode=%X/%X.
+FS: Create same file simultaneously.
+FS: Open same file with conflict mode.
+FS: Exceed max support num %d, current %d, new %d.
+FS: No free fd.
+FS: Max Size in sector %d = %d(exclude index %d).
+FS: Move files %d~%d in sector %d.
+FS: File index=%d.
+FS: File not found.
+%s(%d): Device not found.
+%s(%d): semTake error.
+Invalid argument: file or decryptFile is NULL.
+Decryption for config.bin was failed.
+Invalid argument: file or encryptFile is NULL.
+Encryption for config.bin was failed.
+FS: File size %u / Original %u.
+FS: Will expand buffer %d to %d.
+FS: Malloc buffer size %d.
+FS: Buffer malloc failed, size %u > %u.
+FS: Buffer malloc failed, size %d.
+%s(%d): Forbid to flash sector %d.
+%s(%d): Malloc encrypt buffer failed, size %d.
+%s(%d): Encrypt config data failed.
+%s(%d): =====>flash %X(sector %d), len %u.
+FS: Close file index %d.
+Function %s assertion failed: pFd - pDev->descList < pDev->maxFiles, file:%s, line:%d.
+miniFs.c
+Function %s assertion failed: pFd->pFileHdl - pDev->hdlList < pDev->maxFiles, file:%s, line:%d.
+%s(%d): Format sector %d.
+MINIFS
+%s(%d): Invalid sector %d.
+%s(%d): Sector %d unuseable.
+Function %s assertion failed: pSector->fileStartIdx + fileNum <= MAX_FILE_COUNT, file:%s, line:%d.
+%s(%d): Sector%d need to rebuild, count = %d, pHdr = %08x, hdrAddr = %08x.
+%s(%d): Sector%d pHdr out of range, count = %d, pHdr = %08x, hdrAddr = %08x, range = %08x.
+FS: [%s] need data.
+FS: [%s] flag conflict %08x.
+FS: [%s] duplicate %d/%d.
+FS: %u remove (%s) not exist.
+FS: %u will write (%s) @ %d.
+FS: Invalid sector.
+/config/
+/autoPlugin/
+FS: -- sector %u <> %u.
+FS: -- Check for open mode conflict, fileId=%d.
+FS: -- handle %d fileId=%d(%d), mode=%X(%X).
+FS: -- Create same file (%s) simultaneously.
+FS: -- Open same file (%s) with conflict mode.
+FS: -- Exceed max support num %d, current %d, new %d.
+FS: -- Mode conflict.
+FS: Will create %u/edit %u/delete %u files.
+FS: -- Needn't write.
+FS: sector size %u > %u.
+FS: Remove %s fileId %d.
+FS: Save %s.
+FS: -- sector size %u > %u.
+FS: -- [update]fileId:%d original size:%d, flag:%08X.
+FS: -- Compress config using %d buffer.
+FS: -- Compress config failed.
+FS: -- Compressed %d -> %d.
+FS: -- Insufficient sector space.
+FS: -- [update]fileId:%d header offset:%X, file:%08X~%08X, size:%d<=%d.
+FS: create files.
+FS: -- [new]file header offset:%X, file offset:%08X~%08X, size:%d/%d, flag:%08X.
+FS: sector size %d <> %d+%d.
+FS: Adjust file handle %8X fileId %d.
+FS: -- File is deleted!.
+FS: File is delected!.
+FS: Re-buffer.
+FS: File has been wrote.
+FS: Compress config using %d buffer.
+FS: Compress config failed.
+FS: Compressed %d -> %d.
+FS: Expand buffer %d-->%d to write %d.
+FS: Insufficient sector space.
+FS: Buffer malloc failed, size %u + %u > %u.
+FS: Buffer malloc failed, size %u.
+FS: [new]file header offset:%X, file offset:%X, size:%d/%d, flag:%X.
+FS: [update]file origin size:%d, flag:%X.
+FS: [update]file header offset:%X, file offset:%X, size:%d/%d.
+FS: %d Increase file handle %8X index %d/%d.
+%s(%d): Invalid argument.
+%s(%d): Decompress file %s using 2014.
+%s(%d): Lzma decompress file %s error.
+%s(%d): Media file %s not found.
+FS: Relocated source is NULL.
+FS: Read from memory.
+FS: Invalid index %d.
+FS: Decompress file using 2014.
+FS: Decompress file failed.
+FS: File handle has relocate attrib.
+FS: File has been read/wrote.
+FS: File has conflict flag %08x.
+FS: Set file original size = %u, flag = %X.
+FS: File handle haven't relocate attrib.
+FS: NULL address.
+FS: Relocate file src = %X, original size = %u.
+O_RDONLY
+O_WRONLY
+O_RDWR
+UNKN ?
+ | O_CREAT
+FS: Delete file %s.
+FS: File not find.
+FS: File original size:%d, max size:%d.
+FS: File original size:0.
+FS: Adjust file handle %8X index %d.
+FS: File is deleted!.
+%s(%d): Invalid media format.
+%s(%d): Size not match %u/%u.
+%s(%d): Size is too big.
+%s(%d): Flash error.
+%s(%d): Finish update pre-install plugin.
+display file system status.
+successed
+%s(%d): Install minifs driver %s.
+%s(%d): Malloc memory for rc file device failed.
+%s(%d): Create mutx semaphores for rc file device failed.
+%s(%d): Malloc file descriptions failed.
+%s(%d): Malloc file handle failed.
+Function %s assertion failed: ERROR != flashHandler, file:%s, line:%d.
+%s(%d): Get rom base addr error.
+Function %s assertion failed: NULL != pConfigBuf, file:%s, line:%d.
+Function %s assertion failed: sizeof(MINIFS_HEADER) < minifs.sector[FS_SECTOR_CONFIG].size, file:%s, line:%d.
+Function %s assertion failed: sizeof(MINIFS_HEADER) < minifs.sector[FS_SECTOR_PLUGIN].size, file:%s, line:%d.
+%s(%d): Plugin sector destroyed.
+Function %s assertion failed: sizeof(MINIFS_HEADER) < minifs.sector[FS_SECTOR_RDWR].size, file:%s, line:%d.
+Function %s assertion failed: NULL != minifs.index, file:%s, line:%d.
+%s(%d): Init resource file failed.
+%s(%d): Add minifs driver to the table failed.
+%s(%d): Check md5 sum for config data failed.
+%s(%d): Decryption config data failed.
+%s(%d): readConfigSector failed.
+/conf/config.des
+-dev
+-drv
+miniFs file list
+%3s  %9s  %9s  %9s  %9s  %32s
+offset
+origSize
+flag
+%3d  %9X  %9u  %9u  %9X  
+-stat
+MiniFs offset
+%9s  %9s  %9s  %9s
+romBase
+idxTable
+max files
+free
+%9X  %9X  %9u  %9u
+File statistics
+%9s  %9s  %13s  %13s
+sector
+file num
+max size
+total
+%9s  %4u|%-4X  %7u|%-5X  %7u|%-5X
+RDONLY
+RDWR
+CONFIG
+CONF-ENC
+PLUGIN
+%9s  %4u|%-4X  %7u|%-5X
+miniFs
+%9s  %9s  %9s  %18s  %13s  %13s  %7s  %9s
+fileAddr
+flashAddr
+sector size
+file count
+index
+attrib
+%9s  %9X  %9X  %9X-%8X  %7u|%-5X  %7u|%-5X  %7u  %9X
+**********Abort: device not found**********
+Device status
+%9s  %9s  %9s  %9s  %9s  %9s
+dev name
+busyFd
+max file
+buf len
+bufHandle
+%9s  %9d  %9d  %9X  %9d  %9X
+File descriptor List
+%2c  %9s  %9s  %4s  %9s  %9s
+rcDev
+handle
+%c%d  %9X  %9X  %4u  %9u  %9X
+File handle List
+%2c  %9s  %3s  %9s  %3s  %4s  %9s  %9s  %9s  %4s  %32s
+attr
+stor
+%c%d  %9X  %3u  %9u  %3d  %4X  %9X  %9u  %9X  %4d  
+-format
+Unknown sector
+fd = ERROR
+hello
+num = ERROR
+write %d to fd %d
+ioctl fd %d ERROR
+FS: Buffer malloc failed, size = %d.
+----------%s----------
+Read %d Bytes to fd %d
+close fd = %d result %d
+remove %s result %d
+addr = %X, size = %u, flag = %X
+read %d to fd %d
+data:%s
+system log %d exption log %d
+sizeof %d
+|-%02d
+(id:%s state:%d ver:%s size:%u release:%s)
+| |-author %s
+| |-tag %s
+| |-component %s
+| |-name %s
+| |-display %s
+| |-path %s
+| |-web %s
+| |-config %s
+| |-icon %s
+| |-appicon %s
+| |-cloudAppIconUrl %s
+| |-cloudAppWebZipUrl %s
+| \-appweb %s
+(id:%s state:%d ver:%s size:%u)
+(id:%s state:%d)
+/autoPlugin
+/manuPlugin
+plugin_name
+plugin_path
+web_url
+xml_config
+plugin_id
+web_icon
+plugin_state
+cld_app_icon
+cld_app_web
+plugin_version
+plugin_size
+autoPlugin
+/autoPlugin/plugin.json
+/conf/autoPlugin.xml
+Function %s assertion failed: 0, file:%s, line:%d.
+appManage.c
+path
+resource
+webUrl
+iconUrl
+appIconUrl
+appWebZipUrl
+author
+components
+releaseTime
+pluginName
+/conf/minSupportPlugin.xml
+pluginMgr: file %s not find, all plugin may start.
+pluginMgr: file %s prase failed, all plugin may start.
+pluginMgr: find auto plugin %s in minSupportPlugin List..
+pluginMgr: do not load auto plugin %s because ver is low ..
+/manuPlugin/plugin.json
+manualPlugin
+/conf/symTbl.bin
+Function %s assertion failed: ERROR != symblFd, file:%s, line:%d.
+Function %s assertion failed: OK == rtn, file:%s, line:%d.
+Function %s assertion failed: index < APPMANAGE_AUTO_MAX, file:%s, line:%d.
+Function %s assertion failed: index < APPMANAGE_MANUAL_MAX, file:%s, line:%d.
+pluginMgr: plugin id is null.
+pluginMgr: plugin id %s not exist.
+pluginMgr: Read xml file (%s) failed.
+pluginMgr: | ... | xmlStr %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: module "%s" hasn't existed, needn't stop.
+pluginMgr: parse xml file %s failed.
+pluginMgr: search node %s failed.
+pluginMgr: search name %s failed.
+pluginMgr: get moduler for plugin %s failed.
+pluginMgr: Stop module %s.
+pluginMgr: Stop %s failed(%d).
+pluginMgr: -- Success.
+pluginMgr: Delete module %s.
+pluginMgr: Unload module (%s).
+pluginMgr: Unload %s failed(%#x).
+pluginMgr: Unload plugin %s failed.
+pluginMgr: parse xml file failed.
+table
+pluginMgr: Maximum module(%u/%u) or table(%u/%u).
+moduler
+Function %s assertion failed: NULL != pAppModule, file:%s, line:%d.
+pluginMgr: Cleanup module %s.
+Function %s assertion failed: NULL != pDataModule, file:%s, line:%d.
+pluginMgr: -- Remove config file (%s).
+pluginMgr: -- Get moduler %s failed.
+pluginMgr: -- Get object from (%s) failed.
+pluginMgr: -- Get table %s failed.
+pluginMgr: -- Delete table %s.
+pluginMgr: -- Delete list section.
+pluginMgr: -- Update (%s) config failed.
+pluginMgr: | %u/%u file | ... | usrCfg %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: Get file (%s).
+pluginMgr: Delete plugin id %s failed.
+pluginMgr: | %u/%u file | ... | pluginCfg %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: Ready to uninstall.
+pluginMgr: -- Edit config file (%s) len %d.
+pluginMgr: | fileParam %08X-%08X(%u|%x)| cfgFileParam %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: Uninstall plugin id %s failed(%d).
+pluginMgr: | ... | ... | data %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: Remove file.
+pluginMgr: Remove plugin %s file retrun %d.
+pluginMgr: Remove user config.
+pluginMgr: plugin %s leave config return %d.
+pluginMgr: Uninstall success.
+pluginMgr: -- Add new file.
+pluginMgr: -- Update exist file @ %u.
+pluginMgr: Too many files > %u.
+pluginMgr: package format is invalid.
+pluginMgr: file count is %d(too many).
+.mod
+pluginMgr: %s match xml/mod resource failed.
+pluginMgr: Decompress %s failed.
+pluginMgr: xml file %s parser failed.
+pluginMgr: Get app name from xml file %s failed.
+pluginMgr: Get resource file %s failed.
+.htm
+attribute
+html
+pluginMgr: %s match html web resource failed.
+pluginMgr: package format invalid.
+pluginMgr: md5 checksum is not correct.
+pluginMgr: | plugin %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+Preinst
+Manu-inst
+pluginMgr: %s plugin table is full.
+pluginMgr: Update plugin id %s.
+pluginMgr: Update plugin left %d files %d config used %u.
+manual
+auto
+pluginMgr: Install %s plugin id %s.
+pluginMgr: Load plugin objbin file %s failed(%d).
+pluginMgr: | %u/%u file | xmlStr %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+%s/%s
+pluginMgr: xml file parser failed..
+pluginMgr: register %s to table failed.
+pluginMgr: Save file.
+pluginMgr: Save %s file failed(%d).
+pluginMgr: Load module (%s).
+pluginMgr: Load %s failed(%#x).
+pluginMgr: Config module %s.
+pluginMgr: -- Create file (%s).
+pluginMgr: -- New object failed.
+Function %s assertion failed: NULL != pDataTable, file:%s, line:%d.
+pluginMgr: -- Reset table %s.
+pluginMgr: -- Failed.
+pluginMgr: -- update (%s) config failed.
+pluginMgr: -- update (%s) config.
+pluginMgr: | %u/%u file | ... | ... | usrCfg %08X-%08X(%u|%x) | pBuf %08X-%08X(%u|%x) |.
+pluginMgr: Save user config.
+pluginMgr: Load %s user config failed(%d).
+pluginMgr: Save %s user config failed(%d).
+pluginMgr: Load module %s config file failed.
+pluginMgr: Init module %s.
+pluginMgr: Init %s failed(%d).
+pluginMgr: Start module %s.
+pluginMgr: Start %s failed(%d).
+pluginMgr: Install %s success.
+pluginMgr: ---------- File List ----------.
+pluginMgr: %3s|%8s|%8s|%8s|%8s|%3s|%3s| path.
+ data 
+ size 
+ flag 
+pluginMgr: %3d|%08X|%8u|%8u|%08X|%3d|%3d|(%s).
+pluginMgr: ---------- End ----------.
+pluginMgr: Save file failed(%d).
+pluginMgr: Register %s failed.
+Assertion failed: dst != NULL && dstlen > 0 && srclen >= 0, file base64.c, line 120
+Assertion failed: dst != NULL && dstlen > 0, file base64.c, line 59
+r4kCPUWait
+cloud_config
+/cloud_config/router_post/bind
+method
+127.0.0.1
+plugin_config
+uhttpd
+0X%c%c
+%02X-%02X-%02X-%02X-%02X-%02X
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-><.,[]{}?/+=|\'":;~!#$%()` &
+JSON: jsonObjectObjectAdd obj must be type json_type_object.
+JSON: %s:obj is null or not json_type_object.
+JSON: json_object_to_file: object is null
+JSON: json_object_to_file: error opening file %s: %s
+JSON: json_object_to_file: error writing file %s: %s
+JSON: json_object_from_file: printbuf_new failed
+JSON: json_object_from_file: error reading file %s: %s
+JSON: jsonObjectObjectDel obj must be type json_type_object.
+Node.name = %s, Node.value = %s.
+Attribute Node.name = %s, Node.value = %s.
+xmlMemPoolInit malloc element mem size %d failed.
+xmlMemPoolInit malloc attribute mem size %d failed.
+![CDATA[
+root
+URLBase
+deviceList
+deviceType
+presentationURL
+serviceList
+service
+serviceType
+serviceId
+controlURL
+eventSubURL
+SCPDURL
+apos
+quot
+Function %s assertion failed: NULL != logEntryLock, file:%s, line:%d.
+log.c
+Function %s assertion failed: NULL != pSysLog, file:%s, line:%d.
+Function %s assertion failed: NULL != pExcLog, file:%s, line:%d.
+/system/sys_log
+Function %s assertion failed: OK == regOprInterface(SYSTEM_LOG_PATH, &operation), file:%s, line:%d.
+/system/exc_log
+Function %s assertion failed: OK == regOprInterface(EXCEPT_LOG_PATH, &operation), file:%s, line:%d.
+system
+delete_logs
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_LOG_ACTION_CLEAN, (FUNCPTR)logClean), file:%s, line:%d.
+read_logs
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_LOG_ACTION_READ, (FUNCPTR)logRead), file:%s, line:%d.
+%s_%d
+level
+%ddays, %d%d:%d%d:%d%d,
+Function %s assertion failed: NULL != msg, file:%s, line:%d.
+/system/excLog.bin
+EXCEPT_LOG
+Exception:|%04d-%02d-%02d %2d:%02d:%02d|
+td_id = %X
+td_name = %s
+td_sp = %X
+td_pStackBase = %X
+td_stackCurrent = %X
+td_pc = %X
+td_ra = %X
+num_per_page
+syslog_%d
+<%d>%ddays, %d%d:%d%d:%d%d,%s
+syslog
+-->%s|%s|%d - %s
+Function %s assertion failed: MCB_TAIL == *(UINT32*)(pMcbPool->mcbPoolEnd), file:%s, line:%d.
+mcb.c
+Function %s assertion failed: NULL != pMcbPool, file:%s, line:%d.
+MCB POOL TABLE
+____________________________________________
+size       blocks     free      usage
+%-11d%-11d%-11d%-11d
+Function %s assertion failed: MCB_MAGIC == pMcbHead->magic, file:%s, line:%d.
+Function %s assertion failed: MCB_TAIL == *(UINT32 *)(pMcbPool->mcbPoolEnd), file:%s, line:%d.
+Function %s assertion failed: NULL != buffer, file:%s, line:%d.
+Function %s assertion failed: NULL != mcbDesc.pSector, file:%s, line:%d.
+/conf/mcbDesc.txt
+Function %s assertion failed: NULL != mcbPoolTable, file:%s, line:%d.
+Show mcb pools or blocks.
+______________________
+MCB BLOCK(SIZE=%d)
+index data        dbgId status  
+busy
+%-6d0x%-08x  %04x  %-8s
+There is no pool matched.
+block
+output string don't have enough space!
+Function %s assertion failed: NULL != pAction, file:%s, line:%d.
+model.c
+Function %s assertion failed: NULL != pSection, file:%s, line:%d.
+dynamic
+element
+public
+option
+notcheck
+true
+section
+/%s/%s
+Function %s assertion failed: NULL != dataModelLock, file:%s, line:%d.
+/conf/model.xml
+data module init failed.
+Data module tree.
+|-%s(module)
+private
+nocheck
+| |-table %-20s %-8s %-8s %3d
+| | |-section %-10s
+| | |-option %-10s
+| |-action %-15s
+%3s %9s %9s %9s %9s %9s %9s %9s %9s
+expire
+interval
+func
+param
+times
+prior
+next
+%3d %9x %9u %9u %9x %9x %9d
+ [%7d]
+ %9x
+<--IdleList
+<--Head
+<--Tail
+timerMgt
+null
+false
+\u00%c%c
+0123456789abcdef
+JSON: json_tokener_comment: %s
+0123456789.+-Ee
+JSON: json_tokener_parse_ex: error %s at offset %d
+continue
+nesting to deep
+unexpected end of data
+unexpected character
+null expected
+boolean expected
+number expected
+array value separator ',' expected
+quoted object property name expected
+object property name separator ':' expected
+object value separator ',' expected
+invalid string sequence
+expected comment
+Assertion failed: 0, file linkhash.c, line 36
+lh_table_new: calloc failed
+DHCPC%d: Set dhcpc lan default route.
+-n delete 0.0.0.0
+add default %d.%d.%d.%d
+/protocol/proto/dhcp
+Function %s assertion failed: OK == regOprInterface(DHCPC_PATH, &operation), file:%s, line:%d.
+dhcpc.c
+protocol
+dhcpc_lan
+Function %s assertion failed: OK == registerAction(PROTOCOL_NAME, ACT_DHCPC_LAN, (FUNCPTR)dhcpcInstruct), file:%s, line:%d.
+hostname
+pri_dns
+snd_dns
+dns_mode
+enable_broadcast
+/device_info/info/info
+DHCPC%d: Link down in dismatch interface %d/%d.
+DHCPC%d: Send RELEASE to server %.8x.
+DHCPC%d: Switch interface %d->%d.
+%s down
+%s up
+DHCPC%d: wanPhyIndexGet failed.
+unit
+sntpcSet
+DHCPC%d: Invalid interface %d.
+DHCPC%d: Interface switching.
+/network/wan_status/wan_status
+DHCPC%d: Interface switch now.
+DHCPC%d: Add interface switch timer failed.
+gateway
+network
+DHCPC%d: Waiting for wan linkDown.
+DHCPC%d: Waiting for dhcpc linkDown.
+DHCPC%d: Delete interface switch timer.
+DHCPC%d: client socket call failed: %m.
+DHCPC%d: client socket set reuseaddr option failed: %m.
+DHCPC%d: client socket set broadcast option failed: %m.
+DHCPC%d: server socket set broadcast option failed: %m.
+router
+%s%d
+mirror
+DHCPC%d: Load DHCPC filter.
+DHCPC_UNICAST_FILTER
+DHCPC%d: Load DHCPC filter failed.
+Assertion failed: conntrack.pMblk == *mp, file dhcpc.c, line 106
+DHCPC%d: Unload DHCPC filter.
+DHCPC%d: Unload DHCPC filter failed.
+/network/interface/lan
+DHCPC%d: Link up in dismatch interface %d/%d.
+DHCPC%d: Add link up timer failed.
+DHCPC%d: Unknown state %d.
+operate
+connect
+disconnect
+DHCPC%d: No detect in LAN interface.
+DHCPC%d: Send DISCOVER with unicast flag %d.
+255.255.255.0
+change -net %d.%d.%d.%d -reject
+change -net 0.0.0.0 -reject
+DHCPC%d: Recv no OFFER, DHCP Service unavailable.
+DHCPC%d: Recv no ACK, restart.
+DHCPC%d: Send REQUEST to server %d.%d.%d.%d.
+DHCPC%d: Entering rebinding state.
+DHCPC%d: Send REQUEST to server %.8x.
+DHCPC%d: Lease lost, entering init state.
+DHCPC%d: broadcast REQUEST with request ip %d.%d.%d.%d.
+DHCPC%d: Send RELEASE to server %d.%d.%d.%d.
+DHCPC%d: interface bring down.
+DHCPC%d: Error on read, %m, reopening socket.
+DHCPC%d: Packet does not have our chaddr -- ignoring.
+DHCPC%d: Couldnt get option from packet -- ignoring.
+DHCPC%d: ignoring XID %lx (our xid is %lx).
+DHCPC%d: AUTO DETECT Recv OFFER.
+255.255.255.255
+255.0.0.0
+255.255.0.0
+DHCPC%d: Recv OFFER from server %d.%d.%d.%d with ip %d.%d.%d.%d.
+DHCPC%d: ARP resolve failed.
+DHCPC%d: Server mac = %02x-%02x-%02x-%02x-%02x-%02x.
+DHCPC%d: Server is our's, ignore.
+DHCPC%d: Get dns%d %x.
+DHCPC%d: Get gateway %d.%d.%d.%d.
+DHCPC%d: IP conflict with LAN[%.8x, %.8x, %.8x, %.8x].
+DHCPC%d: Send REQUEST to server %d.%d.%d.%d with request ip %d.%d.%d.%d.
+DHCPC%d: Offered address is in use, send DECLINE to server %d.%d.%d.%d.
+DHCPC%d: Unexpected state=%d, abort.
+DHCPC%d: Second DNS is conflict with LAN IP. Drop it!.
+DHCPC%d: Primary DNS is conflict with LAN IP. Drop it!.
+DHCPC%d: %s%d set ip %d.%d.%d.%d mask %d.%d.%d.%d gateway %d.%d.%d.%d lease time %ld.
+DHCPC%d: Recv ACK from server %.8x with ip %.8x lease time %ld.
+DHCPC%d: Recv NAK from server %d.%d.%d.%d with ip %d.%d.%d.%d.
+wan_config
+mac_config
+/protocol/proto/static
+STATIC-IP: %s set ip %d.%d.%d.%d mask %d.%d.%d.%d gateway %d.%d.%d.%d.
+STATIC-IP: Read stcIp from request json.
+STATIC-IP: Read stcIp from config.
+STATIC-IP: Read lan from request json.
+STATIC-IP: Read lan from config.
+1000MH
+unknown
+AUTO
+10MF
+10MH
+100MF
+100MH
+1000MF
+PPTP
+DHCP
+STATIC IP
+PPPoE
+802.1x
+L2TP
+/protocol/interface/wan
+Function %s assertion failed: OK == regOprInterface(LINK_PATH, &operation), file:%s, line:%d.
+wan.c
+Function %s assertion failed: OK == registerVerNotify(LINK_PATH, TRUE, (FUNCPTR)linkVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(NETWORK_LANSEC_PATH, TRUE, (FUNCPTR)linkVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(STATIC_IP_PATH, TRUE, (FUNCPTR)linkVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(DHCPC_PATH, TRUE, (FUNCPTR)linkVerify), file:%s, line:%d.
+/protocol/proto/pppoe
+Function %s assertion failed: OK == registerVerNotify(PPPOE_PATH, TRUE, (FUNCPTR)linkVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(LINK_PATH, FALSE, (FUNCPTR)linkNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(STATIC_IP_PATH, FALSE, (FUNCPTR)linkNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(DHCPC_PATH, FALSE, (FUNCPTR)linkNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(PPPOE_PATH, FALSE, (FUNCPTR)linkNotify), file:%s, line:%d.
+Function %s assertion failed: OK == regOprInterface(LINK_STATUS_PATH, &operation), file:%s, line:%d.
+detect_wan_proto
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, ACT_WAN_DETECT, (FUNCPTR)wanDetectAction), file:%s, line:%d.
+change_wan_status
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, ACT_WAN_CHANGE, (FUNCPTR)linkInstruct), file:%s, line:%d.
+WAN: Wait for switch done
+WAN: Stop wan type detection, result=%#.4x.
+WAN: Malloc to recv DNS packet failed
+WAN: Recv DNS packet failed
+WAN: AUTO DETECT Recv DNS reply
+WAN: Abort wan type detection.
+WAN: Wan type detect %d.
+WAN: Start wan type detection.
+WAN: send DNS detect to server%d
+WAN: DNS socket add failed, DNS detect disabled
+proto
+/system/system/sys
+link_status
+error_code
+up_time
+up_speed
+down_speed
+phy_status
+fac_macaddr
+wan_type
+wan_rate
+WAN: Auto Change LAN IP disabled
+WAN: Unsupported LAN mask
+WAN: Try %d: %d.%d.%d.%d
+WAN: Gotcha
+WAN: Change LAN IP %d.%d.%d.%d
+WAN: Add LAN reboot timer failed
+WAN: Add WAN reboot timer failed
+apply_lan_config
+/cloud_config/cloud_device/info
+%s %s
+WAN: Change status %u->%u code %u->%u.
+dns1
+dns2
+dhcpd
+dnsFlush
+flush
+ip_mac_bind
+dnsProxy
+extrnIp
+igmp
+reconnect_time
+wanChange
+ %s PPPoE
+WAN: Update status %u(%u) code %u(%u).
+WAN: Device not found.
+%s inet %d.%d.%d.%d netmask %d.%d.%d.%d %s
+%s mtu %d
+-n add -host %d.%d.%d.%d -gateway %d.%d.%d.%d
+WAN: Switch default gateway to WAN interface
+WAN: %s inet set failed.
+WAN: Switch default gateway to PPP interface
+WAN: Switch to new type
+renew
+release
+WAN: Delay to link up
+WAN: Command linkDown not matck link type
+WAN: Invalid mtu value %d, must between 576~1500.
+WAN: Invalid ip address 0x%x.
+WAN: Invalid mask 0x%x.
+WAN: Invalid ip mask pair, ip=0x%x mask=0x%x.
+WAN: Invalid gateway 0x%x.
+WAN: getWanPhyStatus failed.
+WAN: Wan ethernet port plug on.
+WAN: No link up trigger, code=%d
+WAN: Wan ethernet port plug off.
+ %s WAN
+WAN: No link down trigger, status=%d
+WAN: Detach interface %s.
+WAN: Attach interface %s.
+Function %s assertion failed: NULL != linkParams.netif, file:%s, line:%d.
+WAN: Wan type %s update result=%#.4x.
+******************** WAN module blocked ********************
+%s%d ether %02X-%02X-%02X-%02X-%02X-%02X
+WAN: Wan mode %s set failed.
+WAN: Phy status %d|%d.
+Function %s assertion failed: NULL != linkParams.dial[linkParams.linkType].linkUp, file:%s, line:%d.
+%s napt
+WAN: Wan type change from %s to %s
+WAN: Wan mode change from %s to %s.
+WAN: Wan mode change failed.
+WAN: MAC change from %02X-%02X-%02X-%02X-%02X-%02X to %02X-%02X-%02X-%02X-%02X-%02X.
+www.baidu.com
+www.google.com
+www.sina.com
+www.tplink.com
+www.yahoo.com
+www.qq.com
+www.sohu.com
+www.ieee.org
+www.163.com
+www.w3.com
+100F
+100H
+1000F
+1000H
+pppLib.c
+PPP: ppp init error.
+PPP: ppp bind error.
+PPP: create semaphore error.
+PPP: load timer.
+PPP: load timer error.
+%s%d napt
+Function %s assertion failed: &pppParams == (PPP_PARAMS *)pNetCallBackId, file:%s, line:%d.
+Function %s assertion failed: NULL != pMblk, file:%s, line:%d.
+PPP: LCP timeout.
+PPP: try LCP(%d/%d).
+PPP: AUTH timeout.
+PPP: try AUTH(%d/%d).
+PPP: [NCP]IPCP(%d|%d), CCP=%d(%d|%d).
+PPP: CCP timeout.
+PPP: try CCP(%d/%d).
+PPP: IPCP timeout.
+PPP: try IPCP(%d/%d).
+PPP: link check failed.
+PPP: start link check %u/%u.
+PPP: Ping check %.8x.
+PPP: Ping check init error.
+PPP: load DNS check timer.
+PPP: DNS check %.8x/%.8x.
+PPP: DNS check init error.
+PPP: stop DNS check[retry=%d, index=%d](%d/%d).
+PPP: DNS check %i/%i.
+PPP: finish DNS check.
+Function %s assertion failed: NULL != pppParams.profile.sendCallback, file:%s, line:%d.
+Function %s assertion failed: NULL != pppParams.profile.linkCallback, file:%s, line:%d.
+PPP: [MPPE MPPC]param=0x%.8x(%.2x|%.2x|%.2x|%.2x).
+stateful
+stateless
+PPP: [MPPC]enable compression in %s mode.
+PPP: [MPPC]disabled.
+PPP: [MPPE]use %u-bit key in %s mode.
+PPP: [MPPE]disabled.
+PPP: MPPE MPPC protocol 0x%04x out of range..
+PPP: [MPPE MPPC]RX short packet, len=%d..
+PPP: [MPPE MPPC]RX FLUSHED bit not set in stateless mode.
+PPP: [MPPE MPPC]RX bad ccount 0x%04x, expected 0x%04x.
+PPP: MPPE MPPC: re-sync.
+PPP: [MPPE MPPC]flushed.
+PPP: MPPC: reset.
+PPP: [MPPE]RX protocol 0x%04x out of range.
+PPP: MPPC decompress(%d): trying to write outside history buffer(%u)..
+PPP: MPPC decompress(%d): trying to write outside history buffer(%u).
+PPP: MPPC decompress: too big offset value: %d.
+PPP: MPPC decompress: cannot decode offset value.
+PPP: MPPC decompress: wrong length code: 0x%X.
+PPP: MPPC decompress: too big uncompressed packet: %d..
+PPP: [MPPE MPPC]RX invalid pkt, type=0x%04X.
+Function %s assertion failed: ERROR != regOprInterface(PPPOE_PATH, &operation), file:%s, line:%d.
+pppoe.c
+/protocol/proto/last_dial
+Function %s assertion failed: ERROR != regOprInterface(PPPOE_LASTDIAL_PATH, &operation), file:%s, line:%d.
+session_id
+dial_mode
+nc_times
+ac_mac
+access
+username
+ip_mode
+specific_ip
+conn_mode
+demand_idle
+manual_idle
+==============add %s failed=============
+PPPOE: Alloc ppp obj.
+Function %s assertion failed: NULL != pppoe.ppp, file:%s, line:%d.
+PPPOE: %s inet set failed.
+-n delete -host %d.%d.%d.%d
+Function %s assertion failed: NULL != pppoe.pEtherEnd, file:%s, line:%d.
+Function %s assertion failed: NULL != pppoe.pEtherEnd->pNetPool, file:%s, line:%d.
+Function %s assertion failed: NULL != pppoe.discoveryCookie, file:%s, line:%d.
+Function %s assertion failed: NULL != pppoe.sessionCookie, file:%s, line:%d.
+Function %s assertion failed: NULL != pppoe.sem, file:%s, line:%d.
+PPPOE: load timer.
+PPPOE: load timer error.
+PPPOE: load dial timer.
+PPPOE: load dial timer error.
+PPPOE: stop dial, code=%d.
+PPPOE: start dial.
+PPPOE: Auto select dial mode stop.
+PPPOE: demand link up.
+PPPOE: auto link up.
+PPPOE: unknown linkType=%d.
+PPPOE: Link idle, time to link down.
+PPPOE: IP conflict to LAN[%.8x, %.8x, %.8x].
+PPPOE: invalid remoteIp %d.%d.%d.%d, use localIp as gateway.
+PPPOE: set %s error.
+PPPOE: Second DNS is conflict with LAN IP. Drop it!.
+PPPOE: Primary DNS is conflict with LAN IP. Drop it!.
+PPPOE: %s set localIp %d.%d.%d.%d remoteIp %d.%d.%d.%d mtu %d.
+PPPOE: code=%d forbid building mblk.
+PPPOE: build mblk failed.
+PPPOE: TX PADI.
+PPPOE: TX PADR.
+PPPOE: TX PADT[session=%.4x].
+PPPOE: Auto select dial mode.
+PPPOE: get prepend size error.
+PPPOE: try special dial type %d.
+PPPOE: RX PADO failed.
+PPPOE: try PADI(%d/%d).
+PPPOE: RX PADS failed.
+PPPOE: try PADR(%d/%d).
+PPPOE: PPP session failed.
+Function %s assertion failed: &pppoe == (PPPOE_SYS_STACK*)pNetCallBackId, file:%s, line:%d.
+PPPOE: RX invalid pkt from %.2x-%.2x-%.2x-%.2x-%.2x-%.2x, code=%X, phase=%d/%d.
+PPPOE: AUTO DETECT RX PADO.
+PPPOE: PADO tag is too long.
+PPPOE: PADO AC-NAME is too long.
+PPPOE: RX PADO FROM WRONG AC-NAME:%s.
+PPPOE: RX PADO, AC-NAME=%s, AC-MAC=%.2x-%.2x-%.2x-%.2x-%.2x-%.2x.
+PPPOE: RX invalid PADS, phase=%d/%d.
+PPPOE: RX PADS[session=%.4x].
+PPPOE: RX invalid PADT[session=%.4x/%.4x, phase=%d/%d].
+PPPOE: RX PADT.
+PPPOE: RX HREF.
+PPPOE: RX unknown code=%d.
+demand
+timed
+normal
+special1
+special2
+special3
+special4
+special5
+special6
+special7
+PPPOE: Standard authentication.
+PPPOE: Invalid pppoeObj.
+PPPOE: PPPoE: Invalid pppoeObj, pppObj should not be null.
+PPPOE: HUBEI Vnet authentication.
+PPPOE: NANCHANG NetKeeper2.5 authentication.
+radius
+nanchang3.0
+%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x%.2x
+PPPOE: NANCHANG NetKeeper2.5(V18) authentication. 0x%08X.
+Function %s assertion failed: (UserName != NULL) && (ChangedName != NULL), file:%s, line:%d.
+vnetVer25Nanchang.c
+Function %s assertion failed: NameLen <= MAX_USER_NAME, file:%s, line:%d.
+PPPOE: ChangedName = %s.
+PPPOE: NANCHANG NetKeeper2.5(V8) authentication. 0x%08X.
+xianxl.nc.jx.cn
+PPPOE: Nanchang Dns Qurey (%s) failed.
+PPPOE: Nanchang Dns Qurey (%s->%s) success.
+PPPOE: ultime resets.
+PPPOE: XIAN Vnet authentication.
+modemMac = %02X:%02X:%02X:%02X:%02X:%02X
+PPPOE: modemMac = %02X:%02X:%02X:%02X:%02X:%02X.
+PPPOE: modemMac could not get.
+PPPOE: %s():username overflow.
+%02x
+PPPOE: HUNAN Vnet authentication.
+0123456789ABCDEF
+TYPE=HEARTBEAT&USER_NAME=%s&PASSWORD=%s&IP=%d.%d.%d.%d&MAC=%s&DRIVER=%d&VERSION_NUMBER=%s
+00%2D00%2D00%2D00%2D00%2D00
+2.5.0016v24
+type=6;id=%s&pwd=%s;ver=%s;time=%d
+7;%s;%s;%d.%d.%d.%d;%s;%d;%s;%d
+8;%s;%s;%s;%d;%d
+PPPOE: HENAN CNC authentication.
+9012345678abcdeABCDEFGHIJKLMNfghijklmnUVWXYZxyzuvwopqrstOPQRST
+PPPOE: NEIMENG CNNMAX authentication.
+%4d%02d%02d%02d%02d%02d00000::
+%04d%02d%02d%02d%02d%02d00000::
+PPP: [CHAP]Password len %d exceed limit.
+pppAuth.c
+PPP: [PAP]RX AUTHENTICATION_ACK.
+PPP: [PAP]RX AUTHENTICATION_NAK.
+PPP: [PAP]RX unknown packet, code=%d.
+Function %s assertion failed: 0 != pppParams.retryTimes, file:%s, line:%d.
+PPP: [CHAP]Process response on MD5.
+PPP: [CHAP]Process response on CHAP-MS-2.
+PPP: [CHAP]Counld not response on CHAP-MS-1.
+PPP: [CHAP]Response on unknown algorithm! code=0x%.4x.
+PPP: [CHAP]TX CHAP_RESPONSE.
+PPP: send packet error.
+PPP: [CHAP]RX CHAP_CHALLENGE.
+PPP: [CHAP]RX CHAP_RESPONSE.
+PPP: [CHAP]RX CHAP_AUTHENTICATION_ACK.
+PPP: [CHAP]RX CHAP_AUTHENTICATION_NAK.
+PPP: [CHAP]RX unknown packet, code=%d.
+PPP: [PAP]TX AUTHENTICATION_REQUEST.
+PPP: Add pppOutput fail.
+Function %s assertion failed: NULL != pDrvCtrl, file:%s, line:%d.
+pppEnd.c
+ppp END Driver
+Function %s assertion failed: NULL != ifp, file:%s, line:%d.
+Function %s assertion failed: NULL != pIpDrvCtrl, file:%s, line:%d.
+PPP: interface not UP and RUNNING.
+PPP: [CCP]TX CONFIGURE_REQUEST.
+PPP: [CCP]TX CONFIGURE_ACK.
+PPP: [CCP]TX CONFIGURE_NAK.
+PPP: [CCP]TX CONFIGURE_REJECT.
+PPP: [CCP]TX TERMINATION_REQUEST.
+PPP: [CCP]TX TERMINATION_ACK.
+PPP: [CCP]TX RESET code=%d (%d:REQUEST/%d:ACK).
+pppEx.c
+PPP: parse option error.
+PPP: [CCP]RX CONFIGURE_REQUEST.
+PPP: [CCP]MPPE/PPC request for none.
+PPP: [CCP]RX CONFIGURE_ACK.
+PPP: [CCP]RX CONFIGURE_NAK.
+PPP: [CCP]RX CONFIGURE_REJECT.
+PPP: [CCP]RX TERMINATION_REQUEST.
+PPP: [CCP]RX TERMINATION_ACK.
+PPP: [CCP]RX RESET_REQUEST.
+PPP: [CCP]RX RESET_ACK.
+PPP: [CCP]RX unknown packet, code=%d.
+PPP: [IPCP]RX CONFIGURE_ACK[ip=%d.%d.%d.%d, %sdns=%d.%d.%d.%d/%d.%d.%d.%d].
+PPP: [IPCP]RX CONFIGURE_NAK.
+PPP: [IPCP]RX CONFIGURE_REJECT.
+PPP: [IPCP]RX unknown packet, code=%d.
+PPP: [IPCP]TX CONFIGURE_REQUEST.
+PPP: [IPCP]TX CONFIGURE_ACK[ip=%d.%d.%d.%d].
+PPP: [IPCP]TX CONFIGURE_REJECT.
+pppIpcp.c
+PPP: [IPCP]RX CONFIGURE_REQUEST.
+manu-
+pppLcp.c
+PPP: [LCP]TX CONFIGURE_REQUEST.
+PPP: [LCP]TX CONFIGURE_ACK[mru=%u, auth=%X/%X, magic=%08X].
+PPP: [LCP]TX CONFIGURE_NAK.
+PPP: [LCP]TX CONFIGURE_REJECT.
+PPP: [LCP]TX PROTOCOL_REJECT.
+PPP: [LCP]TX TERMINATION_REQUEST.
+PPP: [LCP]TX TERMINATION_ACK.
+PPP: [LCP]TX IDENTIFICATION.
+MSRASV5.10
+MSRAS-0-
+PPP: [LCP]RX CONFIGURE_REQUEST.
+PPP: [LCP]RX CONFIGURE_ACK[mru=%u, magic=%08X].
+PPP: [LCP]RX CONFIGURE_NAK.
+PPP: [LCP]RX CONFIGURE_REJECT.
+PPP: [LCP]RX TERMINATION_REQUEST.
+PPP: [LCP]RX TERMINATION_ACK.
+PPP: [LCP]RX PROTOCOL_REJECT 0x%.4x.
+PPP: [LCP]RX PROTOCOL_REJECT(CCP).
+PPP: [LCP]RX unknown packet, code=%d.
+%lus %s, line %d:invalid args
+%lus %s, line %d:model read failure
+%lus %s, line %d:wrong channel: %d
+%lus %s, line %d:set channel(%d) same as rootAp
+/wireless/wlan_host_2g/wlan_host_2g
+%lus %s, line %d:index out of bound, index %u
+/guest_network/guest/guest_2g
+%lus %s, line %d:unit out of bound, unit %u
+%lus %s, line %d:memory allocation faiulure
+%lus %s, line %d:memory allocation failure
+%lus %s, line %d:mem alloc failed
+%lus %s, line %d:invalid args, mac(%p), len(%d), unit(%d)
+%lus %s, line %d:Invalid lan mac, now start by default mac %02X-%02X-%02X-%02X-%02X-%02X.
+/uhttpd/uhttpd/main
+isolateOpr
+reset
+reload
+powerOpr
+/dhcpd/dhcpd/udhcpd
+/wireless/wlan_wds_2g/wlan_wds_2g
+%lus %s, line %d:%s range chk failed, value(%d)
+hostWdsData.enable
+%lus %s, line %d:bridged ssid length(%d) invalid
+hostWdsData.encryption
+svalue
+hostWdsData.address_form
+hostData.enable
+hostData.ssidbrd
+hostData.encryption
+hostData.mode
+hostData.bandwidth
+%lus %s, line %d:%s boolean verify failed
+hostData.turboon
+hostData.seccheck
+wlan_host_2g
+wlan_wds_2g
+scan completed
+scanning
+%lus %s, line %d:scan status : %s, %s
+main
+/wireless/wlan_scan_2g
+wlan_2g
+wireless
+Function %s assertion failed: OK == regOprInterface(WLAN_HOST_2GSEC_PATH, &operation), file:%s, line:%d.
+apps_if.c
+Function %s assertion failed: OK == registerVerNotify(WLAN_HOST_2GSEC_PATH, TRUE, (FUNCPTR)wlanVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(WLAN_HOST_2GSEC_PATH, FALSE, (FUNCPTR)wlanNotify), file:%s, line:%d.
+powerSelect
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WIRELESS_ACTION_POWER, (FUNCPTR)appsPowerAction), file:%s, line:%d.
+isolateOnOff
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WIRELESS_ACTION_ISOLATE, (FUNCPTR)appsIsolateAction), file:%s, line:%d.
+scan_start_2g
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WDS_ACTION_SCAN_START, (FUNCPTR)scanStartInstruct), file:%s, line:%d.
+wds_start_2g
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WDS_ACTION_WDS_START, (FUNCPTR)wdsStartInstruct), file:%s, line:%d.
+start_dhcps_detect_2g
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WDS_ACTION_START_DHCPS_DETECT, (FUNCPTR)wdsStartDhcpsDetectInstruct), file:%s, line:%d.
+/wireless/wlan_sta_list_2g
+Function %s assertion failed: OK == regOprInterface(WLAN_STA_LIST_2GSEC_PATH, &operation), file:%s, line:%d.
+/wireless/wlan_sta_list_guest
+Function %s assertion failed: OK == regOprInterface(WLAN_STA_LIST_GUESTSEC_PATH, &operation), file:%s, line:%d.
+wlan_sta_set_block
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WLAN_ACTION_STA_SET_BLOCK, (FUNCPTR)staSetBlockInstruct), file:%s, line:%d.
+wlan_sta_kick
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WLAN_ACTION_STA_KICK, (FUNCPTR)staKickInstruct), file:%s, line:%d.
+wlan_notify_enable
+Function %s assertion failed: OK == registerAction(WIRELESS_NAME, WLAN_ACTION_NOTIFY_ENABLE, (FUNCPTR)newStaNotifyEnableInstruct), file:%s, line:%d.
+devno
+%lus %s, line %d:[WLAN_ACTION]kick sta %s
+%lus %s, line %d:[WLAN_ACTION]set block to sta %s
+%lus %s, line %d:[WLAN_ACTION]unblock sta %s
+wlan_sta_list_2g
+wlan_sta_list_guest
+set_ip_immediate
+ssid
+ssidbrd
+channel
+bandwidth
+power
+isolate
+turboon
+turbonon
+seccheck
+%lus %s, line %d:get device manufacturer failed
+%lus %s, line %d:lan mac get failure
+%s_%02X%02X
+%s(%d). Calibrated. Task terminate.
+!!!!!!!!!reloading!!!!!!
+%lus %s, line %d:Unable to create wlan event socket
+%lus %s, line %d:Unable to setsockopt to wlan event socket
+%lus %s, line %d:Unable to bind wlan event socket
+tWlanTask
+tWlanCalWarningTask
+Error in creating tWlanCalWarningTask
+sysWlanInit ...
+%lus %s, line %d:null msg of setting channel
+%lus %s, line %d:[WLAN_EVENT]new sta %s connected
+wlan_access
+wlan_new_sta
+%lus %s, line %d:MFG stop warmup
+%lus %s, line %d:MFG start warmup
+%lus %s, line %d:MFG get turbo mode
+%lus %s, line %d:MFG set tx99 %d
+%lus %s, line %d:MFG set turbo mode %d
+%lus %s, line %d:MFG set txcontinue %d
+%lus %s, line %d:MFG get product id
+%lus %s, line %d:MFG memory allocation failure
+%lus %s, line %d:MFG model read failure
+%lus %s, line %d:MFG tx pkt, len %d
+%lus %s, line %d:MFG save cal data
+%lus %s, line %d:MFG set freqErr 0x%x
+%lus %s, line %d:MFG set gain cal %d(0x%x)
+%lus %s, line %d:MFG set chainmask %d
+%lus %s, line %d:MFG set chan %d
+%lus %s, line %d:MFG exit mfg mode
+%lus %s, line %d:MFG enter mfg mode
+Function %s assertion failed: NULL != pRecvData, file:%s, line:%d.
+apps_mfg.c
+Function %s assertion failed: NULL != pReplyData, file:%s, line:%d.
+%lus %s, line %d:MFG wrong tdptmp app service type
+%lus %s, line %d:MFG wrong tdptmp app version
+%lus %s, line %d:func MfgSearchOpProcFunc 0x%x
+%lus %s, line %d:MFG OpProcFunc found
+%lus %s, line %d:MFG no OpProcFunc found
+send bytes %d, error.
+save cal data
+tx pkt, len %d
+======>>>testmode_eventUpdateTemp :tempmeas = 0x%02x
+MFG no RSA info
+MFG invalid RSA length: %d
+MFG read file pub-key.sign error
+MFG read UID error
+MFG RSA check error
+MFG read UID ERROR.
+MFG invalid UID length: %u
+%.2X
+stop MFG Test
+start MFG Test
+tx99 has started!
+stop 1
+stop 2
+stop 3
+01:00:00:c0:ff:ee
+/uhttpd/webPwd/webPwd
+WLAN_TMP: Key verify failed.
+WLAN_TMP: RecvData MT payload header check failed.
+WLAN_TMP: Invalid arguments. dataType = 0x%.4X
+WLAN_TMP: DataType = 0x%.4X
+WLAN_TMP: Invalid wireless channel. Value = %d.
+WLAN_TMP: Invalid wireless bandwidth. Value = %d.
+WLAN_TMP: Fill reply TLV data error.
+WLAN_TMP: Error dataLen[%d].
+WLAN_TMP: Error data.
+WLAN_TMP: Set wireless channel succeed.
+WLAN_TMP: Set wireless channel failed.rtn = %d, channel = %d
+WLAN_TMP: Set wireless bandwidth failed.rtn = %d, bandwidth = %d
+WLAN_TMP: Set SSID succeed.
+WLAN_TMP: Set SSID failed.rtn = %d, SSID = %s
+WLAN_TMP: Error dataType[0x%X].
+WLAN_TMP: Execute data operation error.
+WLAN_TMP: Op data is already written.
+WLAN_TMP: Invalid operation code.
+WLAN_TMP: Insert senior key error.
+WLAN_TMP: Key verify pass.
+WLAN_TMP: Set wireless bandwidth succeed.
+%lus %s, line %d:default mac
+Usage: %s [vap<unit>] [-h] <command> [arguments]
+wioctl
+  -h        this message and command descriptions
+  -h [cmd]  command description for cmd
+  vap       vap unit
+wifi0
+short list of available commands:
+%1X%1X
+apcfg_mac_aton(%s): trailing junk!
+apcfg_mac_aton(%s): invalid ether address!
+%s: Incorrect mac address %s 
+get ath status
+%s = %s
+The length of the string must be less than %d, now is %d.
+%lus %s, line %d:Scanning still in progress, please try again later
+ioctl[IEEE80211IOCTL_GETSCAN]
+scan incomplete.
+Got bss count %d
+Idx SSID			     BSSID 		 rssi chan bgn auth CW
+%2d  %s
+ %02X-%02X-%02X-%02X-%02X-%02X 
+%4d %4d %4d %4d %3d
+%lus %s, line %d:turbo %s
+%lus %s, line %d:get local basic config failure
+%lus %s, line %d:invalid args, ptr : %p, uint : %u
+%lus %s, line %d:invalid args,uint : %u
+/hosts_info/host_info
+%lus %s, line %d:invalid unit %d
+%lus %s, line %d:mem allocation failure
+11NGHT20
+11NGHT40
+11NGHT40MINUS
+11NGHT40PLUS
+[%s][%d]:calibration need vap0 enabled!
+Wlan command line utility.
+%s = %u(0x%x)
+The value entered must be less than %d, now is %d.
+vap unit %d error.
+unrecognized command "%s", type -h for help
+unrecognized command "%s", type list to get a short list of available commands
+%s	%s
+%02X-%02X-%02X-%02X-%02X-%02X
+get wlanstatus
+debug
+set debug level(AMPDU|MCAST|BR|WPS|WPA|PWR|ASSOC|TRACE|WARN|ERR|INFO)
+athdebug
+set debug level
+tx99start
+start Tx99
+tx99stop
+stop tx99
+mcast
+show mcast to unicast info
+start the device
+stop the device
+start the vap
+stop the vap
+txchain
+set txchainmask value
+rxchain
+set rxchainmask value
+channel number (0-14), 0 = auto
+set or get a configuration's SSID
+hide
+hides the network from active scans, 0 is open, 1 is hide
+policy
+set the mode of the MAC ACL.
+	0 - Disable MAC address matching.
+	1 - Deny association to stations on the MAC list.
+	2 - Allow association to stations on the MAC list.
+Add/Del a macaddr to the acl MAC list
+showacl
+show acl
+auth
+set/get 802.11 authentication type:
+	0 - disable security
+	1 - OpenSystem
+	2 - SharedKey
+	3 - OpenSystem/SharedKey
+	4 - WPA
+	5 - WPA2
+	6 - WPA/WPA2
+	7 - WPA-PSK
+	8 - WPA2-PSK
+	9 - WPA-PSK/WPA2-PSK
+cipher
+set/get cipher type:
+	0 - disable cipher
+	1 - WEP
+	2 - TKIP
+	3 - AES
+	4 - TKIP/AES
+keyidx
+set/get wep default key index (0-3)
+set a key
+rekey
+set/get group key rekey time
+set/get wme: 0 (disable) or 1 (enable)
+set/get isolate: 0 (disable) or 1 (enable)
+set/get rtsthresh
+set/get fragthresh
+intval
+set/get beacon intval
+dtim
+set/get DTIM
+set/get short GI: 0 (disable) or 1 (enable)
+set/get WPS: 0 (disable) or 1 (enable)
+get the macaddr of the vap
+scan
+Initiate a scan
+scanresults
+Get scan results
+get stainfo
+get wlanstatus
+athstats
+get ath status
+imask
+get interupt mask
+print3addr
+print 3addrtable
+txStats
+print txStats
+txrate
+set txrate: input like 0x80808080
+phymode
+set phymode: 11B|11G|11NGHT20|11NGHT40PLUS|11NGHT40MINUS|AUTO|11NGHT40
+chanload
+print channel loading
+get addr detect result:
+	0 - 3 addr
+	1 - 4 addr
+	2 - detecting
+getptk
+print ptk of every node
+getgtk
+print ptk of vap
+deauth
+deauth mac xx-xx-xx-xx-xx-xx
+Quality%c%d/%d	
+Signal level%c%d dBm	
+Noise level%c%d dBm
+Signal level%c%d/%d	
+Noise level%c%d/%d
+Quality:%d	Signal level:%d	Noise level:%d
+Freq %g,%g,%s
+%g %sHz
+Channel%c%s
+Frequency%c%s (Channel %d)
+Frequency%c%s
+datalen = %u
+%-17.17s %4s %4s %4s %4s %4s %4s %6s %6s %5s %5s %4s %5s %14s %10s %7s %7s %9s %13s %4s   %6s
+ADDR
+CHAN
+TXRATE
+RXRATE
+RSSI
+IDLE
+TXSEQ
+RXSEQ
+CAPS
+ACAPS
+STATE
+MAXRATE(DOT11)
+HTCAPS
+TxPkts
+RxPkts
+ASSOCTIME
+MODE
+PSMODE
+%02x:%02x:%02x:%02x:%02x:%02x
+%s %4u %4d %3dM %6dM %4d %4d %6d %7d %5.4s %5.5s %3x %4x %14d %12s %7d %7d %02u:%02u:%02u %14s %4d  
+ WPA
+ WME
+ ATH
+ RSN
+ ???
+ VEN
+IWEVGENIE overflow
+wpa_ie=
+Too long WPA IE (%d)
+Too long RSN IE (%d)
+rssi=
+Too small scan result buffer - %lu BSSes but room only for %lu
+Received %d bytes of scan results (%d BSSes)
+rsn_ie=
+Failed to allocate memory for scan results
+ %g%cb/s
+%02X:%02X:%02X:%02X:%02X:%02X
+Not-Associated
+Invalid
+None
+<too big>
+ min
+ max
+ lifetime:
+%gms
+%dus
+ limit:%d
+mode:Unicast only received
+mode:Multicast only received
+mode:All packets received
+mode:Force sending
+mode:Repeat multicasts
+ timeout:
+ period:
+%d dBm
+Error in getting the wlan status or Device not found
+%-8.16s	%s	
+ESSID:"%s" [%d]	
+ESSID:"%s"	
+ESSID:off/any	
+Nickname:"%s"
+Mode:%s	
+Frequency %g GHz 
+Frequency -- GHz
+Access Point:
+ %s	 
+Bit Rate%c%s	 
+Tx-Power%c%s	 
+Sensitivity%c
+%d dBm	
+%d/%d	
+RTS thr:off	 
+RTS thr%c%d B	 
+Fragment thr:off
+Fragment thr%c%d B	 
+Encryption key:
+ [%d]
+	 Security mode:restricted
+	 Security mode:open
+Power Management
+CountryCode: 0x%x(%d)	Country: %c%c%c
+			REGDMN: %d Multi(%d) 2G(%d) 5g(%d)
+			CWM: %d
+	Ext chan offset: %d
+Auto
+Ad-Hoc
+Managed
+Master
+Repeater
+Secondary
+Monitor
+TURBO_A
+TURBO_G
+11NA_HT20
+11NG_HT20
+11NA_HT40PLUS
+11NA_HT40MINUS
+11NG_HT40PLUS
+11NG_HT40MINUS
+11NG_HT40
+11NA_HT40
+ath0
+ath1
+ath2
+ath3
+ath4
+ath5
+ath6
+ath7
+PAPRD
+BEACON
+-------------ath stats-------------
+sc txbuf free:%d
+              min free, buf used, queue depth,       tx,   xretry,  fifoerr, filtered, no buffs
+Txq[%d]%6s  %8d, %8d, %11d, %8d, %8d, %8d, %8d, %8d
+-------------Txq fifo--------------
+Txq[%d]%6s Pends[%d] Depth[%d]
+Tailindex[%d], An[%s], Tid[%d], Multi[%d], Seqno[%d], Aggr[%d], Nframes[%d]
+-------------Node Table------------
+AUTH
+PWR_MGT
+UAPSD
+UAPSD_TRIG
+UAPSD_SP
+OWL_WDSWAR
+NOAMPDU
+WEPTKIPAGGR
+WEPTKIP
+TEMP
+40_INTOLERANT
+EXTRADELIMWAR
+NAWDS
+TDLS
+REQ_HT20
+ATH_PAUSED
+UAPSD_CREDIT_UPDATE
+KICK_OUT_DEAUTH
+Ni:aid[%d], mac[%s], ps saved[%2d], tx rate[%3d.%03dM], rx rate[%3d.%03dM], flag[%x][%s]
+complete
+inprogress
+none
+Tid[%2d], tid_sched[%d], acnum[%d], ac_sched[%d], traffic_len[%2d], aggr[%s], paused[%d], bar_paused[%d], cleanup_ing[%d]!
+%u watchdog timeouts
+%u hardware error interrupts
+%u beacon miss interrupts
+%u recv overrun interrupts
+%u recv eol interrupts
+%u txmit underrun interrupts
+%u global txmit timeout interrupts
+%u carrier sense timeout interrupts
+%u # mib interrupts
+%u # packets sent on the interface
+%u # packets receive on the interface
+%u tx management frames
+%u tx frames discarded prior to association
+%u tx frames discarded 'cuz device gone
+%u tx queue stopped because full
+%u tx encapsulation failed
+%u tx failed 'cuz no node
+%u tx failed 'cuz no tx buffer (data)
+%u Number of times netif_stop called
+%u Number of times netif_wake called
+%u tx failed 'cuz no tx buffer (mgt)
+%u tx failed 'cuz too many retries
+%u tx failed 'cuz FIFO underrun
+%u tx failed 'cuz xmit filtered
+%u tx failed 'cuz bogus xmit rate
+%u tx frames with no ack marked
+%u tx frames with cts enabled
+%u tx frames with short preamble
+%u tx frames with an alternate rate
+%u tx frames with 11g protection
+%u rx failed 'cuz of desc overrun
+%u rx failed 'cuz decryption
+%u rx failed 'cuz MIC failure
+%u rx setup failed 'cuz no skbuff
+%u tx rssi of last ack
+%llu total number of bytes received
+%llu total number of bytes transmitted
+rssi of last ack[ctl, ch0]: %u
+rssi of last ack[ctl, ch1]: %u
+rssi of last ack[ctl, ch2]: %u
+rssi of last ack[ext, ch0]: %u
+rssi of last ack[ext, ch1]: %u
+rssi of last ack[ext, ch2]: %u
+%u rx rssi from histogram [combined]
+rssi of last rcv[ctl, ch0]: %u
+rssi of last rcv[ctl, ch1]: %u
+rssi of last rcv[ctl, ch2]: %u
+rssi of last rcv[ext, ch0]: %u
+rssi of last rcv[ext, ch1]: %u
+rssi of last rcv[ext, ch2]: %u
+%u beacons transmitted
+%u no skbuff available for beacon
+%u periodic calibrations
+%u periodic calibration failures
+%u rfgain value change
+%u rate control checks
+%u rate control raised xmit rate
+%u rate control dropped xmit rate
+Radio profile:
+%u number of received data packets
+%u number of received control packets
+%u number of received num mgmt packets
+%u number of transmit retries in hardware
+Antenna profile:
+%u switched default/rx antenna
+%u tx antenna switches
+%u Channel clear count
+%u Cycle count
+%d Noise Floor
+[%u] tx %8u rx %8u
+%u baseband hangs detected
+%u mac hangs detected
+11n stats
+%10u total tx data packets
+%10u tx drops in wrong state
+%10u tx drops due to qdepth limit
+%10u tx when h/w queue depth is low
+%10u tx pkts when h/w queue is busy
+%10u tx completions
+%10u tx pkts filtered for requeueing
+%10u txq empty occurences
+%10u tx no skbs for encapsulations
+%10u tx no descriptors
+%10u tx key setup failures
+%10u tx no desc for legacy packets
+%10u tx schedule pkt queue empty
+%10u tx bars sent
+%10u tx bar retries sent
+%10u tx bar last frame failed
+%10u tx bar excessive retries
+%10u tx unaggregated frame completions
+%10u tx unaggregated excessive retries
+%10u tx unaggregated unacked frames
+%10u tx unaggregated last frame failed
+%10u tx aggregated completions
+%10u tx block ack window advanced
+%10u tx block ack window retries
+%10u tx block ack window additions
+%10u tx block ack window updates
+%10u tx block ack window advances
+%10u tx retries of sub frames
+%10u tx excessive retries of aggregates
+%10u tx no skbs for aggr encapsualtion
+%10u tx no desc for aggr
+%10u tx enc key setup failures
+%10u tx no frame scheduled: baw limited
+%10u tx frames not aggregated
+%10u tx frames aggregated for mimo
+%10u tx aggr good completions
+%10u tx aggr excessive retries
+%10u tx aggr unacked subframes
+%10u tx aggr old frames requeued
+%10u filtered aggr packet
+%10u fifo underrun of aggregate
+%10u txop exceeded for an aggregate
+%10u aggregate descriptor config error
+%10u data underrun for an aggregate
+%10u delimiter underrun for an aggregate
+%10u tx aggr: last sub-frame failed
+%10u tx aggr: h/w long retries
+%10u tx aggr: h/w short retries
+%10u tx aggr: tx timer expired
+%10u tx aggr: BA state is not updated
+%10u tx aggr: BA bad tid
+%10u tx rifs: BA state is not updated
+%10u tx rifs: unacked subframes
+%10u tx rifs: bar frames allocated
+%10u tx rifs: bar frames freed
+%10u tx rifs: good completions
+%10u tx rifs completions
+%10u tx non-rifs frame completions
+%10u tx rifs old frames requeued
+%10u rx pkts
+%10u rx aggregated packets
+%10u rx pkts with bad version
+%10u rx bars
+%10u rx non qos-data frames
+%10u rx sequence resets
+%10u rx old packets
+%10u rx block ack window reset
+%10u rx pts indicated due to baw resets
+%10u rx duplicate pkts
+%10u rx block ack window advanced
+%10u rx pkt completions
+%10u rx bar discarded
+%10u rx pkts unblocked on bar reception
+%10u rx pkt completions on bar reception
+%10u rx pkt sequences skipped on timeout
+%10u rx indications due to timeout
+%10u watchdog: tx is active
+%10u watchdog: tx is not active
+%10u watchdog: tx is hung
+%10u watchdog: spurious tx hang
+%10u filter & requeue on 20/40 transitions
+%10u draining tx queue on error
+%10u draining tid buf queue on error
+%10u draining tid buf queue on node cleanup
+%10u buffers drained from pending tid queue
+%10u tid paused
+%10u tid resumed
+%10u unaggregated tx pkts filtered
+%10u aggregated tx pkts filtered
+%10u total sub-frames filtered
+%10u rb on
+%10u rb off
+%10u rx descriptor status corrupted
+TXQ[%d]:%s tx %d xretry %d fifoerr %d filtered %d no buffs %d
+%10.2f tx unaggregated excessive retry percent
+%10.2f tx aggregated long retry percent
+%10.2f tx aggregated excessive retry percent
+%10.2f tx aggregate subframe retry percent
+%10.2f tx aggregate subframe excessive retry percent
+==== BB update: BB status=0x%08x, tsf=0x%08x ====
+** BB state: wd=%u det=%u rdar=%u rOFDM=%d rCCK=%u tOFDM=%u tCCK=%u agc=%u src=%u **
+** BB WD cntl: cntl1=0x%08x cntl2=0x%08x **
+** BB mode: BB_gen_controls=0x%08x **
+** BB busy times: rx_clear=%d%%, rx_frame=%d%%, tx_frame=%d%% **
+==== BB update: done ====
+PHY stats:
+received phy error packets = %lld
+received crc error packets = %lld
+received decrypt error packets = %lld
+received demic error packets = %lld
+received fifo error packets = %lld
+received decrypt busy error packets = %lld
+unknown src
+unassoc src
+key is
+ null
+defarg
+demic error
+demic
+%s: too small packet 0x%x len %u 
+%s: packet encrypted ether type 0x%x len %u 
+%s: node has a key ether type 0x%x len %u 
+unauthorized port: ether type 0x%x len %u 
+%s: ether type 0x%x len %u 
+privacy filter check
+bcn_int=%d
+0x%8x
+MAC = %02x:%02x:%02x:%02x:%02x:%02x
+IEEE 802.11Tg
+IEEE 802.11Ta
+IEEE 802.11T
+IEEE 802.11g
+IEEE 802.11a
+IEEE 802.11b
+IEEE 802.11ng
+IEEE 802.11na
+IEEE 802.11
+-:;.,
+50000
+0x04040404
+ALLOW
+OPEN 
+DENY 
+ACL policy:%s
+rx_clear = %3d,
+rx_frame = %3d,
+tx_frame = %3d,
+rx_clear_ext = %3d.
+tCmdTask
+11AST
+11NAHT20
+11NAHT40PLUS
+11NAHT40MINUS
+11NAHT40
+MCS0
+MCS1
+MCS2
+MCS3
+MCS4
+MCS5
+MCS6
+MCS7
+MCS8
+MCS9
+MCS10
+MCS11
+MCS12
+MCS13
+MCS14
+MCS15
+wifi%d
+osif_umac
+ath device
+broad
+%s(keyid=%d %scast addr=%s)
+%s(keyid=%d addr=%s)
+MLME-MICHAELMICFAILURE.indication
+MLME-REPLAYFAILURE.indication
+Entering WLAN event Task Loop
+tWLANEventTask
+Create WLAN event task %s
+Error in creating WLAN event task
+Error!! queue = NULL
+Create Message Queue Error! %s
+[anonymous]
+Create OS_MESGQ [%s] Successfully at 0x%x
+!!!!Not handle synchronous Event now!
+osifp->queue_head = %p
+Assertion failed: mBlk->mBlkHdr.mLen >= 0, file ath_wbuf.c, line 169
+Create mem partion %p for size %d
+turboA
+turboG
+11naht20
+11nght20
+11naht40plus
+11naht40minus
+11nght40plus
+11nght40minus
+11nght40
+11naht40
+connection
+connection_sm
+INIT
+SCAN
+CONNECTING
+CONNECTED
+BGSCAN
+DISCONNECTING
+ROAM
+SCAN_CANCELLING
+NONE
+CONNECT_REQUEST
+DISCONNECT_REQUEST
+SCAN_END
+ASSOC_SUCCESS
+ASSOC_FAILED
+BGSCAN_START
+DISCONNECTED
+SCAN_CANCELLED
+SCAN_START
+SCAN_RESTART
+ROAM_CHECK
+AES-CCM
+Assertion failed: M_TRAILINGSPACE((wbuf)->mblk) >= size, file D:\jenkins\workspace\SOHO1_CLOUD_ROUTER/basicRouter/wireless/qca956x/os/vxWorks/wbuf_private.h, line 279
+TKIP
+Detect-Server
+rreq
+rrsp
+Assertion failed: M_TRAILINGSPACE((wbuf)->mblk) >= __wbuf_get_pktlen(wbuf), file D:\jenkins\workspace\SOHO1_CLOUD_ROUTER/basicRouter/wireless/qca956x/os/vxWorks/wbuf_private.h, line 365
+too short, len %u
+bad version %u
+ucast cipher data too short; len %u, n %u
+ucast cipher set empty
+key mgmt alg data too short; len %u, n %u
+key mgmt OMKID data too short; len %u, n %u
+invalid multicast/group management frame cipher; len %u, n %u
+WME IE
+channel switch
+invalid channel %u
+channel %u lookup failed
+invalid dir 0x%x
+4-address data
+WDS not enabled
+multicast echo dir 0x%x
+%s: too small packet 0x%x len %u hdrspace %u
+amsdu
+A-MSDU: pullup failed, len %u
+A-MSDU sub-frame too short: len %u
+Short A-MSDU: len %u
+amsdu A-MSDU no memory
+too small len %d 
+ie too short
+mfp frame is not protected
+frame not for me
+shared key auth
+ie %d/%d too long
+no challenge
+deauth frame is not encrypted
+disassoc frame is not encrypted
+action frame not in same BSS
+beacon
+invalid beacon interval (%u)
+unhandled
+id %u, len %u
+no scan_entry_parameters->ie_list.rates
+bad scan_entry_parameters->ie_list.rates len %d
+bad scan_entry_parameters->ie_list.ssid len %d
+bad scan_entry_parameters->ie_list.xrates len %d
+ps-poll
+unassociated station
+aid mismatch: sta aid 0x%x poll aid 0x%x
+wrong bssid
+reached the end of frame
+no rates
+bad rates len %d
+no ssid
+bad ssid len %d
+no ssid with ssid suppression enabled
+%s: Rx pending count stuck. Investigate!!!
+SCANNER
+[vap-%d: %s] discard %s frame 
+vap-%d:  discard %s information element 
+vap-%d: [%s]
+vap-%d: 
+station
+%s ,line %u: nide_reclaim called with 0 refcount %d
+ASSERT: Can not reenter VAP State Machine 
+JOIN
+DFS_WAIT
+WAIT_TXDONE
+STOPPING
+STANDBY
+assoc_req
+assoc_resp
+reassoc_req
+reassoc_resp
+probe_req
+probe_resp
+reserved#6
+reserved#7
+atim
+disassoc
+action
+reserved#14
+reserved#15
+WME_AC_BE
+WME_AC_BK
+WME_AC_VI
+WME_AC_VO
+WME_UPSD
+ IGNORED
+%d.%03d | %s:%s state=%s event %s (%d) status=%08X
+%s: ignored ResMgr event %s
+%s: requestor=%X
+%s: missing module name
+%s: module=%s requestor=%X
+%s: No IDs left module=%s
+%s: Failed to register with resmgr 
+%s: wait_for_beacon=%d
+%s: Invalid scan_id=%d ss_scan_id=%d
+%s: Failed to unregister evhandler=%08p arg=%08p
+%s: evhandler=%08p arg=%08p already registered
+%s: ERROR: No more space: evhandler=%08p arg=%08p
+%d.%03d | %s
+%s: FALSE: elapsed_dwell_time=%d current_time=%lu enter_channel_time=%lu
+%s: Skip event handler since it is unreg. Type=%d. cb=0x%x, arg=0x%x
+%s: ss_event_handlers[%d]==NULL arg=%08p num_handlers=%d/%d
+%d.%03d | %s: Timer already set. Event: current=%d new=%d
+%s Prev state %s
+%d.%03d | %s: scan_id=%d reason=%s next_chan=%d/%d nreqchans=%d nallchans=%d
+%s: next=%d/%d nreqchans=%d nallchans=%d
+%s failed to send fakewakeup
+%s External Event %s reason %s scan_id=%d requestor=%08X vap=%08p
+%s Common Event Scan state=%s event=%s
+%s event=%s IGNORED in_progress=%d start_posted=%d
+%d.%03d | %s: entering channel=%d passive=%d probe_delay=%d
+%s: Under min. rest time. Beacon=%lu Dwell=%lu/%lu Done=0
+%s: SW txq empty=%d Qempty=%d Done=0
+%s: Channel has activity. Beacon=%lu Data (now=%lu last=%lu) Done=0
+%s: Rest=%lu Timeout (MinRest=%lu Beacon=%lu) BeaconCnt=%lu Data (now=%lu last=%lu) Qempty=%2d Done=%d
+%d.%03d | %s: 
+%s: current_time=%d ss_offchannel_time=%d min_dwell=%d future_offchannel_time=%d scan_another_channel=%d
+%s fakesleep ignored 
+%d.%03d | %s all_channels_scanned=%d
+%d.%03d | %s: state=%s event=%d
+%s: state=%s event=%d not handled
+%s: Event handler table not empty: %d entries
+%s: evhandler=%08p arg=%08p not unregistered
+%d.%03d | %s
+%d.%03d | %s: module %s ID=%d (curr_id=%d) state=%s in_progress=%d mode=%d flags=%08X runctr=%d
+%s: module %s Incorrect scan_id. Requested ID=%d Current ID=%d
+%s: Scan completed, new scan started: run_counter=%d/%d scan_id=%d/%d
+%s: Waiting for scan to complete run_counter=%d/%d scan_id=%d/%d flags=%d,%d
+%s: Timeout waiting for scan operation to complete %d %d
+%s: invalid min dwell time active %d (< MIN %d)
+%s: invalid min dwell time active %d (< max dwell time active %d)
+%s: invalid min dwell time active %d (> MAX %d)
+%s: invalid min dwell time passive %d (< MIN %d)
+%s: invalid min dwell time passive %d (> max dwell time passive)
+%s: invalid min dwell time passive %d (> MAX %d)
+%s: invalid probe delay %d (>= min active dwell %d)
+%s: invalid max_offchannel_time %d (< min active dwell %d)
+%s: invalid max_offchannel_time %d (>= min passive dwell %d)
+%s: invalid offchan retry delay %d (< MIN_OFFCHAN_RETRY %d)
+%s: invalid max offchan retries %d (> MAX_OFFCHAN_RETRIES %d)
+%s: invalid (offchan retry delay * retry count) = %d (> MAX_OFFCHAN_RETRY_TIME %d)
+%s: invalid repeat probe time %d (< 0)
+%s: invalid repeat probe time %d (> min param dwell %d)
+%s: resume preempted scan next=%d/%d nreqchans=%d nallchans=%d
+%d.%03d | %s: module=%s ID=%d flag=%08X type=%d elapsed=%d/%d multiple_ports=%d preempted=%d runctr=%d
+    nchans=%02d dwell=(%2d,%2d) (%2d,%2d) repeat_probe=%2d max_offchan_time=%d offchan_retry=(%03d,%02d) VAP=%08p
+%s: Failed to register event_handler
+%s state=%s posting event=%s
+%s state=%s event=%s
+%s state=%s No response from ResMgr
+%s state=%s event=%s not handled
+%s state=%s event=%s nothing to do
+%s state=%s event=%s in_progress=%d not handled
+%s state=%s error sending fakesleep event=%s
+%s retries=%02d/%02d
+%s: vap=%08p scan_id=%d requestor=%08X event=%s reason=%s
+SUSPENDING_TRAFFIC
+FOREIGN_CHANNEL
+RESUMING_TRAFFIC
+BSS_CHANNEL
+RADIO_MEASUREMENT
+REPEATER_CHANNEL
+TERMINATING
+PROBEDELAY_EXPIRE
+MINDWELL_EXPIRE
+MAXDWELL_EXPIRE
+RESTTIME_EXPIRE
+EXIT_CRITERIA_EXPIRE
+FAKESLEEP_ENTERED
+FAKESLEEP_FAILED
+RECEIVED_BEACON
+SCAN_REQUEST
+CANCEL_REQUEST
+RESTART_REQUEST
+MAXSCANTIME_EXPIRE
+FAKESLEEP_EXPIRE
+RADIO_MEASUREMENT_EXPIRE
+PROBE_REQUEST_TIMER
+BSSCHAN_SWITCH_COMPLETE
+OFFCHAN_SWITCH_COMPLETE
+OFFCHAN_SWITCH_FAILED
+OFFCHAN_SWITCH_ABORTED
+OFFCHAN_RETRY_EXPIRE
+CHAN_SWITCH_COMPLETE
+SCHEDULE_BSS_COMPLETE
+TERMINATING_TIMEOUT
+EXTERNAL_EVENT
+PREEMPT_REQUEST
+FATAL_ERROR
+COMPLETED
+CANCELLED
+TIMEDOUT
+TERMINATION_FUNCTION
+MAX_OFFCHAN_RETRIES
+PREEMPTED
+RUN_FAILED
+INTERNAL_STOP
+STARTED
+RADIO_MEASUREMENT_START
+RADIO_MEASUREMENT_END
+RESTARTED
+HOME_CHANNEL
+BSSID_MATCH
+FOREIGN_CHANNEL_GET_NF
+DEQUEUED
+%s: CANNOT RELEASE SCAN ENTRY %02X:%02X:%02X:%02X:%02X:%02X refcount=%d p=%08p
+%s: %02X:%02X:%02X:%02X:%02X:%02X
+%s: %02X:%02X:%02X:%02X:%02X:%02X cannot flush entry refcount=%d p=%8p
+%s: the mem blocks for scan entry is not malloced!
+%s: SSID Mismatch: SSID: Entry=%32.*s Beacon=%32.*s (l=%02d)
+    MAC=%02X:%02X:%02X:%02X:%02X:%02X BSSID=%02X:%02X:%02X:%02X:%02X:%02X RSSI=%2d avg=%2d Phy=%08X Ch=%3d Mismatch=%d Ref=%2d p=%8p
+    **Aged Out**
+    **Home AP - Do Not Age Out**
+%s: SSID Mismatch **AGE OUT**: SSID: Entry=%32.*s Beacon=%32.*s (l=%02d)
+    MAC=%02X:%02X:%02X:%02X:%02X:%02X BSSID=%02X:%02X:%02X:%02X:%02X:%02X RSSI=%2d avg=%2d Phy=%08X Ch=%3d Mismatch=%d Ref=%2d p=%8p
+%s: Update BSSID: MAC=%02X:%02X:%02X:%02X:%02X:%02X BSSID=%02X:%02X:%02X:%02X:%02X:%02X => %02X:%02X:%02X:%02X:%02X:%02X
+%s: BSSID mismatch MAC=%02X:%02X:%02X:%02X:%02X:%02X BSSID=%02X:%02X:%02X:%02X:%02X:%02X FrameBSSID=%02X:%02X:%02X:%02X:%02X:%02X
+%s: MAC=%02X:%02X:%02X:%02X:%02X:%02X ssid=%.*s l=%d BSSID=%02X:%02X:%02X:%02X:%02X:%02X se_timestamp=%lu subtype=%02X ch=%3d rssi=%2d avg_rssi=%2d ssid_match=%d ch_mismatch=%d
+%s: Not updating scan IE, received beacon but have Probe response: MAC[%02x:%02x:%02x:%02x:%02x:%02x]
+%s: Failed to create beacon buffer: MAC=%02X:%02X:%02X:%02X:%02X:%02X p=%08p
+%s: error parsing beacon MACADDR=%02X:%02X:%02X:%02X:%02X:%02X
+%s: error: no channel MACADDR=%02X:%02X:%02X:%02X:%02X:%02X
+%s: Failed to create scan entry: %02X:%02X:%02X:%02X:%02X:%02X
+%s: %02X:%02X:%02X:%02X:%02X:%02X SSID=%.*s chan=%3d p=%08p
+%s: CANNOT CREATE SCAN ENTRY %02X:%02X:%02X:%02X:%02X:%02X current_time=%lu
+[Error: Invalid queue]
+HSM: %s : invalid event %d
+UNKOWN_EVENT
+HSM: %s :current state %s event %s[%d] 
+HSM: %s :current state %s event %d 
+HSM: %s : event %d not handled in state %s 
+HSM: %s : invalid transition from %d to %d .do not have the same parent 
+HSM: %s : to state %d needs to be a valid state current_state=%d
+HSM: %s: transition %s => %s 
+[%s:%d] Not support yet
+Assertion failed: 0, file D:\jenkins\workspace\SOHO1_CLOUD_ROUTER/basicRouter/wireless/qca956x/os/vxWorks/osdep.h, line 1525
+Error!! msg length is too large
+ERROR! msgQSend to %s[0x%x], len=%d fail!
+ <mayday!> message queue [%s@%p] residual msgs:%d
+ <mayday!> WARNING: recover(%d) still failing!
+ <mayday!> message queue [%s@%p] try to recover..
+ <mayday!> message queue [%s] recovered from exhausting!
+HSM: %s : FAILED to deliver event %d !!! 
+HSM: %s : entry %d has invalid state %d 
+HSM: %s : entry %d is marked as super state but has no initial sub state 
+HSM: %s : entry %d is not a super state but has initial sub state 
+HSM: %s : entry %d initial sub state is not a sub state 
+HSM: %s : detected a loop with entry %d 
+HSM: %s : state %d is marked as perent of %d but is not a super state 
+HSM: %s : hsm allocation failed 
+HSM: %s : OS_MESGQ_INIT  failed 
+pwrsav_sta
+STATION
+ACTIVE
+PENDING_TX
+NULL_SENT
+SLEEP
+PSPOLL
+PAUSE
+FORCE_SLEEP
+START
+STOP
+FORCE_AWAKE
+NO_ACTIVITY
+NO_PENDING_TX
+SEND_NULL_SUCCESS
+SEND_NULL_FAIL
+RECV_UCAST
+LAST_MCAST
+UNPAUSE
+SEND_KEEP_ALIVE
+PAUSE_TIMEOUT
+EVENT_TBTT
+EVENT_TSF_CHANGED
+EVENT_BCN_TIMEOUT
+EVENT_BCN_RECVD
+EVENT_WNMRESP_RECVD
+EVENT_WNMSLEEP_SEND_TIMEOUT
+EVENT_WNMSLEEP_CONFIRM_ENTER
+EVENT_WNMSLEEP_CONFIRM_EXIT
+IEEE80211_M_ANY
+Unknown ieee80211_opmode
+IEEE80211_M_STA
+IEEE80211_M_IBSS
+IEEE80211_M_AHDEMO
+IEEE80211_M_HOSTAP
+IEEE80211_M_MONITOR
+IEEE80211_M_WDS
+IEEE80211_M_BTAMP
+Group key expansion
+Pairwise key expansion
+assoc
+DISASSOC
+MLME_WAIT
+DISASSOC_REQUEST
+REASSOC_REQUEST
+JOIN_SUCCESS
+JOIN_FAIL
+AUTH_SUCCESS
+AUTH_FAIL
+ASSOC_FAIL
+BEACON_WAIT_TIMEOUT
+BEACON_MISS
+DEAUTH
+DISASSOC_SENT
+RECONNECT_REQUEST
+BLOCKING
+PROBING
+EVENT_BACK
+EVENT_FORWARD
+EVENT_STALE
+epc unaligned
+Error address: 0x%08x, Error ID: 0x%04x
+Trap to uninitialized vector number %d (16-255).
+Caused by an Integer Divide by Zero
+Caused by an Integer Overflow
+Exception Program Counter: 0x%08x
+Status Register: 0x%08x
+Cause Register: 0x%08x
+Access Address : 0x%08x
+Fp Status Register: 0x%08x
+Task: %#x "%s"
+Exception at interrupt level:
+Regs at 0x%x
+Non operational vector
+Tlb MOD Exception
+Tlb Load Exception
+Tlb Store Exception
+Address load Exception
+Address store Exception
+Instruction bus error
+Data bus error
+Syscall Exception
+Breakpoint Exception
+Reserved Instruction Exception
+Co-processor unusable Exception
+Overflow Exception
+Trap Exception
+Reserved 14 Exception
+FPE Exception
+Reserved 16 Exception
+Reserved 17 Exception
+Reserved 18 Exception
+Reserved 19 Exception
+Reserved 20 Exception
+Reserved 21 Exception
+Reserved 22 Exception
+Watch Exception
+Reserved 24 Exception
+Reserved 25 Exception
+Reserved 26 Exception
+Reserved 27 Exception
+Reserved 28 Exception
+Reserved 29 Exception
+Reserved 30 Exception
+Reserved 31 Exception
+software interrupt 0
+software interrupt 1
+User defined interrupt
+unimplemented FPA operation
+invalid FPA operation
+FPA div by zero
+FPA overflow exception
+FPA underflow exception
+FPA inexact operation
+non-cpu bus error interrupt
+Uninitialized Interrupt!
+Vector number %d (0-255). %s
+Program Counter: 0x%08x
+Status Register: 0x%04x
+%-5s = %8x
+%16s
+divlo
+divhi
+Software Platform for PNE2.2
+%14s%s
+Copyright(C) 2001-2011 by TP-LINK TECHNOLOGIES CO., LTD.
+%22sCreation date: %s
+%c%c%c
+------------------------------------------------------------------------
+Version = %s.
+Task name = %s, pri = %d, stack size = %d, max command entry num = %d.
+command     description
+%-12s%s
+():Command add error, cmd or entry should not be null.
+%s():Command %s add error, entry table has been full.
+print all commands.
+show memory part, pools, and dump memory.
+task
+show task info and manage system task.
+tftp
+download or upload files by tftp protocol.
+ifconfig
+Interface config, please reference to -help command.
+Show route table, delete/add special route entry.
+Show all arp entries, delete/add special arp entry.
+Show net runtimes.
+Command line should not null.
+Invalid command.
+Usage error, please try %s -help
+Unknown cmd '%s', please try 'help'
+%45s%s
+Version
+%28s%s
+%s restarted.
+spawning new cmd task.
+-static
+Invalid argument, please input ip address with format e.g 192.168.1.100.
+Invalid argument, please input ac address with format e.g 00-19-66-ca-8b-1c.
+-del
+Warning:max segment is 16K, show only first 16K.
+%08X:  
+%02X 
+	  %s
+End Object %s%s not found.
+%s():There is no netpool in end object %s%s.
+-dump
+-stack
+Invalid argument, please specify a task.
+Invalid argument, please specify a valid task.
+Could not traces of my own stack:%s
+Can't trace task %s: invalid task id
+%s stack dump: 
+-------------------------------
+td_id           = %X
+td_name         = %s
+td_sp           = %X
+td_pStackBase   = %X
+td_stackCurrent = %X
+td_pc           = %x
+td_ra           = %x
+-desc
+task %s descption: 
+-------------------------------
+td_priority     = %X
+td_status       = %X
+td_options      = %X
+td_entry        = %X
+td_pStackLimit  = %X
+td_pStackEnd    = %X
+td_stackSize    = %X
+td_stackHigh    = %X
+td_stackMargin  = %X
+td_errorStatus  = %X
+td_delay        = %X
+td_events       = %X
+suspend
+Task %s suspend!
+resume
+Task %s resume!r
+restart
+Task %s restart!r
+delete
+Task %s delete!
+Download file %s failed, tftp server(%s) not ready.
+Download file %s(size=0x%x) from tftp server(%s) to local memory 0x%x
+-put
+Send file %s failed, tftp server(%s) not ready.
+Send file %s from local memory 0x%x to tftp server(%s)
+Socket created error.
+Tftp Server is not ready !
+netascii
+octet
+2.6.4
+LOCAL-SERVICE
+FORWARD
+track
+Show conntrack runtimes, modify conntrack environments.
+Show All Conntrack Environments:
+Version:%s
+Time stamp:%d
+Enabled
+Disabled
+SPI Firewall:%s
+TtlDec:%d
+Fastpath:%s
+LruFeature:%s
+Packet prepend size:%d
+Timer delta:%d
+Max connection entry number:%d
+Hash mask:%d
+stamp
+Time stamp:%d.
+ttldec
+TtlDec:%d.
+prepend
+Packet prepend size:%d.
+delta
+Timer delta:%d.
+application
+-change
+Invalid application id.
+Change time stamp from %d to %s.
+Change ttlDec from %d to %s.
+Change packet prepend size from %d to %s.
+Change timer delta from %d to %s.
+-fastpath
+disable
+Moduler Name: %s %s
+IPV4 Conntrack
+Runtime Status: %s
+Working
+Connection Entry Max: %d
+Hash Mask: %d
+Connection Entry Free: %d
+Connection Entry Busy: %d
+Max support applications:%d
+MAX application lever:%d
+Show All Conntrack Environments:
+Spi Firewall:%s
+STATION_ASSERT:
+FUNCTION: %s
+LINE: %d
+Show All Stations:
+================================================================================================================
+INDEX NAME            MAC               IP              STATUS  TYPE          REFCNT AGE FLAG TRAFFIC
+----------------------------------------------------------------------------------------------------------------
+ANONYMOUS
+online
+WIRE
+WIRELESS
+GUEST_NETWORK
+%-6d%-16s%02X-%02X-%02X-%02X-%02X-%02X %-16s%-8s%-14s%-7d%-4d%c%c%c%c%c%c (%d,%d)
+NETWORK TRAFFIC: WIRE (%d,%d) WIRELESS (%d,%d) GUEST (%d,%d) LOCKFILTER(%d)
+Show all application support:
+=========================================================
+INDEX DESCRIPTION     ID     LEVEL  LIMIT  COUNT  
+%-6d%-16s%-7d%-7d%-7d%-7d
+Invalid application id, the max number is %d.
+Show Connection Entries(LEVER=%d):
+==============================================================================================================================
+INDEX PROTO   APPLICATION     STATUS  TUPLE                                       TUPLE-OTHER-HAND
+------------------------------------------------------------------------------------------------------------------------------
+%-6d%-8s%-16s%-8s
+%s:%d->%s:%d
+%-44s
+%-44s
+Please initial application table first.
+Invalid application description.
+Duplicate to application %s, please change another id.
+Invalid application lever, the max lever is %d.
+Assertion failed: NULL != pTable, file connectionTable.c, line 432
+Assertion failed: NULL != pEntry, file connectionTable.c, line 433
+Assertion failed: NULL != pTable, file connectionTable.c, line 377
+Assertion failed: NULL != pEntry, file connectionTable.c, line 378
+Assertion failed: NULL != pTable, file connectionTable.c, line 355
+Assertion failed: NULL != pEntry, file connectionTable.c, line 356
+Assertion failed: NULL != applicationTable, file connectionTable.c, line 463
+%s [%s] 
+%s:%d: 
+errno =
+errno = 0x%x [%s] 
+Facility   ( code )    FileDesc  Decoration/Priority
+%-10s (0x%04x)  %10d     %#10x
+EMERG
+ALERT
+CRIT
+WARNING
+NOTICE
+INFO
+DEBUG
+RIPNG
+PING_V4
+PING_V6
+TELNET
+TELNETD
+TFTP
+TFTPD
+FTPD
+DHCP_V4
+DHCPD_V4
+DHCP_V6
+DHCPD_V6
+SYSCTL
+RIP_V4
+RTADV
+RTSOL
+NATPT
+RDISC
+RLOGIN
+REMLIB
+KERN
+NETDRV
+GENERAL
+netJobAdd: ring buffer overflow!
+netLibInit: couldn't allocate job nodes
+tNetTask
+v4/v6 Host (v4 only build)
+%s stack ver. %d.%d.%d.%d
+Network
+netCore.c
+netCoreSetup: could not allocate memory for ipDrvCtrl global variable
+%x:%x:%x:%x:%x:%x
+Invalid address!
+localhost
+gethostbyname: getaddrinfo returned ERROR
+Host name
+inetlib
+Inet library
+<NULL>
+tPoolRel
+type        number
+---------   ------
+%-8s:    %3ld
+%-8s:    %3d
+TOTAL
+number of mbufs: %ld
+number of times failed to find space: %ld
+number of times waited for space: %ld
+number of times drained protocols for space: %ld
+__________________
+CLUSTER POOL TABLE
+_______________________________________________________________________________
+size      clusters  free      usage     minsize   maxsize   avgsize
+-------------------------------------------------------------------------------
+%-10d
+%-10lu
+max_protohdr
+max_hdr
+max_linkhdr
+wrong parameter length for net pool initialization
+name2oid
+oidfmt
+%d %s 
+ *Handler
+ Node
+ Int
+ String
+ Quad
+ Opaque/struct
+can't re-use a leaf (%s)!
+can't remove non-dynamic nodes!
+Warning: bad oid_refcnt=%u (%s)!
+sysctl_remove_oid: corrupt tree, entry: %s
+sysctl
+Sysctl internal magic
+kern
+High kernel, proc, limits &c
+muxError
+interface disabled via muxDevStop
+interface enabled via muxDevStart()
+muxTxRestart
+END FLAGS changed by protocol ID 0x%x for: %s Unit %d
+Device: %s Unit: %d  END_OBJ: %p
+Description: %s
+Output protocol {%s}: Recv %p
+Protocol: %s	Type: 0x%04x	Recv %p	Shutdown %p
+Device %s unit %d not found.
+%d:%s
+Start of muxTkBindCommon
+Found the END object
+Can't bind to NPT style device with muxBind()
+muxTkBind: EndBind failed
+Protocol %d
+():Sorry, this function do not usrable anymore.
+ipShutdownRtn: detaching protocol unknown
+Could not un-bind from the IP MUX!
+%tmuxUnbind of ARP failed!
+IPv4
+RSA1
+---     GTF General Timer Facility     ---
+---  current ticks            : %10lu
+---  timer unit %u
+---- granularity [ticks]      : %10u
+---- number fired timer       : %10lu
+---- number outstanding timer : %10u
+--- currAllocTimer:           : %10u
+--- maxAllocTimer:            : %10u
+gtf_core.c
+gtfBookkeeping
+null handler
+gtfTimerCreate
+memory problem: Timer Free Queue exhausted
+gtfTimerManagerCreate
+memory problem: Unable to allocate Timer Unit Manager
+memory problem: Unable to allocate Timer List
+memory problem: Unable to allocate Timer Free Queue
+Unable to create Timer Manager Clock
+Unable to create Timer Lock
+Unable to create Timer Manager Lock
+Unable to allocate Timer Counter
+### Runtime Failure !!! File %s Function %s Line %d - %s
+Error writing to routing socket
+Error reading from routing socket
+   route to: %s
+message length mismatch, in packet %d, returned %d
+message indicates error %d
+	mask: %s
+	gateway: %s tos=%ld, proto=%d weight=%d
+	  ifa: %s, 
+ifp: %s
+	gateway: %s
+	old gateway: %s
+	interface: %.*s
+	flags: 
+	recvpipe  sendpipe  ssthresh  rtt,msec    rttvar  hopcount      mtu     expire
+%8ld 
+%8ld
+sockaddrs: 
+: gateway %s
+ (%s)
+entry in use
+routing table overflow
+not in table
+destination: %s (tos=%d, proto=%d)
+bad keyword: %s
+usage: routec [-dnqv] command [[modifiers] args]
+prefixlen not supported in this af
+%s: bad value prefixlength
+getifaddrs
+%d	%s
+internal error
+default
+bad address: %s
+%s: link %s; 
+%s: inet %s; 
+%u.%u.%u.%u
+sockaddrs: 
+ %s(tos=%d, proto=%d)
+routing message version %d not understood
+%s: len %d, 
+metric %d, flags:
+pid: %ld, seq %d, errno %d, if# %d, flags:
+newget
+no arguments
+malloc
+routec
+Too many arguments.
+startGetOpt failed 
+nqdtv
+socket
+route-sysctl-estimate
+malloc failed
+actual retrieval of interface table
+got message of size %d on %s
+route-sysctl-get
+Examining routing table from sysctl
+Error writing to routing socket
+got only %d for rlen
+%u.%u
+%u.%u.%u
+af %d:
+%-20.20s 
+atalk
+blackhole
+change
+cloning
+genmask
+hopcount
+inet
+inet6
+link
+llinfo
+lockrest
+mask
+nostatic
+prefixlen
+proto1
+proto2
+proxy
+recvpipe
+reject
+rttvar
+sendpipe
+ssthresh
+xresolve
+value1
+value2
+value3
+value4
+value5
+routetag
+weight
+oldgate
+newchange
+getall
+RTM_ADD: Add Route
+RTM_DELETE: Delete Route
+RTM_CHANGE: Change Metrics or flags
+RTM_GET: Report Metrics
+RTM_LOSING: Kernel Suspects Partitioning
+RTM_REDIRECT: Told to use different route
+RTM_MISS: Lookup failed on this address
+RTM_LOCK: fix specified metrics
+RTM_OLDADD: caused by SIOCADDRT
+RTM_OLDDEL: caused by SIOCDELRT
+RTM_RESOLVE: Route created by cloning
+RTM_NEWADDR: address being added to iface
+RTM_DELADDR: address being removed from iface
+RTM_IFINFO: iface status change
+RTM_NEWMADDR: new multicast group membership on iface
+RTM_DELMADDR: multicast group membership removed from iface
+RTM_IFINFO: interface added or deleted
+RTM_NEWCHANGE: duplicated route changed
+RTM_NEWGET: Get any route with gateway or protocol ID
+RTM_GETALL: Get all routes to dst including duplicates
+RTM_NEWIPROUTE: Route promoted to primary
+RTM_OLDIPROUTE: Route demoted to duplicate
+RTM_ADDEXTRA: duplicate route added
+RTM_OLDIPROUTE: duplicate route deleted
+%.*s.
+ %-*.*s
+%-8x 
+%-5.5s %6ld %6ld 
+----------------------------------------
+Active Internet connections (including servers)
+%-8.8s %-5.5s %-6.6s %-6.6s  %-21.21s %-21.21s %s
+Proto
+Recv-Q
+Send-Q
+Local Address
+Foreign Address
+(state)
+--------
+------
+---------------------
+-------
+TCP show routines not included. TCP information has not been displayed.
+UDP show routines not included. UDP information has not been displayed.
+Not support property in this version.
+%20s %10lu
+badsum
+tooshort
+toosmall
+badhlen
+badlen
+infragments
+fragdropped
+fragtimeout
+fastforward
+cantforward
+redirectsent
+unknownprotocol
+delivered
+localout
+nobuffers
+reassembled
+fragmented
+outfragments
+cantfrag
+badoptions
+noroute
+badvers
+rawout
+toolong
+notmember
+nogif
+badaddr
+	%u incomplete header%s
+	%u bad data length field%s
+	%u bad checksum%s
+	%u broadcasts received with no ports
+	%u full socket%s
+	%u pcb cache lookup%s failed
+	%u pcb hash lookup%s failed
+UDP:
+	%u total packets
+	%u input packets
+	%u output packets
+	%d packet%s sent
+		%d data packet%s (%d byte%s)
+		%d data packet%s (%d byte%s) retransmitted
+		%d ack-only packet%s (%d delayed)
+		%d URG only packet%s
+		%d window probe packet%s
+		%d window update packet%s
+		%d control packet%s
+	%d packet%s received
+		%d ack%s (for %d byte%s)
+		%d duplicate ack%s
+		%d ack%s for unsent data
+		%d packet%s (%d byte%s) received in-sequence
+		%d completely duplicate packet%s (%d byte%s)
+		%d packet%s with some dup. data (%d byte%s duped)
+		%d out-of-order packet%s (%d byte%s)
+		%d packet%s (%d byte%s) of data after window
+		%d window probe%s
+		%d packet%s received after close
+		%d discarded for bad checksum%s
+		%d discarded for bad header offset field%s
+		%d discarded because packet too short
+	%d connection request%s
+	%d connection accept%s
+	%d connection%s established (including accepts)
+	%d connection%s closed (including %d drop%s)
+	%d embryonic connection%s dropped
+	%d segment%s updated rtt (of %d attempt%s)
+	%d retransmit timeout%s
+		%d connection%s dropped by rexmit timeout
+	%d persist timeout%s
+	%d keepalive timeout%s
+		%d keepalive probe%s sent
+		%d connection%s dropped by keepalive
+	%d pcb cache lookup%s failed
+TCP:
+%s=%o
+%s=%x
+	ether 
+	lladdr 
+%02x%c
+ether_getaddr not supported which=%d
+%s: invalid Ethernet address
+%s: is zero address
+%s: is broadcast address
+%s: bad value
+	inet %s 
+--> %s 
+netmask 0x%lx 
+broadcast %s
+%s: no such interface
+%s: permission denied
+ioctl (SIOCGIFCAP)
+ioctl (SIOCGIFFLAGS)
+alias
+'%s' requires argument
+'%s' requires 2 arguments
+interface %s cannot change %s addresses!
+ioctl (SIOCDIFADDR)
+ioctl (SIOCAIFADDR)
+invalid argument '%s'
+ioctl (set mtu)
+ioctl (set metric)
+malloc
+Too many arguments!
+startGetOpt failed
+adlmu
+if   list-sysctl-estimate
+out of sync parsing NET_RT_IFLIST
+expected %d, got %d
+msglen = %d
+buf:%p, next:%p, lim:%p
+ioctl (SIOCGIFMETRIC)
+ioctl (SIOCGIFMTU)
+%s: 
+ flags
+BROADCAST
+DEBUG
+LOOPBACK
+POINTOPOINT
+SMART
+RUNNING
+NOARP	PROMISC
+ALLMULTI
+OACTIVE
+SIMPLEX
+LINK0
+LINK1
+LINK2
+MULTICAST
+NOTRAILERS
+INET_UP
+INET6_UP
+FASTPATH_V4
+FASTPATH_V6
+ metric %d
+ mtu %d 
+	options
+RXCSUM
+TXCSUM
+NETCONS
+VLAN_MTU
+VLAN_HWTAGGING
+JUMBO_MTU
+	capability list:
+%s has no %s interface address!
+interface %s does not exist
+usage: ifconfig interface address_family [address [dest_address]]
+                [parameters]
+       ifconfig -a [-d] [-m] [-u] [address_family]
+       ifconfig -l [-d] [-u] [address_family]
+       ifconfig [-d] [-m] [-u]
+-attach
+-detach
+-napt
+Invalid argument, please input device name and unit number.
+Device %s%d not found, please input valid device.
+No interface %s, please attach it first.
+ether
+-arp
+-debug
+promisc
+-promisc
+napt
+-alias
+remove
+metric
+broadcast
+rxcsum
+-rxcsum
+txcsum
+-txcsum
+TUNNEL
+POINT_TO_MULTIPOINT
+     %s: %s
+%s (unit number %d):
+     Flags: (0x%x) 
+DOWN 
+LOOPBACK 
+POINT-TO-POINT 
+BROADCAST 
+MULTICAST 
+PROMISCUOUS 
+TRAILERS 
+ARP 
+RUNNING 
+FASTPATH_V4 
+FASTPATH_V6 
+NOFORWARD 
+NAPT 
+BASIC-NAT 
+DEBUG 
+INET_UP 
+NOPING 
+INET6_UP 
+     Type: %s
+     Type: [Unrecognized type %d]
+Destination Internet address
+Broadcast address
+     Netmask 0x%lx Subnetmask 0x%lx
+     Ethernet address is %02x:%02x:%02x:%02x:%02x:%02x
+     Metric is %lu
+     Maximum Transfer Unit size is %lu
+     %lu packets received; %lu packets sent
+     %lu multicast packets received
+     %lu multicast packets sent
+     %lu input errors; %lu output errors
+The driver does not support RFC2233!
+     %.0f octets received
+     %.0f octets sent
+     %.0f unicast packets received
+     %.0f unicast packets sent
+     %.0f broadcast packets received
+     %.0f multicast packets received
+     %.0f broadcast packets sent
+     %.0f multicast packets sent
+     %lu octets received
+     %lu octets sent
+     %lu unicast packets received
+     %lu unicast packets sent
+     %lu broadcast packets received
+     %lu broadcast packets sent
+     %lu non-unicast packets received
+     %lu non-unicast packets sent
+     %lu incoming packets discarded
+     %lu outgoing packets discarded
+     %lu incoming errors
+     %lu outgoing errors
+     %lu unknown protos
+     %lu collisions; %lu dropped
+     %u output queue drops
+"%s" - No such interface
+No network interface active.
+UNDEFINED
+OTHER
+REGULAR_1822
+HDH1822
+DDN_X25
+RFC877_X25
+ETHERNET_CSMACD
+ISO88023_CSMACD
+ISO88024_TOKENBUS
+ISO88025_TOKENRING
+ISO88026_MAN
+STARLAN
+PROTEON_10MBIT
+PROTEON_80MBIT
+HYPERCHANNEL
+FDDI
+LAPB
+SDLC
+BASIC_ISDN
+PRIMARY_ISDN
+PROP_POINT_TO_POINT_SERIAL
+SOFTWARE_LOOPBACK
+ETHERNET_3MBIT
+NSIP
+SLIP
+ULTRA
+FRAME_RELAY
+Link layers
+generic
+Generic link-management
+if.c
+Can't free ifma->ifma_addr for address family %d
+can't allocate dupsa for address family %d
+Interface admin status is down for %s%d
+IPv4 not attached.
+Admin status is down for IPv4 traffic on interface %s%d
+ifInstInit: wrong parameter length for interface layer initialisation
+ifInstInit: couldn't allocate memory for ifnet_addrs global variable
+ifInstInit: couldn't allocate memory for ifindex2ifnet global variable
+Ethernet
+if_simloop: can't handle af=%d
+looutput no HDR
+looutput: mbuf allocation failed
+looutput: af=%d unexpected
+loopbackInstInit: DS_MALLOC failed
+loopbackInstInit: loopattach failed
+loopbackInstInit: failed to create a socket
+loopbackInstInit: failed to set netmask
+loopbackInstInit: failed to set address 127.0.0.1
+loopbackInstInit: failed on SIOCGIFFLAGS
+loopbackInstInit: failed on SIOCSIFFLAGS
+():Work around warning(Try to free route entry in use)!!!
+%02x:%02x:%02x:%02x:%02x:%02x
+Assertion failed: 0, file if_ether.c, line 65
+LINK LEVEL ARP TABLE
+%s%s
+destination           linkaddr        flags  refcnt  expire     interface
+%-16s%-22s%04x   %-8d%-13d %s%d
+icmpLib.c
+icmpInstInit: wrong parameter length for icmp initialisation
+subnets_are_local
+invalid argument to in_lifaddr_ioctl
+lowlast
+first
+last
+hifirst
+hilast
+portrange
+IP Ports
+lowfirst
+Internet Family
+icmp
+ICMP
+internet
+forwarding
+Enable IP forwarding between interfaces
+Enable sending IP redirects
+Maximum TTL on IP packets
+sourceroute
+Enable forwarding source routed IP packets
+accept_sourceroute
+Enable accepting source routed IP packets
+maxfragpackets
+Maximum number of IPv4 fragment reassembly queue entries
+check_interface
+Verify packet arrives on correct interface
+stats
+S,ipstat
+IP statistics (struct ipstat, netinet/ip_var.h)
+ip_init
+delayed m_pullup, m->len: %d  off: %d  p: %d
+ip_mloopback: bad address family %d
+rip_detach
+rip_attach
+IP_RAW
+maxdgram
+Maximum outgoing raw IP datagram size
+recvspace
+Maximum incoming raw IP datagram size
+pcblist
+S,xinpcb
+List of active raw IP sockets
+rtexpire
+Default expiration time on dynamically learned routes
+rtminexpire
+Minimum time to attempt to hold onto dynamically learned routes
+rtmaxcache
+Upper limit on dynamically learned routes
+domaininit: %ssw[%d] has no usrreqs!
+S,tcpstat
+TCP statistics (struct tcpstat, netinet/tcp_var.h)
+Do not send RST when dropping refused connections
+delayed_ack
+Delay ACK to try and piggyback it onto a data packet
+tcp_input: TCPS_LISTEN
+tcp_pulloutofband
+path_mtu_discovery
+Enable Path MTU Discovery
+slowstart_flightsize
+Slow start flight size
+local_slowstart_flightsize
+Slow start flight size for local networks
+newreno
+Enable NewReno Algorithms
+tcp_setpersist: retransmit pending
+mssdflt
+Default TCP Maximum Segment Size
+rfc1323
+Enable rfc1323 (high performance TCP) extensions
+rfc1644
+Enable rfc1644 (TTCP) extensions
+tcbhashsize
+Size of TCP control-block hashtable
+do_tcpdrain
+Enable tcp_drain routine for extra help when low on mbufs
+pcbcount
+Number of active PCBs
+icmp_may_rst
+Certain ICMP unreachable messages may abort connections in SYN_SENT
+isn_reseed_interval
+Seconds between reseeding of ISN secret
+inflight_enable
+Enable automatic TCP inflight data limiting
+inflight_debug
+Debug TCP inflight calculations
+inflight_min
+Lower-bound for TCP inflight window
+inflight_max
+Upper-bound for TCP inflight window
+S,xtcpcb
+List of active TCP connections
+%p bw %ld rttbest %d srtt %d bwnd %ld
+tcp_init
+syncookies
+Use TCP SYN cookies if the syncache overflows
+TCP SYN cache
+bucketlimit
+Per-bucket hash limit for syncache
+cachelimit
+Overall entry limit for syncache
+count
+Current number of entries in syncache
+hashsize
+Size of TCP syncache hashtable
+rexmtlimit
+Limit on SYN/ACK retransmissions
+WARNING: syncache hash size is not a power of 2.
+syncache_init: unable to allocate hash table
+keepidle
+keepintvl
+delacktime
+Time before a delayed ACK is sent
+Maximum segment lifetime
+rexmit_min
+Minimum Retransmission Timeout
+rexmit_slop
+Retransmission Timer Slop
+always_keepalive
+Assume SO_KEEPALIVE on all TCP connections
+keepinit
+sendspace
+Maximum outgoing TCP datagram size
+Maximum incoming TCP datagram size
+tcpLib.c
+tcpInstInit: wrong parameter length for TCP initialization
+tcpInstInit: TCP reassembly queue initialization failed
+Do not send port unreachables for refused connects
+S,udpstat
+UDP statistics (struct udpstat, netinet/udp_var.h)
+Maximum outgoing UDP datagram size
+Maximum incoming UDP datagram size
+List of active UDP sockets
+checksum
+udpLib.c
+udpInstInit: wrong parameter length for UDP initialization
+route_output
+routetable
+rtsock.c
+rtsockInstInit: Wrong parameter lenght for rtsock initialisation
+IPV4 NET ROUTE TABLE
+%s%s
+destination        netmask        gateway       flags  refcnt  expire  interface
+IPV4 HOST ROUTE TABLE
+%s%s
+Assertion failed: NULL != pIpEntry->pRtmHdr, file ipRouteLib.c, line 801
+%-16s%-16s%-16s%04x   %-8d%-10d%s%d
+bsdSockLib.c
+bsdSockInstInit: wrong parameter length for BSDSOCKET initialization
+accept
+sockLibAdd: Invalid domain
+sockLibAdd: Either sockLibInitRtn passed to us is NULL or the backend init routine returned an error
+(socket)
+sockLibInit: Could not register the socket IO system driver
+somaxconn
+Maximum pending socket connection queue size
+ip6_sooptmcopyin
+soaccept: !NOFDREF
+sofree: not queued
+soclose: NOFDREF
+maxsockbuf
+Maximum socket buffer size
+sockbuf_waste_factor
+sbdrop
+sbflush: locked
+sbflush: cc %ld || mb %p || mbcnt %ld
+sbappendcontrol
+semi-panic: sbcompress
+sbappendaddr
+panic: %s
+phashinit: bad elements
+phashinit: allocate hash table failed
+hashinit: bad elements
+%s: illegal option -- %c
+%s: option requires an argument -- %c
+numHashBytes ERROR!!!
+CLOSED
+SYN_SENT
+SYN_RCVD
+ESTABLISHED
+CLOSE_WAIT
+FIN_WAIT_1
+CLOSING
+LAST_ACK
+FIN_WAIT_2
+TIME_WAIT
+Unknown error
+Success
+Address family for hostname not supported
+Temporary failure in name resolution
+Invalid value for ai_flags
+Non-recoverable failure in name resolution
+ai_family not supported
+Memory allocation failure
+No address associated with hostname
+hostname nor servname provided, or not known
+servname not supported for ai_socktype
+ai_socktype not supported
+System error returned in errno
+Invalid value for hints
+sink
+routed
+tcpmux
+discard
+ftp-data
+telnet
+nameserver
+ripng
+bigNum len %d
+%04X  
+maskrepl
+drop_redirect
+log_redirect
+icmplim
+bmcastecho
+icmplim_output
+icmpErrorLen
+S,icmpstat
+%s from %d to %d packets per second
+icmp redirect from %d.%d.%d.%d: %d.%d.%d.%d => %d.%d.%d.%d
+icmp send error, not enough memory.
+icmp_error: out of buffers
+icmp_error: bad length
+icmp_error
+icmp len
+Limiting icmp unreach response
+Limiting icmp ping response
+Limiting icmp tstamp response
+Limiting closed port RST response
+Limiting open port RST response
+errno = %#x
+():Commond parse error, invalid argument.
+TIMEZONE
+ %8.8ld   %9.9ld   %8.8d   %8.8d
+ 0x%08x%08x    %8.8ld   %9.9ld
+--------------------  ---------- ----------
+  base ticks          base secs  base nsecs
+---------- ----------- ---------- ----------
+  seconds    nanosecs  freq (hz)  resolution
+(global environment)
+(private environment)
+%d: %s
+evnCreateHook: couldn't create private environment!
+excTask: error receiving msg, status = %#x.
+%d messages from interrupt level lost.
+tExcTask
+(null)
+bug in vfprintf: bad base
+(unknown)
+%3d %-20s %3d %s %s %s
+%3s %-20s
+%3d %-20s
+%3s %9s  %9s  %9s  %9s  %9s  %9s  %9s
+create
+close
+read
+write
+ioctl
+%3d %9x  %9x  %9x  %9x  %9x  %9x  %9x
+%3s %-20s %3s
+%3s %3s
+%3d %3d
+logTask: error reading log messages.
+interrupt: 
+%#x (): task dead
+%#x (%s): 
+<null "fmt" parameter>
+logTask: %d log messages lost.
+tLogTask
+memPartRealloc
+%s: invalid block %#x in partition %#x.
+memPartAlloc: block too big - %d in partition %#x.
+memPartFree
+  invalid block at %#x deleted
+No partId specified.
+FREE LIST:
+   num    addr       size
+  ---- ---------- ----------
+  %4d 0x%08x %10u
+SUMMARY:
+ status    bytes     blocks   avg block  max block
+ ------ ---------- --------- ---------- ----------
+current
+   free %10u %9u %10u %10u
+   no free blocks
+  alloc %10u %9u %10u          -
+   no allocated blocks
+cumulative
+/\~$
+selTaskDeleteHookAdd: couldn't install task delete hook!
+selectInit: couldn't install task create hook!
+selectInit: couldn't install create hook for the caller! 0x%x
+symbol name: %s, value: 0x%08x.
+_text
+_data
+_bss
+flashIoctl(): the parameter data is NULL
+flashIoctl(): have not register the flash func
+flashIoctl(): read overflow, length = %d, bufLen = %d, 0ffset = %d, total = %d
+flashIoctl(): write overflow
+flashIoctl(): erase overflow
+flashDevCreate(): flash dev name is NULL
+flashDevCreate(): flash driver is not register to the driver table yet
+flashDevCreate(): can not malloc the memory
+gpIoctl(): the parameter data is NULL
+gpIoctl(): have not register the function to GPIO
+gpioDevCreate(): gpio dev name is NULL
+gpioDevCreate(): gpio driver is not register
+switchIoctl(): the parameter data is NULL
+switchIoctl(): have not register the function to GPIO
+switchDevCreate(): gpio dev name is NULL
+switchDevCreate(): gpio driver is not register
+pllIoctl(): the parameter data is NULL
+pllIoctl(): have not register the flash func
+pllDevCreate(): pll dev name is NULL
+pllDevCreate(): pll driver is not register to the driver table yet
+pllDevCreate(): can not malloc the memory
+Section type SHT_DYNSYM not supported.
+gcc2_compiled.
+___gnu_compiled_c
+__gnu_compiled_c
+initModule
+cleanupModule
+Can't add '%s' to symbol table
+Undefined symbol: %s (binding %d type %d)
+Incorrect ELF header size: %d
+Incorrect module type: %d
+No program header table in executable module.
+Null offset to program header table.
+Incorrect program header size: %d
+Incorrect section header size: %d
+Null offset to section header table.
+Unknown object module format 
+Section SHT_NOBITS ignored (wrong flags).
+could not allocate text and data segments
+Section SHT_PROGBITS ignored (flags: %d).
+Section SHT_NOBITS ignored (flags: %d).
+Section of type %d ignored.
+No relocation routine for this CPU
+Object module not loaded
+Object module load failed
+Can't add '%s' to symbol table.
+%s_text
+%s_data
+%s_bss
+Checksum error in segment type %d, 
+module %#x (%s)
+Can't get information about module %#x
+Size of text segment:   %8d
+Size of data segment:   %8d
+Size of bss  segment:   %8d
+Total size          :   %8d
+Module not found
+MODULE NAME     MODULE ID  GROUP #    TEXT START DATA START  BSS START
+--------------- ---------- ---------- ---------- ---------- ----------
+No free group number. Abort load operation.
+errno %#x
+unld error: module "%s" not found.
+unld error: module "%s" already dying.
+ld error: module "%s" has existed.
+ld error: unable to open "%s"
+ld error: too many symbols.
+ld error: Module contains undefined symbol(s) and may be unusable.
+ld error: error loading file (errno = %#x).
+ld error: but Found moduleName, clear it.
+%-*s: 0x%x 
+%-*s: %d 
+%-*s: 
+Error in boot line:
+too big - maximum field width = %d.
+%-*s: 0x%x 
+%-*s: %d 
+invalid number.
+ %s=%s
+%s(%d,%d)
+%s(%d,%d)%s:%s
+ %s=0x%x
+ %s=%d
+'.' = clear field;  '-' = go to previous field;  ^D = quit
+invalid unit number.
+No boot parameter string specified.
+SUNDAY
+MONDAY
+TUESDAY
+WEDNESDAY
+THURSDAY
+FRIDAY
+SATURDAY
+JANUARY
+FEBRUARY
+MARCH
+APRIL
+JUNE
+JULY
+AUGUST
+SEPTEMBER
+OCTOBER
+NOVEMBER
+DECEMBER
+%b %d %H:%M:%S:%Y
+%b %d %Y
+%H:%M:%S
+got bad symbol, %#x
+WIND version 2.6
+tRootTask
+Invalid message queue id: %#x
+%-20s: 0x%-10x
+Message Queue Id
+%-20s: %-10s
+Task Queuing
+FIFO
+PRIORITY
+%-20s: %-10d
+Message Byte Len
+Messages Max
+Messages Queued
+Senders Blocked
+Receivers Blocked
+Send timeouts
+Receive timeouts
+MSG_Q_FIFO
+MSG_Q_PRIORITY
+%-20s: 0x%x	%s
+Options
+				MSG_Q_EVENTSEND_ERR_NOTIFY
+Senders
+Receivers
+%s Blocked:
+   NAME      TID    PRI TIMEOUT
+---------- -------- --- -------
+%-11.11s%8x %3d %7u
+Messages queued:
+  #    address length value
+%3d %#10x  %4d 
+ ...
+tRestart
+VX_SUPERVISOR_MODE  
+VX_UNBREAKABLE      
+VX_DEALLOC_STACK    
+VX_FP_TASK          
+VX_DSP_TASK         
+VX_STDIO            
+VX_ADA_DEBUG        
+VX_FORTRAN          
+VX_PRIVATE_ENV      
+VX_NO_STACK_FILL    
+READY
+DELAY
+DELAY+S
+PEND
+PEND+T
+PEND+S
+PEND+S+T
+SUSPEND
+DEAD
+0x%02x
+taskRegsShow: invalid task id %#x
+%-11.11s
+%-12.12s
+%-12x
+ %8x %3d %-10.10s %8x %8x %7x %5u
+Task not found.
+stack: base 0x%-6x  end 0x%-6x  size %-5d  
+high %5s  margin %5s
+high %-5d  margin %-5d
+options: 0x%x
+%-6s = %8x
+workQPanic: Kernel work queue overflow.
+VxWorks Events
+--------------
+Events Pended on    : Not Pended
+Received Events     : 0x%x
+Options             : N/A
+Events Pended on    : 0x%x
+Received Events     : 0x%x
+Options             : 0x%x	
+EVENTS_WAIT_ALL
+EVENTS_WAIT_ANY
+				EVENTS_RETURN_ALL
+				EVENTS_KEEP_UNWANTED
+Registered Task     : NONE
+Event(s) to Send    : N/A
+Options             : N/A
+Deleted!
+Registered Task     : 0x%x	(%s)
+Event(s) to Send    : 0x%x
+Options             : 0x%x	
+EVENTS_OPTIONS_NONE
+EVENTS_SEND_ONCE
+				
+EVENTS_ALLOW_OVERWRITE
+				
+EVENTS_SEND_IF_FREE
+CloudClient: ~~~~~~~~~~~~~~~getUpdatePluginStatus progress = %d
+plugin_manage
+-----get buffer success-----
+-----delay get buffer-----
+get_installed_plugin
+get_installed_plugins_paged
+get_market_plugin
+view_plugin
+view_plugin_list
+get_storage_info
+open_plugin
+install_plugin
+update_plugin
+uninstall_plugin
+get_plugin_status
+get_update_info
+get_uninstalled_info
+get_can_update_plugins
+get_not_installed_plugins
+get_plugins
+get_good_plugins
+get_excellent_plugins
+get_good_info
+get_excellent_info
+=====================================
+downloadProgress = %d
+installProgress = %d
+operaType = %d
+updateFlag = %d
+begin show good table
+=================%d====================
+begin show excel table
+CloudClient: *****preAppList[%d].id=%s
+CloudClient: *****manuAppList[%d].id=%s
+/plugin_config/plugin_info
+CloudClient: Table not found
+CloudClient: in pSection
+CloudClient: Too many entry
+CloudClient: PULGIN_INFO_PATH=%s
+CloudClient: Section %d[%s] not found
+CloudClient: errExit
+CloudClient: strVer1=%s, strVer2=%s
+CloudClient: preInstallId=%s
+CloudClient: mcbMalloc error
+CloudClient: prePlugin %s is installed
+CloudClient: install newfirmware
+CloudClient: getUninstallPluginStatus
+CloudClient: getInstallPluginStatus begin
+CloudClient: getInstallPluginStatus pluginNone == NULL
+CloudClient: getInstallPluginStatus pluginInfo == NULL
+CloudClient: getInstallPluginStatus modelRead < 0
+CloudClient: getInstallPluginStatus normal
+CloudClient: ~~~~~~~~~~~~~~~~~pluginNone progress = %d
+CloudClient: getPluginStatusReqHandle can not get plugin id
+CloudClient: getPluginStatusReqHandle can not get action
+install
+uninstall
+CloudClient: uninstallPluginReqHandle can not get plugin id
+CloudClient: uninstallPluginReqHandle memory out
+CloudClient: uninstallPluginReqHandle modelRead error
+CloudClient: uninstallPluginReqHandle download errro
+/cloud_config/cloud_reply/device_status
+CloudClient: updatePluginReqHandle modelRead error
+CloudClient: updatePluginReqHandle must be bind
+CloudClient: updatePluginReqHandle can not get plugin id
+CloudClient: uninstallPluginReqHandle modelRead error = %s
+CloudClient: table pluginid = %s msg id = %s
+CloudClient: updatePluginReqHandle can find plugin id
+CloudClient: updatePluginReqHandle can not find plugin id
+CloudClient: updatePluginReqHandle out of memory
+CloudClient: updatePluginReqHandle download errro
+CloudClient: installPluginReqHandle modelRead error
+CloudClient: ERROR_DEVICE_NOT_BOUND
+CloudClient: can not get plugin id
+CloudClient: can find plugin id
+CloudClient: can not find plugin id
+CloudClient: out of memory
+CloudClient: download error
+CloudClient: plugin id %s is autoPlugin
+CloudClient: module "%s" hasn't existed, cannot open.
+CloudClient: webUri=%s
+used
+CloudClient: found %s in PLUGIN_INFO, appPath=%s
+can_update
+release_time
+app_icon_url
+local_app_icon_url
+webzip_url
+local_webzip_url
+property
+update_log
+last_version
+last_size
+opera_type
+app_desc_url
+get install url = %s
+CloudClient: getOneInstalledPluginToArray errExit
+get uninstall url = %s
+get can update url = %s
+CloudClient: module "%s" hasn't existed, don't display.
+CloudClient: getInstalledPluginToArray~~~~~~~~~~~~~~~~~~~~~~~~~~~~pluginInfo->operaType = %d
+/plugin_status/plugin_update/
+plugin_list
+index_start
+index_end
+CloudClient: can not get start index
+CloudClient: can not get end index
+CloudClient: illegal index
+CloudClient: pluginId is NULL continue
+CloudClient: pluginIdTable.pluginIdExcelList[%d].iconUrl = %s
+CloudClient: get can update continue
+CloudClient: get uninstall continue
+CloudClient: get install continue
+CloudClient: all false
+CloudClient: pluginIdTable.pluginIdGoodList[%d].iconUrl = %s
+data_url
+/plugin_status/plugin_none/
+/plugin_config/plugin_profile/plugin
+CloudClient: pluginUpdateToPluginNone
+CloudClient: pluginInfoToPluginNone
+CloudClient: index = %d
+CloudClient: exist excel list id = %s
+CloudClient: ~~~~~~~~~~~~~~~~~add in to excel list url %d = %s
+CloudClient: addPluginIdToExcelTable table is full
+CloudClient: addPluginIdToGoodTable have the same
+CloudClient: ~~~~~~~add in to good list %d = %s
+CloudClient: addPluginIdToGoodTable table is full
+/config/plugin_config.json
+plugin_profile
+pre_installed
+manual_installed
+not_installed
+sync_status
+show_order
+pre_updating
+good_num
+excellent_num
+CloudClient: BinToJson default show order
+CloudClient: BinToJson default show pAppProfile->showOrder
+CloudClient: get pluginInfo->appDescUrl = %s
+CloudClient: get pluginNone->appDesc = %s
+CloudClient: updateInstallPluginConfig modelWrite pluginInfo ERROR
+CloudClient: updateInstallPluginConfig modelWrite pluginProfile ERROR
+CloudClient: can't find %s in manuapplist
+CloudClient: can't find %s in autoAppList
+CloudClient: WDS not enable
+CloudClient: WDS enable %d
+Function %s assertion failed: NULL != ccDataLock, file:%s, line:%d.
+cloudClient.c
+downloadD
+cloudClient
+cloudClient request.
+%d.%d.%d %s
+cloud
+cloud_status
+firmware_upgrade
+download_conf
+upload_conf
+/cloud_config/cloud_push/new_firmware
+/cloud_config/cloud_reply/upgrade_info
+CloudClient: ****** deviceInfo read error 
+CloudClient: ****** deviceInfo read OK 
+CloudClient: ****** upgradeInfo->version: %s
+ localDeviceInfo.softVer: %s 
+CloudClient: ****** the verstr is null, so don't cmp.
+CloudClient: ****** the cur soft ver is newest 
+CloudClient: ****** clear the updateInfo & newfirmware OK 
+getFwList
+dlfw
+good
+excel
+not_show
+bind_status
+login_status
+account_status
+illegal
+illegal_type
+fw_new_notify
+fw_update_type
+display_type
+retained_message_bar
+notify_time
+heartBeatInterval
+connectInterval
+CloudClient: cldCltAppsReconnect to reconncet, time=%d
+CloudClient: Into short connection mode, connectInterval:%d.
+CloudClient: Into long connection mode, heartbeatIntervel:%d,wanOldConnectMode=%d,nowMode=%d
+CloudClient: change mode error 
+CloudClient: will stop cloudLink.
+CloudClient: cloudClient start link SEF. connectMode=%d(0 is short).
+CloudClient: cloudClient start link Cloud. connectMode=%d(0 is short).
+CloudClient:  using getWanPhyStatus
+CloudClient:  getWanPhyStatus failed
+/cloud_config/cloud_device/brand_mac
+/cloud_config/cloud_device/bind_tip
+/cloud_config/push_list/
+/cloud_config/cloud_push/device_legality
+/cloud_config/router_post/check_app_update
+/cloud_config/router_post/get_not_installed_apps
+/cloud_config/router_post/get_can_update_apps
+/cloud_config/router_post/check_reset_pwd_verify_code
+/cloud_config/router_post/check_reg_verify_code
+/cloud_config/router_post/get_reset_pwd_verify_code
+/cloud_config/router_post/get_reg_verify_code
+/cloud_config/router_post/modify_account_pwd
+/cloud_config/router_post/reset_cloud_pwd
+/cloud_config/router_post/register
+/cloud_config/router_post/login
+/cloud_config/router_post/connect_option
+bind
+unbind
+register
+fw_download
+reset_password
+check_fw_version
+modify_account_pwd
+get_reg_verify_code
+get_reset_pwd_verify_code
+check_reg_verify_code
+check_reset_pwd_verify_code
+reconnect
+resetFlag
+renew_time
+release_date
+download_url
+location
+release_log
+release_log_url
+app_id
+account_type
+old_pwd
+new_pwd
+CloudClient: Enter cldClt WanNotifyReconnect 
+CloudClient: wanIP link down, and from %08X become %08X 
+CE: %d wan link down
+CloudClient: wanIP changed, from %08X become %08X 
+CE: %d wanIP changed.
+CloudClient: WAN other status changed
+CE: %d Not start connecting cloud yet.
+CloudClient: clear GErrorCode %d
+CloudClient: set GErrorCode %d
+CloudClient: can't set, current GErrorCode %d
+CloudClient: set GFwDlErrorCode %d
+CloudClient: set GPuginDlErrorCode %d
+CloudClient: clear GFwDlErrorCode %d
+CloudClient: clear GPuginDlErrorCode %d
+CloudClient: return GPuginDlErrorCode %d
+CloudClient: now gErrorCode %d 
+CloudClient: return gErrorCode %d 
+CloudClient: get notifyEvent:connectInterval interval=%d.
+CloudClient: get notifyEvent:heartbeatInterval interval=%d.
+illegalType
+reconnectTime
+CloudClient: usr get event:illegalDevice.
+CE: %d illegalType %d reconnectTime %d s.
+reason
+CloudClient: get notifyEvent:reason(%d) reconnectTime=%d.
+CE: %d 
+CloudClient: usr get event:legalDevice.
+displayType
+retainedMessageBar
+content
+msgId
+CloudClient: add msg into message queue = %s
+/cloud_config/cloud_push/new_pure_message
+CloudClient: ~add msg into message queue = %s
+/cloud_config/cloud_push/new_plug_in
+CI: New PI[%s].
+fwUpdateType
+CI: New FW[%s].
+CloudClient: paramsObj is NULL.
+requestData
+CloudClient: requestData is NULL.
+CloudClient: requestDataObj method NULL.
+CloudClient: filter setting failed,ret = %d.
+CloudClient: unsupport method failed
+responseData
+fwVer
+CloudClient: illegal getFwCurrentVer STR_DEVICE_FWVER.
+fwId
+CloudClient: illegal getFwCurrentVer STR_DEVICE_FWID.
+wifiBand
+wifiState
+wifiSsid
+wifiSecType
+wifiKey
+wanType
+wanIp
+wanMask
+wanGateway
+deviceId
+CloudClient: illegal STR_DEVICE_ID.
+cloudUserName
+CloudClient: illegal STR_CLOUD_USERNAME.
+deviceName
+CloudClient: illegal STR_DEVICE_NAME.
+CloudClient: illegal STR_DEVICE_ALIAS.
+deviceMac
+CloudClient: illegal STR_DEVICE_MAC.
+hwId
+CloudClient: illegal STR_DEVICE_HWID.
+deviceModel
+CloudClient: illegal STR_DEVICE_MODEL.
+deviceHwVer
+CloudClient: illegal STR_DEVICE_HWVER.
+CloudClient: illegal STR_DEVICE_FWID.
+CloudClient: illegal STR_DEVICE_FWVER.
+lanIp
+CloudClient: add ip failed.
+lanMac
+CloudClient: add mac failed.
+CloudClient: set alias failed.
+CloudClient: find method %s callback.
+result
+event
+CloudClient: eventName is NULL.
+CloudClient: find %s event callback.
+CloudClient: get device id failed.
+CloudClient: deviceId not match %s->%s
+CloudClient: can not get user name 
+CloudClient: usrName not match
+fwUrl
+updateTime
+getDeviceInfo
+getFwCurrentVer
+updateFw
+unbindDevice
+notifyEvent
+getFwDownloadProgress
+setAlias
+getLanInfo
+getWanInfo
+getWifiBasic
+passthrough
+newFirmware
+newPlugIn
+newPureMessage
+legalDevice
+illegalDevice
+stopConnect
+Email format error
+Email length error
+Email password length error
+Cloud client internal error
+Request id not found
+The method does not exist
+Method parameter invalid
+Get data failed
+URL invalid
+Password format error
+Download firmware failed
+Upgrade firmware failed
+Configurate failed
+Permission denied
+Timeout
+Memory out
+Send request message to cloud failed
+Connecting to cloud server
+Waiting last request
+Account format error
+Verify code format error
+New password invalid
+Account name error
+Device id error
+Device not bound
+Account empty
+Password empty
+Veri code empty
+Illegal device
+device already bound
+device already unbound
+big pond
+l2tp
+pptp
+dhcp plus
+/cloud_status/router_request/
+/cloud_status/cloud_client/client_info
+/cloud_status/cloud_client/reset_veri_code_timer
+/cloud_status/cloud_client/reg_veri_code_timer
+action_status
+err_code
+owner
+connect_status
+disconnect_reason
+fw_download_progress
+fw_download_status
+CloudClient: return gFwDlErrorCode %d
+download_error_code
+CloudClient: no this action(%s)
+CloudClient: this action(%s) is trying now.
+reg_veri_code_timer
+reset_veri_code_timer
+check_fw_ver
+download_fw
+get_account_stat
+reset_account_pwd
+notify_event
+login
+resend_email
+push_plugin_list
+check_plugin_update
+get_plugin_info
+/cloud/brand_mac/total.json
+total.json
+index.json
+CloudClient: Retry check from cloud after 10 mins, now %d mins.
+CloudClient: Retry update from cloud after 10 mins, now %d mins.
+CloudClient: Update mac from cloud after 30 days, now %d mins.
+CloudClient: domain:%s is ip:%d
+CloudClient: getIpFromPool have no found ip
+CloudClient: getIpFromPool flag = %d, pos = %d, ip = %d
+CloudClient: current state is %s. ctx is only to be changed under IDLE.
+CloudClient: download still running.
+CloudClient: Illegal error:%d.
+CloudClient: 
+	   > @ERROR(%s) occur at step(%s)
+CloudClient: [State] %s -> %s
+CloudClient: receiving data...
+CloudClient: recv error.
+CloudClient: data received.
+CloudClient: sending request...
+CloudClient: request sent. send size: %d
+CloudClient: connecting...
+CloudClient: connection failed.
+CloudClient: connected.
+CloudClient: mcbMalloc error return
+CloudClient: modelRead %s ERROR
+CloudClient: unloadAppByhand pluginId %s error
+CloudClient: can not find can update plugin %s
+CloudClient: DNS is null, cannot access Internet.
+CloudClient: Fail to create new session.
+CloudClient: malloc downloadFirmwareBuf time=%d OK.
+CloudClient: downloadFirmwareBuf malloc error
+CloudClient: Invalid proto ops in lack of essential handles.
+CloudClient: Fail to parse url.
+http://
+CloudClient: In downloadCtxInit 
+CloudClient: illegal input parameter.
+CloudClient: install plugin %s success
+CloudClient: install plugin %s failed
+CloudClient: ++++++++checkDownlaodFirmware error
+CloudClient: ++++++++fwHandleCb success+++++++++++++++++
+CloudClient: Previous state:%s, retries:(%d/%d), error:%d
+CloudClient: Finish with fatal error. -- DNS is set zero.
+CloudClient: Finish with fatal error.
+CE: %d Downloading failed with fatal error!
+CloudClient: Retry counts exceeds limit.
+CloudClient: %d State: %s Timeout, retries:(%d/%d), Download Failed.
+CloudClient: Retrying...
+CloudClient: %d State: %s Timeout, retries:(%d/%d), Retrying ...
+CloudClient: finish handle failed
+CloudClient: finish handle success
+CONNECT
+SENDREQ
+RECVDATA
+FINISH
+RECONNECT
+No error.
+Initiation failure.
+Connecting error.
+Sending error.
+Receiving error.
+Timeout error.
+Retries exceed limit.
+Illegal URL.
+Buffer overflow.
+Protocol error.
+Illegal parameters.
+Internal error.
+Unable to obtain download lock.
+http redirect and connect again.
+CloudClient: new url:domain=%s, filename=%s.
+CloudClient: *****%s download progress: %%%d
+CloudClient: Session invalid.
+Download progress: %%%d (%d/%d)
+%s():register filter fail
+%s():arg num is overflow
+params
+getPlugins
+indexStart
+indexEnd
+category
+excellent
+getPluginInfo
+pluginId
+closeConnection
+pushFwDownloadProgress
+CloudClient: getCanUpPluginResultHandle errCode=%d
+CloudClient: appCount=%d, arrayCount=%d
+excellentImgUrl
+CloudClient: CLOUD_CLIENT_MALLOC PLUGIN_GOOD_EXCEL no memory
+CloudClient: before for
+CloudClient: jsonObjectArrayGetIdx error
+CloudClient: STR_PLUGIN_ID error
+goodIcoUrl
+CloudClient: STR_PLUGIN_GOODICONURL error
+checkPluginUpdate
+getNotInstalledPlugins
+getCanUpdatePlugins
+CI: %s Logout FR.
+CI: %s Logout ML.
+bindDevice
+notInstalled
+canUpdate
+CloudClient: Read app info entry %s fail.
+CloudClient: pluginInfo->property=%d, pluginProperty=%d
+preInstalledList
+manualInstalledList
+pushPluginList
+preInstalled
+manualInstalled
+CloudClient: must unbind
+CloudClient: must bind again
+CloudClient: normal process
+wait_time
+\r\n
+\\r\\n
+CloudClient: errCode == %d
+CloudClient: get plugin id error
+descForWebUrl
+CloudClient: get plugin descforweb error
+descForAppUrl
+CloudClient: get plugin descforapp error
+CloudClient: get plugin release time error
+CloudClient: get plugin author error
+CloudClient: get plugin tag error
+updateLog
+CloudClient: get plugin update log error
+icoForAppUrl
+CloudClient: get plugin iconforapp error
+webZipForAppUrl
+CloudClient: get plugin webforapp error
+icoForWebUrl
+dataUrl
+CloudClient: appCount != arrayCount
+CloudClient: updateIconurl = %s
+CloudClient: update dataurl = %s
+Latest PI 
+New PI 
+(%s,
+ %s) 
+CI: %s.
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-><.,[]{}?/+=|\'":;~!#$%()`&@*^_
+modifyCloudPassword
+oldCloudPassword
+newCloudPassword
+0123456789
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-><.,[]{}?/+=|\'":;~!#$%()` &*^
+checkResetPasswordVeriCode
+veriCode
+checkRegVeriCode
+getResetPasswordVeriCode
+accountType
+CloudClient: last option is not finished.
+CloudClient: get username failed.
+getRegVeriCode
+getCloudAccountStatus
+resetCloudPassword
+cloudPassword
+CloudClient: the param for random error
+CloudClient: after %d seconds do auto update
+CloudClient: after one day, random time is comming, do auto update
+CloudClient: mcbmalloc error
+/system/clock_status/clock_status
+CloudClient: autoUpdateTimer modelRead systemTime error
+CloudClient: autoUpdateTimer modelRead newFirmware error
+CloudClient: newFirmware.time=%d, nowTime=%d
+CloudClient: randomBetween Params error autoUpdateTimer
+CloudClient: ONE_DAY_TIME is comming, after %d seconds do auto update
+CloudClient: no flow time=%d s
+CloudClient: no flow time >= 10m, do auto update
+fwList
+CI: Latest FW.
+fwType
+fwReleaseDate
+fwReleaseLog
+fwReleaseLogUrl
+fwLocation
+CI: New FW Ver %s.
+CloudClient: fwVer=%s, upgradeinfo->version=%s
+CloudClient: modelRead system time error
+CloudClient: setAutoUpdateFlag to TRUE,notifyTime=%d
+CloudClient: Illegal input parameter.
+CloudClient: send timeout!
+CloudClient: send select failed!
+CloudClient: download fw, select time out.
+CloudClient: download fw, select failed.
+CloudClient: illegal parameter.
+CloudClient: illegal format.
+CloudClient: name size overflow.
+CloudClient: 
+	   >   domain:%s
+	   >   file:%s
+CloudClient: do not support at this moment.
+CloudClient: Protocol - [%s]
+CloudClient: random port failed.
+CloudClient: binding error.
+CloudClient: global port enable failure @ port %d
+CloudClient: local port enable failure @ port %d
+CloudClient: ivalid parameters!
+CE: %d
+CE: %d Get stored IP failed
+CloudClient: socket error
+CloudClient: setup address failed.
+CloudClient: session->port=%d
+CloudClient: ioctl set nonblock failed
+CloudClient: connect success.
+CloudClient: select failed.
+CloudClient: select timeout.
+CloudClient: getsockopt internal error.
+CloudClient: sockfd is not set.
+CI: TCP req, %s:%d.
+CI: TCP req,succ.
+CloudClient: connect error
+CI: TCP req,fail, %d.
+/system/all_push_msg
+deviceMessage
+eventType
+CloudClient: illegal input
+GET %s HTTP/1.1
+Accept: text/html, image/jpeg
+Accept-Language: zh-cn
+Host: %s
+Connection: Keep-Alive
+CloudClient: generate header failed.
+CloudClient: download fw,  send http-get,size is %d
+302 Found
+CloudClient: It's 302 Found message!
+Content-Length: 
+CloudClient: can't find Content-Length message!
+Location: 
+CloudClient: reply is 302 Found
+CloudClient: find Location and URL: %s
+CloudClient: read head failed!
+200 OK
+CloudClient: reply is not HTTP OK, exit
+%d %*s
+CE: %d HTTP statusCode %d
+CloudClient: download fw,parse htpp reply error.
+CloudClient: download fw,left buffer is not enough
+CloudClient: download fw,read left message failed!
+CloudClient: download fw,httpHeadSize is %d, content-Length is %d
+HTTP
+RX_BROAD ==> %d
+RX_PAUSE ==> %d
+RX_MULTI ==> %d
+RX_FCSERR ==> %d
+RX_ALIGNERR ==> %d
+RX_RUNT ==> %d
+RX_FRAGMENT ==> %d
+RX_64B ==> %d
+RX_128B ==> %d
+RX_256B ==> %d
+RX_512B ==> %d
+RX_1024B ==> %d
+RX_1518B ==> %d
+RX_MAXB ==> %d
+RX_TOLO ==> %d
+RX_GOODBL ==> %d
+RX_GOODBU ==> %d
+RX_OVERFLW ==> %d
+RX_BADBL ==> %d
+RX_BADBU ==> %d
+TX_BROAD ==> %d
+TX_PAUSE ==> %d
+TX_MULTI ==> %d
+TX_UNDERRN ==> %d
+TX_64B ==> %d
+TX_128B ==> %d
+TX_256B ==> %d
+TX_512B ==> %d
+TX_1024B ==> %d
+TX_1518B ==> %d
+TX_MAXB ==> %d
+TX_OVSIZE ==> %d
+TX_TXBYTEL ==> %d
+TX_TXBYTEU ==> %d
+TX_COLL ==> %d
+TX_ABTCOLL ==> %d
+TX_MLTCOL ==> %d
+TX_SINGCOL ==> %d
+TX_EXDF ==> %d
+TX_DEF ==> %d
+TX_LATECOL ==> %d
+reg %x ==> %d
+**********Packet dump******* %p size:%d
+%02x:
+***********end***************
+ATHR_GMACError while setting up the G-mac
+Setting Drop CRC Errors, Pause Frames and Length Error frames 
+Dragonfly -----> S27 PHY
+eth%d Verify MAC address %8.8X %8.8X 
+  sb = %2.2X %2.2X %2.2X %2.2X %2.2X %2.2X
+Tx reap mblk lost, tail(%d), head(%d), unit(%d)
+Assertion failed: 0, file ag7240End.c, line 2029
+ATHR_GMAC: cfg_1: %#x
+ATHR_GMAC: cfg_2: %#x
+ATHR_GMAC: cfg_3: %#x
+ATHR_GMAC: cfg_4: %#x
+ATHR_GMAC: cfg_5: %#x
+ERROR:%s:%d transaction failed
+ATHR_GMACMax resets limit reached exiting...
+ATHR_GMAC::%s  Done
+athr_gmac_fast_reset
+GMAC%d Fast Reset(at %d day %d:%d:%d):
+ RxFsm:0x%X  TxFsm:0x%X  RxFD:0x%X  RxCtrl:0x%X  TxCtrl:0x%X  RXPF:0x%X  TXPF:0x%X
+DmaIntr:0x%X  DmaIntrMask:0x%X  TxStatus:0x%X  RxStatus:0x%X
+GMAC%d FAST RESET: RxFsm=0x%X  TxFsm=0x%X  RxFD=0x%X  RxCtrl=0x%X  TxCtrl=0x%X
+RXPF=0x%X  TXPF=0x%X  DmaIntr=0x%X  DmaIntrMask=0x%X  TxStatus=0x%X  RxStatus=0x%X
+Hit GMAC Hang Signature 0x%x
+ATHR_GMAC: unable to allocate buffers
+ATHR_GMAC: unable to allocate coherent descs
+Assertion failed: mac, file ag7240End.c, line 1160
+: unable to allocate rx
+Setting PHY...
+Rx no mblk, drop packet. unit=%x
+Rx forced to drop packet. unit=%x
+assert(mac->mac_ifup);
+assert(isr == (isr & imr));
+Drop rxovf packets in ISR, unit=%x
+Drop Rx packets in ISR, unit=%x
+Reap Tx packets in ISR, unit=%x
+unhandled intr isr %#x, unit=%x
+Assertion failed: mac->refCount > 0, file ag7240End.c, line 4417
+cblk
+Can't support in this version.
+mblk
+MBLK Info
+index	clblk		clbuf		data		len	refcnt	flag	status
+%d:	0x%x	0x%x	0x%x	%u	%d	0x%x	0x%x
+MBLK %d FREE %d ERROR %d  RXMBLK %d TXMBLK %d UPPERMBLK %d FREEMBLK %d STEALMBLK %d
+tx_head %d tx_tail %d mask 0x%x intr 0x%x cfg1 0x%x
+%s: Could not allocate ethernet pool memory
+%s: Could not allocate mclBlk memory
+Rx clbufs %d each of size %d 
+%s: Failed to initialize memory pool
+ag7240EndLoad: Null initString
+TPLINK AP143 Ethernet
+ag7240EndLoad: errorExit!
+Tx packet too long, drop it. unit=%x
+Tx no mblk, drop packet. unit=%x
+Assertion failed: !ag7240_tx_owned_by_dma(ds), file ag7240End.c, line 3208
+GMII
+RGMII
+RMII
+SGMII
+10Mbps
+100Mbps
+1000Mbps
+half duplex
+full duplex
+ar7240_flash_driver:.romsize:0x%08x block:0x%08x sector:0x%08x rombaseaddr:0x%08x
+Unknown manufactor 0x%02X.
+ar71xxSioPRxChar
+AR963x: AP151 Board
+1.2/1
+Speeds(Hz): CPU %d, DDR %d, AHB %d
+addr 0x%x - val 0x%x
+BSP Version: %s
+AR7240 JumpStart init..........
+sysreg
+Show sys reg.
+portstat
+output the value of the port statistics counters.
+gmacstat
+output the value of the gmac statistics counters.
+phystat
+output the value of the phy status.
+portreg
+show port reg.
+phyreg
+show phy reg.
+gmaccheck
+check gmac and dma status.
+%-12u
+===============================Rx===========================
+gmac
+fcserr
+multi
+pause
+===============================Tx===========================
+%-12s%-12s%-12s%-12s%-12s%-12s%-12s
+defer
+drop
+Turn on checking gmac and dma status!
+-off
+Turn off checking gmac and dma status!
+-reset
+reset WAN DMA
+-openrxctrl
+Open Rx flow control.
+-closerxctrl
+Close Rx flow control.
+-opentxctrl
+Open Tx flow control.
+-closetxctrl
+Close Tx flow control.
+%-12s
+%s%-9u
+%s%-10x
+regValue is 0X%08X
+write over !
+%-12u
+================================Rx===================================
+puase
+totByte
+flow
+filter
+%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s%-12s
+rx64
+rx128
+rx256
+rx512
+rx1024
+rx1518
+rxMax
+================================Tx===================================
+abort
+tx64
+tx128
+tx256
+tx512
+tx1024
+tx1518
+txMax
+-more
+register addr = 0x%x, value = 0x%x
+register value = 0x%x
+set regAddr:%x, regValue:%x
+mac : %02x:%02x:%02x:%02x:%02x:%02x
+func: %02x
+port: %02x
+stat: %02x
+ATHRS27:%s:Error invalid Phy Address:0x%x
+ERROR:%s failed:phy:%d reg%X
+ERROR:%s failed:phy:%d reg:%X rd_data:%X
+invalid phy address: 0x%x.
+the switch don`t support mode 0x%02x yet!
+not suport speed, %d!
+it should never come here!
+Set phy %d link mode 0x%02x.
+Unkown speed read!
+enet%d port%d down
+enet%d port%d up %s %s duplex
+invalid phy index: 0x%x.
+ATHRS27:%s S27_PHY_CONTROL %d :%x
+ATHRS27:%s S27_PHY_SPEC_STAUS %d :%x
+ATHRS27: resetting s27
+ATHRS27: s27 reset done
+ATHRS27:Port status register read 2:%X
+ATHRS27:S27 S27_PHY_FUNC_CONTROL (%d):%x
+ATHRS27:S27 PHY ID  (%d) :%x
+ATHRS27:S27 PHY CTRL  (%d) :%x
+ATHRS27:S27 ATHR PHY STATUS  (%d) :%x
+ATHRS27:S27 S27_CPU_PORT_REGISTER :%x
+ATHRS27:S27 PORT_STATUS_REGISTER0  :%x
+ATHRS27:S27 PORT_STATUS_REGISTER1  :%x
+ATHRS27:S27 PORT_STATUS_REGISTER2  :%x
+ATHRS27:S27 PORT_STATUS_REGISTER3  :%x
+ATHRS27:S27 PORT_STATUS_REGISTER4  :%x
+ATHRS27:S27 PORT_CONTROL_REGISTER0 :%x
+ATHRS27:S27 PORT_CONTROL_REGISTER1 :%x
+ATHRS27:S27 PORT_CONTROL_REGISTER2 :%x
+ATHRS27:S27 PORT_CONTROL_REGISTER3 :%x
+ATHRS27:S27 PORT_CONTROL_REGISTER4 :%x
+ATHRS27:ATHRS27:OPERATIONAL_MODE_REG0:%x
+ATHRS27:ATHRS27:REG 0x4-->:%x
+ATHRS27:ATHRS27:REG 0x2c-->:%x
+ATHRS27:ATHRS27:REG 0x8-->:%x
+FTP ALG
+PPTP ALG
+H323-ALG
+RTSP_ALG
+ISAKMP ALG
+ESP ALG
+/firewall/wan_manage/wan_manage
+src_ip
+Connected
+Disconnected
+Function %s assertion failed: NULL != mapping, file:%s, line:%d.
+igd.c
+/upnpd/upnp_lease
+Down
+Other
+/upnpd/upnpd/config
+Function %s assertion failed: OK == regOprInterface(UPNPD_CONFIG_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == regOprInterface(UPNPD_LEASE_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(UPNPD_CONFIG_PATH, FALSE, (FUNCPTR)igdNotify), file:%s, line:%d.
+enable_upnp
+desc
+ext_port
+inner_port
+client
+Action Failed
+New%s
+NewRemoteHost
+No RemoteHost
+No ExternalPort
+Invalid ExternalPort
+NewProtocol
+No PortMappingProtocol
+Invalid PortMappingProtocol
+Entry not found !
+NewEnabled
+NewPortMappingDescription
+NewLeaseDuration
+No NewPortMappingIndex
+Invalid NewPortMappingIndex
+No NewExternalPort
+Invalid NewExternalPort
+No NewPortMappingProtocol
+Invalid NewPortMappingProtocol
+No NewInternalPort
+Invalid NewInternalPort
+No NewInternalClient
+Invalid NewInternalClient
+No NewEnabled
+No NewLeaseDuration
+No NewPortMappingDescription
+Port mapping table id full !
+ConflictInMappingEntry
+/igd.xml
+NoSuchEntryInArray
+DefaultConnectionService
+WANAccessType
+Layer1UpstreamMaxBitRate
+Layer1DownstreamMaxBitRate
+PhysicalLinkStatus
+MaximumActiveConnections
+TotalBytesSent
+TotalBytesReceived
+TotalPacketsSent
+TotalPacketsReceived
+ConnectionType
+PossibleConnectionTypes
+ConnectionStatus
+Uptime
+LastConnectionError
+RSIPAvailable
+NATEnabled
+ExternalIPAddress
+PortMappingNumberOfEntries
+PortMappingEnabled
+PortMappingLeaseDuration
+RemoteHost
+InternalPort
+InternalClient
+PortMappingDescription
+urn:schemas-upnp-org:service:Layer3Forwarding:1
+urn:schemas-upnp-org:service:WANCommonInterfaceConfig:1
+urn:schemas-upnp-org:service:WANIPConnection:1
+SetDefaultConnectionService
+GetDefaultConnectionService
+GetCommonLinkProperties
+GetTotalBytesSent
+GetTotalBytesReceived
+GetTotalPacketsSent
+GetTotalPacketsReceived
+SetConnectionType
+GetConnectionTypeInfo
+ForceTermination
+RequestConnection
+GetStatusInfo
+GetNATRSIPStatus
+GetGenericPortMappingEntry
+GetSpecificPortMappingEntry
+AddPortMapping
+DeletePortMapping
+GetExternalIPAddress
+Dmz Status: %s.
+Dmz Host: %d.%d.%d.%d
+Invalid fullcone limit, should between %d~%d.
+Fullcone Status: %s
+Fullcone Limit: %d
+=======================================================================================
+INDEX LOCAL-IP        LOCAL-PORT  OPEN-PORT   REFCNT
+---------------------------------------------------------------------------------------
+%-6d%-16s%-12d%-12d%-8d
+Duplicate Operation.
+Create fullcone hash table failed, not enough memory.
+Create fullcone hash pool failed, not enough memory.
+Create fullcone entry pool failed, not enough memory.
+FULLCONE
+NAPT
+DMZ-HOST
+VIRTUAL-SERVER
+PORT-TRIGGER
+PORT-MAPPING
+Max Bind Entry: %d
+INDEX PROTO   LOCAL(IP:PORT)        REMOTE(IP:PORT)       OPEN(START-END) APPLICATION	REFCNT
+%-6d%-8s
+%d.%d.%d.%d:%d
+%-22s
+%d-%d
+%-16s%-16s%-8d
+%s():Show lever %d.
+--------------------------------------
+IF-NAT
+2.13
+Support Applicatoins: NAPT FULLCONE DMZ UPNP VIRTSVR PORTTGR ALG FASTPATH.
+SNAT-FILTER
+DNAT-FILTER
+NAT-FASTPATH
+():Nat outbound filter hook install error.
+():Nat inbound filter hook install error.
+():Nat fastpath filter hook install error.
+Show nat runtimes.
+Show All Nat Application Lever Gateway:
+-----------------------------------------------------------------------------
+INDEX PROTO   PORT  DESC             TYPE      ENABLE
+POST-XLAT
+NO-XLAT
+PRE-XLAT
+%-6d%-8s%-6d%-17s%-10s%-6d
+%.*s
+ICMP ALG
+ICMPDATAGRAM
+FTP-ALG
+%d Entering Passive Mode (%hu,%hu,%hu,%hu,%hu,%hu)
+%d Entering passive mode (%hu,%hu,%hu,%hu,%hu,%hu)
+PORT %hu,%hu,%hu,%hu,%hu,%hu
+H245-ALG
+IPSEC-ALG
+PPTP-ALG
+destination=
+RTSP-ALG
+transport session error
+client_port=
+client_port=%u-%u
+client_port=%u/%u
+client_port=%u
+destination=%d.%d.%d.%d
+SETUP
+RTSP/1.0 200 OK
+Transport:
+Function %s assertion failed: OK == regOprInterface(DEVICE_INFO_PATH, &operation), file:%s, line:%d.
+deviceInfo.c
+Function %s assertion failed: OK == registerVerNotify(UHTTPD_WEBPWDSEC_PATH, FALSE, (FUNCPTR)domainNotify), file:%s, line:%d.
+sys_software_revision
+sys_software_revision_minor
+device_name
+device_info
+device_model
+hw_version
+domain_name
+language
+product_id
+vendor_id
+sw_version
+enable_dns
+Function %s assertion failed: NULL != pOem, file:%s, line:%d.
+Function %s assertion failed: NULL != pDevice, file:%s, line:%d.
+fullName
+facturer
+modelName
+deviceInfo
+modelVer
+domainEnable
+TRUE
+FALSE
+domainName
+prodId
+languId
+oemId
+turbo
+facIp
+facMask
+cloudSrvDomain
+cloudSrvPort
+powerMode
+devModel:
+hwVer:
+Oem information init failed.
+%d.%d.%d Build %02d%02d%02d Rel.%dn
+dhcp_server
+DHCPS: IP(%d.%d.%d.%d) not in dhcp pool or equal to server ip, ignore!!!
+DHCPS: DNS flush %08x/%08x
+DHCPS: malloc error.
+/dhcpd/dhcp_clients
+DHCPS: modelRead error.
+DHCPS: mcbMalloc error.
+/hosts_info/bind_list
+192.168.1.199
+192.168.1.100
+DHCPS: address pool start = 0x%x
+DHCPS: address pool end = 0x%x
+DHCPS: Open port %d, dhcp start service.
+/ip_mac_bind/user_bind
+DHCPS: Table not found
+DHCPS: Too many entry
+DHCPS: Section %d[%s] not found
+DHCPS: Load %d entry from flash
+DHCPS: server socket call failed: %m
+DHCPS: server socket set reuseaddr option failed: %m
+DHCPS: server socket set broadcast option failed: %m
+DHCP HOST
+192.168.1.1
+Function %s assertion failed: OK == regOprInterface(DHCPS_SECTION_PATH, &operation), file:%s, line:%d.
+dhcps.c
+Function %s assertion failed: OK == registerVerNotify(DHCPS_SECTION_PATH, TRUE, (FUNCPTR)dhcpsVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(DHCPS_SECTION_PATH, FALSE, (FUNCPTR)dhcpsNotify), file:%s, line:%d.
+Function %s assertion failed: OK == regOprInterface(DHCPS_TABLE_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == regOprInterface(BIND_LIST_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(DHCPD_NAME, "dnsFlush", (FUNCPTR)dhcpsInstrCallback), file:%s, line:%d.
+pool_start
+pool_end
+lease_time
+DHCPS: bin to before return OK.
+DHCPS: bin to json out.
+expires
+DHCPS: Broadcasting packet to client (NAK).
+DHCPS: Broadcasting packet to client (requested).
+DHCPS: Unicasting packet to client ciaddr.
+DHCPS: state = %d
+DHCPS: hostname = %s
+DHCPS: mac = %02x-%02x-%02x-%02x-%02x-%02x
+DHCPS: ip = %d.%d.%d.%d
+DHCPS: lease = %d
+DHCPS: Send ACK to %d.%d.%d.%d.
+DHCPS: Lease host name not found.
+DHCPS: station entry not found
+DHCPS: The IP distributed equals to server ip, ignore!!!
+DHCPS: %s belongs to someone, reserving it for %ld seconds.
+DHCPS: REQUEST ip %d.%d.%d.%d, static ip %d.%d.%d.%d
+DHCPS: REQUEST ip %d.%d.%d.%d is reserved as a static ip
+DHCPS: REQUEST ip %d.%d.%d.%d already reserved by someone
+DHCPS: REQUEST ip %d.%d.%d.%d is not in the address pool
+DHCPS: before init_packet.
+DHCPS: No ip addresses to give, OFFER abandoned.
+DHCPS: Lease pool is full, OFFER abandoned.
+DHCPS: Send OFFER with ip %d.%d.%d.%d.
+DHCPS: malloc error
+DHCPS: modelRead error
+DHCPS: Error on read, %m, reopening socket.
+DHCPS: Couldn't get option from packet, ignoring.
+DHCPS: Recv DISCOVER from %02X:%02X:%02X:%02X:%02X:%02X.
+DHCPS: Send OFFER failed.
+DHCPS: Recv REQUEST from %02X:%02X:%02X:%02X:%02X:%02X.
+DHCPS: Send NAK to %d.%d.%d.%d, lease ip %d.%d.%d.%d.
+DHCPS: REQUEST ip %d.%d.%d.%d already reserved by %02X:%02X:%02X:%02X:%02X:%02X
+DHCPS: Send NAK to %d.%d.%d.%d.
+DHCPS: Recv DECLINE from %02X:%02X:%02X:%02X:%02X:%02X.
+DHCPS: Recv RELEASE from %02X:%02X:%02X:%02X:%02X:%02X.
+DHCPS: Recv INFORM from %02X:%02X:%02X:%02X:%02X:%02X.
+DHCPS: Unsupported DHCP message (%02x) -- ignoring.
+Domain Filter
+Domain Br Filter
+Function %s assertion failed: NULL != pFilter, file:%s, line:%d.
+domain.c
+Function %s assertion failed: NULL != from, file:%s, line:%d.
+Function %s assertion failed: NULL != to, file:%s, line:%d.
+www.
+Function %s assertion failed: conntrack.pMblk == *mp, file:%s, line:%d.
+ept_manage
+hosts_info
+HTTPD: incorrect i = %d magic number 0x%x, should be 0x%x!
+HTTPD: verdorId error
+HTTPD: zoneCode error
+HTTPD: md5 checksum is not correct!
+HTTPD: incorrect upheader magic number.
+HTTPD: httpChkTpHeader return error
+HTTPD: upgrade header zoneCode error
+HTTPD: checkHwID return error
+HTTPD: FwID is same return error
+HTTPD: checkFwID return error
+HTTPD: plugin is none
+HTTPD: Invalid plugin md5
+HTTPD: wirte plugin error
+HTTPD: incorrect i = %d upheader magic number 0x%x, should be 0x%x!
+HTTPD: RSA SIGN is error
+HTTPD: FwID return error
+sampling return ERROR I = %d sector = %x, local = %x
+HTTPD: mcbMalloc have no memory!
+HTTPD: content type out of range ntohs(upHeader->contentType) = %d CONTENT_TYPE_ALL = %d
+HTTPD: renew boot or TPHead at %x
+HTTPD: renew boot or TPHead is error.
+HTTPD: renewFirmware at %x
+HTTPD: renewFirmware boot or TPHead is error.
+HTTPD: httpFirmwareCheck return ERROR
+Function %s assertion failed: NULL != context, file:%s, line:%d.
+httpFileMgt.c
+Function %s assertion failed: NULL != content, file:%s, line:%d.
+Function %s assertion failed: len > 0, file:%s, line:%d.
+/web
+web-static/dynaform/macFactory.js
+MacBrands
+SDMP-CONFIG
+##########################################################################
+System Log
+# 			       %s  %s 
+# Time = %04d-%02d-%02d %2d:%02d:%02d %us
+# H-Ver = %s : S-Ver = %s
+# L = %d.%d.%d.%d : M = %d.%d.%d.%d
+# WAN = %s : W = %d.%d.%d.%d : M = %d.%d.%d.%d : G = %d.%d.%d.%d
+# Cnt = %d, Free = %d, Busy = %d
+##########################################################################
+%3ddays, %02d:%02d:%02d, %s
+Function %s assertion failed: NULL != context->path, file:%s, line:%d.
+admin/system/download_conf
+admin/system/downloads_logs
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-><.,[]{}?/+=|\'":;~!#$%()`&
+logout
+chg_pwd
+HTTPD: action in module [%s]
+HTTPD: %s(%d): doActionToModel  return %d
+guest_network
+HTTPD: arraySize: %d, dataName: %s.
+para
+eth0
+iface_mac
+HTTPD: httpProcDataSrv method %s, content: %s.
+{"%s":%d, "%s":"%s"}
+stok
+query_auth_log
+set_password
+{"%s":%d}
+get_domain_array
+HTTPD: httpDoAuthorize failed.
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_FIRMWARE_UPGRADE, (FUNCPTR)firmwareUpgrade), file:%s, line:%d.
+httpParser.c
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_CONF_DOWNLOAD, (FUNCPTR)confDownload), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_CONF_UPLOAD, (FUNCPTR)confUpload), file:%s, line:%d.
+download_logs
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_LOG_ACTION_DOWNLOAD, (FUNCPTR)logDownload), file:%s, line:%d.
+Function %s assertion failed: NULL != value, file:%s, line:%d.
+Function %s assertion failed: NULL != pointer, file:%s, line:%d.
+/admin/system/downloads_logs
+/admin/system/upload_conf
+/admin/system/download_conf
+keep-alive
+iPhone
+iPad
+multipart/form-data
+boundary=
+application/json
+HTTPD: invalid method %d.
+HTTPD: factory upgrade check error
+HTTPD: upgrade plugin error
+HTTPD: recieve remainder error
+{"%s":%d, "%s":%d}
+CaptiveNetworkSupport
+/pc/CaptiveNetworkSupport.htm
+HTTPD: key word add error, invalid arg.
+HTTPD: key word add error, max support 20 keywords.
+Content-Type
+Content-Length
+User-Agent
+Origin
+Connection
+disposition
+/pc/IndexIpad.htm
+/pc/Index.htm
+/web/upnp
+MIUI
+XiaoMi/MiuiBrowser
+HTTPD: Http send timeout.
+HTTPD: FAIL:alloc content error, no memory.
+HTTPD: FAIL:ioctl accept non block fail.
+POST
+M-POST
+SUBSCRIBE
+UNSUBSCRIBE
+HTTP/1.0
+HTTP/1.1
+HTTPD: Http receive timeout.
+Function %s assertion failed: NULL != context->buffer, file:%s, line:%d.
+HTTPD: Setsockopt rcv timeout fail.
+{"%s":%d}
+.html
+.gif
+.png
+.jpeg
+.ico
+.jpg
+.css
+.txt
+.zip
+HTTP/%s %d %s
+Content-Type: application/octet-stream
+Content-Type: %s;charset=UTF-8
+Content-Length: %d
+Connection: %s
+Location: http://%s:%d
+Content-disposition: attachment;filename="%s"
+config.bin
+syslog.txt
+Access-Control-Allow-Origin: *
+Cache-control: max-age=%d
+Cache-control: no-cache
+HTTPD: FAIL(async):alloc content error, no memory.
+/admin/system/firmware_upgrade
+/admin/system/factory_firmware_upgrade
+Moved Temporarily
+Bad Request
+Unauthorized
+Forbidden
+Not Found
+Method Not Allowed
+Length Required
+Precondition Failed
+Request Entity Too Large
+Request-URI Too Long
+Internal Server Error
+Not Implemented
+Service Unavailable
+HTTP Version not supported
+192.168.1.10
+-reboot
+-moduletree
+-station
+-device
+sendtype
+addid
+addall
+cleanall
+rmvid
+-unld
+-symble
+Function %s assertion failed: OK == registerVerNotify(UHTTPD_WEBPWDSEC_PATH, TRUE, (FUNCPTR)uhttpdVerify), file:%s, line:%d.
+httpd.c
+Function %s assertion failed: OK == registerVerNotify(UHTTPD_WEBPWDSEC_PATH, FALSE, (FUNCPTR)uhttpdNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(UHTTPD_MAINSEC_PATH, TRUE, (FUNCPTR)uhttpdVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(UHTTPD_MAINSEC_PATH, FALSE, (FUNCPTR)uhttpdNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(SYSTEM_SYS_PATH, FALSE, (FUNCPTR)uhttpdNotify), file:%s, line:%d.
+webPwd
+fac_password
+WaQ7xbhc9TefbwK
+listen_http_lan
+listen_http_wan
+HTTPD: Create http socket error.
+HTTPD: Http socket listen error.
+HTTPD: Http socket set non block error.
+HTTPD: Http(UPnP) socket add to listen array error.
+HTTPD: Http(Remote) socket add to listen array error.
+HTTPD: Http(Admin) socket add to listen array error.
+modify_password
+HTTPD: Http server start!
+HTTPD: Http remote server start!
+reboot, reset or firmware.
+Function %s assertion failed: NULL != rdset, file:%s, line:%d.
+HTTPD: %s:Socket has been closed, index = %d.
+HTTPD: Socket has been closed, index = %d.
+HTTPD: Invalid listen socket.
+HTTPD: Listen socket accept error.
+HTTPD: Setsockopt snd timeout fail.
+HTTPD: Setsockopt nodelay fail.
+HTTPD: Setsockopt linger fail.
+00-00-00-00-00-00
+%02x-%02x-%02x-%02x-%02x-%02x
+%s inet %d.%d.%d.%d netmask %d.%d.%d.%d
+LAN: Set interface %s ip=%d.%d.%d.%d netmask %d.%d.%d.%d.
+Device %s not found.
+Invalid lan mac, now start by default mac %02X-%02X-%02X-%02X-%02X-%02X.
+End object %s could not found, abort...
+LAN: Detach %s from stack.
+LAN: Attach %s to stack.
+Function %s assertion failed: OK == regOprInterface(NETWORK_LANSEC_PATH, &operation), file:%s, line:%d.
+lan.c
+Function %s assertion failed: OK == registerVerNotify(NETWORK_LANSEC_PATH, TRUE, (FUNCPTR)lanVerify), file:%s, line:%d.
+/network/lan_status/lan_status
+Function %s assertion failed: OK == regOprInterface(LAN_STATUS_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, ACT_APPLY_LAN_CFG, (FUNCPTR)lanInstrCallback), file:%s, line:%d.
+%s_%u
+lanVerify modelReadEx %s failed.
+fac_ipaddr
+fac_netmask
+QueryStateVariable
+| |-%s Ver:%s%s
+| |-%s %s
+| |-%s
+devDiscover: send_advertisement_frame.
+devDiscover: ubus send_advertisement_frame error. %s
+devDiscover: send_discovery_frame.
+devDiscover: ubus send_discovery_frame error. %s
+Discovered Devices:
+|-%02d (%u)
+ (Cloud Router)
+/config/cloud_config.json
+devDiscover: Fail to update advertisement frame!
+devDiscover: error, ret = %d
+devDiscover: Socket create error.
+devDiscover: Setopt error for broadcast.
+devDiscover: sockNonBlock error.
+devDiscover: Socket bind error.
+devDiscover: Regist devDiscover socket error.
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, ACT_GET_DOMAIN_ARRAY, (FUNCPTR)devDiscoverGetArray), file:%s, line:%d.
+main.c
+Function %s assertion failed: OK == registerVerNotify(NETWORK_LANSEC_PATH, FALSE, (FUNCPTR)devDiscoverNotify), file:%s, line:%d.
+239.255.255.250
+vxWorks/5.5 UPnP/1.0 %s/%s
+8c15e41f-3d83-41c1-b35d-%02X%02X%02X%02X%02X%02X
+Function %s assertion failed: NULL != rootDev, file:%s, line:%d.
+miniUPnP.c
+Function %s assertion failed: '\0' != context->path[0], file:%s, line:%d.
+FRIENDLYNAME_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_FRIENDLYNAME
+PRESENTATIONURL_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_PRESENTATIONURL
+http://%d.%d.%d.%d:%d%s
+UDN_AAAAAAAAAAAAAAAAAAAAAAAAAAAA_UDN
+Function %s assertion failed: NULL != devNode, file:%s, line:%d.
+Function %s assertion failed: NULL != handle, file:%s, line:%d.
+UPNPD: Add error, max device number is %d.
+UPNPD: Invalid device, no deviceType.
+:device:
+UPNPD: Invalid deviceType %s.
+UPNPD: Root device.
+UPNPD: Add error, max service number is %d.
+UPNPD: Invalid service, no serviceType!
+:service:
+UPNPD: Invalid serviceType!
+UPNPD: Invalid device no serviceList.
+Function %s assertion failed: NULL != rootUrl, file:%s, line:%d.
+Function %s assertion failed: NULL != presentUrl, file:%s, line:%d.
+Function %s assertion failed: NULL != devTable, file:%s, line:%d.
+UPNPD: root device %s regist fail.
+UPNPD: no root device in file %s.
+UPNPD: device add fail, root file %s.
+<HTML><HEAD><TITLE>%d %s</TITLE></HEAD><BODY><H1>%s</H1>%s</BODY></HTML>
+lan_config
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, "igmp", (FUNCPTR)igmpInstrCallback), file:%s, line:%d.
+network.c
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, "dnsProxy", (FUNCPTR)dnsProxyInstrCallback), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, NETWORK_ACTION_DOMAIN, (FUNCPTR)domainInstrCallback), file:%s, line:%d.
+devDiscover: error
+devDiscover: sendto error! %s
+sock = %d, ph = %x, sock_addr = %x
+g_para.bcast_adv_buf = NULL
+1.7.3
+devDiscover: Failed to lookup option %s or %s
+devDiscover: local MAC is same
+devDiscover: node buf full!
+devDiscover: local IP is same
+devDiscover: parse_advertisement_frame from %08x:%u
+devDiscover: parse_discovery_frame from %08x:%u
+devDiscover: send_advertisement_frame to %08x:%u
+devDiscover: parse_discovery_frame error, ret = %d
+devDiscover: Unknown type %d
+devDiscover: check validity fail!
+devDiscover: get_device_model error!
+devDiscover: get_hwver error!
+devDiscover: error! %d
+/network/dyn_route
+Function %s assertion failed: OK == regOprInterface(NETWORK_DYN_ROUTE_PATH, &operation), file:%s, line:%d.
+route.c
+/network/sys_route
+LAN/WLAN
+/network/user_route
+Function %s assertion failed: OK == regOprInterface(NETWORK_USR_ROUTE_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(NETWORK_USR_ROUTE_PATH, TRUE, (FUNCPTR)usrRouteVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(NETWORK_USR_ROUTE_PATH, FALSE, (FUNCPTR)usrRouteNotify), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(NETWORK_NAME, NETWORK_ROUTE_ACTION, (FUNCPTR)routeInstruct), file:%s, line:%d.
+Function %s assertion failed: OK == dynRouteRegister(), file:%s, line:%d.
+Function %s assertion failed: OK == sysRouteRegister(), file:%s, line:%d.
+Function %s assertion failed: OK == usrRouteRegister(), file:%s, line:%d.
+-n delete -host %s %s %s
+-n delete -net %s %s %s
+-n delete -host %s %d.%d.%d.%d
+-n add -host %s -gateway %d.%d.%d.%d
+-n add -host %s -gateway %s
+-n add -net %s %s %s
+%s(): this section does not support modelWrite
+%s(): this section does not support modelRead
+/function/module_spec/module_spec
+Function %s assertion failed: OK == regOprInterface(ROUTER_FUNCTION_PATH, &operation), file:%s, line:%d.
+routerModule.c
+/function/new_module_spec/new_module_spec
+Function %s assertion failed: OK == regOprInterface(NEW_MODULESPEC_PATH, &operation), file:%s, line:%d.
+depends
+module_list
+app_version
+wireless2g_channel
+wireless2g_mode
+wireless2g_bandwidth
+pppoe_dial_mode
+pppoe_conn_mode
+dhcpserver_mode
+lan_mode
+host_num_2g
+host_num_5g
+arg num is overflow
+staticip
+20MHz
+40MHz
+11bg%20mixed
+11bgn%20mixed
+SOAPACTION
+Server: %s
+soap.c
+No SOAPACTION in HTTP headers !
+varName
+%s:%s
+%s<u:%sResponse xmlns:u="%s"><return>%s</return></u:%sResponse>%s
+urn:schemas-upnp-org:control-1-0
+<u:%sResponse xmlns:u="%s">
+<%s>
+</%s>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><s:Fault><faultcode>s:Client</faultcode><faultstring>UPnPError</faultstring><detail><UPnPError xmlns="urn:schemas-upnp-org:control-1-0"><errorCode>%d</errorCode><errorDescription>%s</errorDescription></UPnPError></detail></s:Fault></s:Body></s:Envelope>
+Invalid Action
+Invalid Args
+Function %s assertion failed: NULL != st, file:%s, line:%d.
+ssdp.c
+Function %s assertion failed: NULL != flag, file:%s, line:%d.
+Function %s assertion failed: NULL != usn, file:%s, line:%d.
+Function %s assertion failed: NULL != root, file:%s, line:%d.
+HTTP/1.1 200 OK
+CACHE-CONTROL: max-age=%u
+DATE: %s, %02d %s %d %02d:%02d:%02d GMT
+EXT:
+LOCATION: %s
+SERVER: %s
+ST: %s
+USN: %s
+Function %s assertion failed: sock == miniUPnP.sock, file:%s, line:%d.
+M-SEARCH
+UPNPD: Invalid ssdp packet format<M-SEARCH>.
+UPNPD: Search target = %s.
+ssdp:discover
+UPNPD: Invalid ssdp packet format<Man>.
+upnp:rootdevice
+ssdp:all
+uuid:%s
+uuid:%s::%s
+NOTIFY * HTTP/1.1
+HOST: %s:%d
+CACHE-CONTROL: max-age=%u
+LOCATION: %s
+NT: %s
+NTS: ssdp:alive
+SERVER: %s
+USN: %s
+NOTIFY * HTTP/1.1
+HOST: %s:%d
+NT: %s
+NTS: ssdp:byebye
+USN: %s
+wifi_mode
+/hosts_info/device
+Function %s assertion failed: OK == regOprInterface(STACTRLTBL_PATH, &operation), file:%s, line:%d.
+staMgt.c
+Function %s assertion failed: OK == regOprInterface(STARTTABLE_PATH, &operation), file:%s, line:%d.
+/hosts_info/online_host
+Function %s assertion failed: OK == regOprInterface(ONLINE_HOST_PATH, &operation), file:%s, line:%d.
+/hosts_info/blocked_host
+Function %s assertion failed: OK == regOprInterface(BLOCKED_HOST_PATH, &operation), file:%s, line:%d.
+set_block_flag
+Function %s assertion failed: OK == registerAction(HOSTS_INFO_NAME, ACT_STACTRL_BLOCK, (FUNCPTR)staMgtAddEntry), file:%s, line:%d.
+set_name
+Function %s assertion failed: OK == registerAction(HOSTS_INFO_NAME, ACT_STACTRL_RENAME, (FUNCPTR)staMgtAddEntry), file:%s, line:%d.
+set_flux_limit
+Function %s assertion failed: OK == registerAction(HOSTS_INFO_NAME, ACT_STACTRL_LIMIT, (FUNCPTR)staMgtAddEntry), file:%s, line:%d.
+/hosts_info/plan_rule
+Function %s assertion failed: OK == regOprInterface(STAPLANTBL_PATH, &operation), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(STAPLANTBL_PATH, TRUE, (FUNCPTR)staPlanVerify), file:%s, line:%d.
+Function %s assertion failed: OK == registerVerNotify(STAPLANTBL_PATH, FALSE, (FUNCPTR)staPlanNotify), file:%s, line:%d.
+STAMGT: HOST_MAX_READ_NUM = %d.
+STAMGT: Add [%s] failed, plan table is full.
+STAMGT: Add %s @ %d:%d.
+STAMGT: Add [%s] failed, plan entry is full.
+up_limit
+down_limit
+is_blocked
+%02u:%02u
+STAMGT: validMacFormat [%s] fail.
+start_time
+STAMGT: timeStrCheck [%s] fail.
+end_time
+%s/%08X%04X
+STAMGT: Section %d[%s] sync.
+STAMGT: Section %d[%s] sync error.
+STAMGT: Section %d[%s] sync ok.
+STAMGT: now is %u stations, current pc is No.%u. dname=%s.
+blocked
+is_cur_host
+STAMGT: now is %u stations, current pc is No.%u.
+cfg_valid
+STAMGT: Station %02x-%02x-%02x-%02x-%02x-%02x haven't been recorded.
+STAMGT: Flush realtime table failed, not enough memory..
+STAMGT: Aging section %d[%s].
+STAMGT: modelWrite error.
+%s/%08X%04X_plan_rule_
+STAMGT: Delete section %s.
+arpSync
+STAMGT: Table not found.
+STAMGT: Too many entry.
+STAMGT: Section %d[%s] not found.
+STAMGT: Load %d entry from flash.
+STAMGT: Plan table not found.
+STAMGT: Too many plan entry.
+STAMGT: Load %d plan entry from flash.
+STAMGT: Station control table has %d entry.
+Create tdpd socket error.
+Config tdpd socket error.
+Regist tdpd socket error.
+tdpd recv error.
+recvbuf length = %d, less than hdr's 16
+tdp pkt is too big
+TDP version=%x
+TDP error reserved=%x
+TDP error checksum=%x, should be %x
+TDP sn=%x
+TDP flag error.
+TDP error payload type=%x
+TDP error payload length=%x
+TDP error payload value=%x
+TDP error proId=%x
+TDP error opcode=%x
+TMPD: already have this app in businessList.
+TMPD: Create tmpd socket error.
+TMPD: tmpd socket listen error.
+TMPD: tmpd socket set non block error.
+TMPD: socket setopt error.
+TMPD: tmpd socket add to listen array error.
+Function %s assertion failed: NULL != session, file:%s, line:%d.
+tmpd.c
+TMPD: TMP free session %d.
+TMPD: Invalid listen socket.
+TMPD: Malloc tmp recv buf error.
+TMPD: Malloc tmp send buf error.
+TMPD: can't alloc session.
+TMPD: socket accept error.
+TMPD: session->ssl is null.
+Function %s assertion failed: NULL != session->ssl, file:%s, line:%d.
+TMPD: TMP RECV DATA length = %d
+TMPD: TMP GET ASSOC PKT FROM BUF
+Function %s assertion failed: NULL != buf, file:%s, line:%d.
+TMPD: TMP WAIT FOR FULL PKT
+TMPD: GET PKT ERROR
+TMPD: ENTER ASSOC
+TMPD: GET TMP ASSOC REQUEST PKT
+TMPD: send len != TMP_GP_HDR_LEN
+TMPD: THE TMP FIRST ASSOC PKT MUST BE REQUEST, SO REFUSE
+TMPD: GET TMP ASSOC ACCEPT PKT
+TMPD: ACCEPT ERROR ASSOC PKT
+TMPD: ERROR ASSOC PKT
+TMPD: ENTER DATA
+TMPD: TMP error checksum=%x, should be %x
+TMPD: TMP RECV HELLO PKT
+TMPD: TMP RECV DATA PKT
+TMPD: TMP DISPATCH PKT ERROR
+TMPD: TMP DISPATCH PKT OK %d
+TMPD: TMP RECV BYE PKT
+TMPD: TMP RECV ASSOC PKT and CLOSE SOCK
+TMPD: pSession->sendLen error, pSession->sendLen = %d
+TMPD: ret != pSession->sendLen, ret = %d
+TMPD: TMP SEND PKT OK
+TMPD: TMP LATER CENTER
+TMPD: RECV PKT AT WRONG STATUS
+TMPD: PKT CENTER HANDLE ERROR
+TMPD: TMP REMAIN DATA LENGTH = %d
+TMPD: handle status is not OK, index = %d.
+TMPD: TMP RECV ERROR
+169.254.252.133
+DNS proxy flush %08x/%08x
+DNSPROXY: Dns proxy filter has been installed.
+Dns Proxy Filter
+DNSPROXY: Dns proxy filter installe error.
+169.254.252.132
+dnsProxy.c
+CALLBACK
+Timeout: Second-
+infinite
+SID: %s
+gena.c
+uuid:%u-%u
+second-
+infinite
+Missing CALLBACK or SID !
+Invalid Callback in SUBSCRIBE !
+The subscription is too much !
+Invalid SID !
+UPnP have not implemented event message ack now !
+Invalid event url in SUBSCRIBE !
+{"%s":%d, "%s":{"%s":%d,"%s":%d,"%s":%d}}
+group
+Function %s assertion failed: (NULL != context->session) && (NULL != dictionary), file:%s, line:%d.
+httpAuth.c
+HTTPD: Genery key = %s.
+Function %s assertion failed: NULL != output, file:%s, line:%d.
+HTTPD: Genery tem key = %s.
+{"unauth_log_list%d":{"ip":"%d.%d.%d.%d","mac":"%02X-%02X-%02X-%02X-%02X-%02X","time":"%04d-%02d-%02d-%02d-%02d-%02d"}},
+{"unauth_log_list":[
+null], "curIP":"%d.%d.%d.%d", "error_code":0}
+loginLess
+Login.htm
+LoginChgPwd.htm
+HTTPD: httpDoAuthorize gUnAuthMaxTimes:%u, gLockClientNum:%u.
+~0w]zQR^STU.mn$OPWX>34c(7rstu!vE0VWX>345}abD{12d<89klQR^STUc(7rstu!vE0[ghijFGH)Iop,qe*f6JKL|MNYZ,~0w]zyx+AByx+ABCD{12d<89klC.mn$OPVWX>345}abc(7rstu!vE0[ghijFGH)Iop,qe*f6JKL|MNYZ!n$OPVWX>345}a
+D{9klC.mn$OPVWX>34c(7rstu!vE0[ghijGH)Iop,qe*f6JKL|+AByx+ABCD{12d<8
+IGMP extern IP %08x
+TMPD: MacTool: Key verify failed.
+TMPD: MacTool: RecvData MT payload header check failed.
+TMPD: MacTool: Invalid arguments. dataType = 0x%.4X
+TMPD: MacTool: DataType = 0x%.4X
+%.2X-%.2X-%.2X-%.2X-%.2X-%.2X
+TMPD: MacTool: Mac = [%s] is invalid.
+/wireless/wlan_wps_2g/wlan_wps_2g
+TMPD: MacTool: PIN= [%s] is invalid.
+TMPD: Invalid UID length[%u].
+TMPD: UID:[%s], len = %d
+TMPD: MacTool: read firmware id
+TMPD: MacTool: Fill reply TLV data error.
+TMPD: MacTool: Check product id fail.
+TMPD: MacTool: Error dataLen[%d].
+TMPD: MacTool: Error data.
+TMPD: MacTool: Write MAC succeed.
+TMPD: MacTool: Write PIN succeed.
+TMPD: MacTool: Error dataType[0x%X].
+TMPD: MacTool: Execute data operation error.
+TMPD: MacTool: Op data is already written.
+TMPD: MacTool: DUT reset.
+TMPD: DUT reboot.
+TMPD: Execute effect mac operation error.
+TMPD: MacTool: Invalid operation code.
+TMPD: MacTool: Insert senior key error.
+TMPD: MacTool: Key verify pass.
+TMPD: MacTool: Write MAC failed.
+TMPD: MacTool: Write PIN failed.
+TMPD: Effect mac.
+DIAGNOSE: Diagnose create semaphore fail!
+DIAGNOSE: Diagnose create socket fail!
+DIAGNOSE: set non-block socket fail!
+DIAGNOSE: inet add socket fail!
+DIAGNOSE: DNS query finish, server index=%d.
+DIAGNOSE: DNS server=%d.%d.%d.%d.
+DIAGNOSE: Failed to add DNS socket.
+DIAGNOSE: DNS query (%s) waiting for recv...
+DIAGNOSE: DNS query (%s) timeout.
+DIAGNOSE: Progress not found, maybe has been stopped, id=%d.
+DIAGNOSE: Free context force.
+DIAGNOSE: Failed to receive, not enough memory, size=%d.
+DIAGNOSE: Failed to receive data, system error.
+DIAGNOSE: Receive icmp unreach packet.
+DIAGNOSE: Discard uncorrelated packet.
+DIAGNOSE: Receive icmp time exceeded packet.
+DIAGNOSE: Discard packet, sequence=%d, should be %d.
+DIAGNOSE: Discard unknown packet.
+DIAGNOSE: Recv icmp reply packet id=%d, sequece=%d/%d, peer=%d.%d.%d.%d, ttl=%u, reply tick=%d, type=%d.
+DIAGNOSE: Failed to add timer.
+DIAGNOSE: Set ttl to %d.
+DIAGNOSE: Send icmp packet with ttl=%d, size=%d, id=%d, sequece=%d, peer=%d.%d.%d.%d, start tick = %d.
+DIAGNOSE: Failed to alloc memory, size=%d.
+DIAGNOSE: Failed to send icmp packet, id=%d, size=%d, seq=%d.
+DIAGNOSE: Send icmp packet error.
+DIAGNOSE: context not found.
+DIAGNOSE: DNS query (%s) recv error.
+DIAGNOSE: DNS query (%s -> %d.%d.%d.%d) success.
+DIAGNOSE: DNS query (%s) failed.
+DIAGNOSE: Tracert receive echo reply auto stopped, id=%d, sequence=%d.
+DIAGNOSE: Tracert receive dst unreach auto stopped, id=%d, sequence=%d.
+DIAGNOSE: Tracert receive time exceed packet, id=%d, sequence=%d.
+DIAGNOSE: Has try enough times, now send next sequence, id=%d, sequence=%d.
+DIAGNOSE: Auto stopped, id=%d, sequence=%d.
+DIAGNOSE: Icmp timeout, id=%d.
+DIAGNOSE: Free context auto.
+diagnose
+Function %s assertion failed: OK == registerAction(SYS_DIAGNOSE_ACTION_NAME, "start", (FUNCPTR)diagNoseStartCallback), file:%s, line:%d.
+diagnose.c
+Function %s assertion failed: OK == registerAction(SYS_DIAGNOSE_ACTION_NAME, "stop", (FUNCPTR)diagNoseStopCallback), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(SYS_DIAGNOSE_ACTION_NAME, "get", (FUNCPTR)diagNoseGetCallback), file:%s, line:%d.
+DIAGNOSE: Start diagnose tracert progress .......
+DIAGNOSE: Invalid target ip format.
+DIAGNOSE: Failed to find target.
+DIAGNOSE: DNS query URL=(%s).
+DIAGNOSE: Invalid target domain name format.
+hops
+DIAGNOSE: Invalid no metric param.
+DIAGNOSE: Invalid icmp packet num %d, should be %d~%d.
+DIAGNOSE: Free previous DNS data.
+DIAGNOSE: Tracert failed, thare are %d diagnose progress running.
+DIAGNOSE: Tracert progress is now running with id=%d.
+DIAGNOSE: Stop diagnose tracert progress .......
+DIAGNOSE: Tracert lookup .......
+DIAGNOSE: Invalid no index param.
+DIAGNOSE: Invalid icmp packet Index %d, should be %d~%d.
+DIAGNOSE: Lookup failed, maybe has been stopped, id=%d.
+DIAGNOSE: Lookup failed, DIAGNOSE_MALLOC failed.
+DIAGNOSE: Lookup failed, jsonObjectNewArray failed.
+Finding host %s by DNS server (%d of %d).
+Unable to resolve target system name %s.
+Tracing route to %s [%d.%d.%d.%d]
+over a maximum of %d hops:
+Tracing route to %d.%d.%d.%d over a maximum of %d hops:
+%3d  
+%d.%d.%d.%d  reports: Destination host unreachable.
+%4u ms  
+   *     
+Request timed out.
+Trace complete.
+DIAGNOSE: Start diagnose ping progress .......
+DIAGNOSE: Invalid no size param.
+DIAGNOSE: Invalid icmp data size %d, should be %d~%d.
+DIAGNOSE: Invalid no num param.
+DIAGNOSE: Invalid icmp itmeout %d, should be %d~%d in ms.
+DIAGNOSE: Ping failed, thare are %d diagnose progress running.
+DIAGNOSE: Ping progress is now running with id=%d.
+DIAGNOSE: Stop diagnose ping progress .......
+DIAGNOSE: Ping lookup .......
+Ping request could not find host %s.
+Please check the name and try again.
+Pinging %s [%d.%d.%d.%d] with %u bytes of data:
+Pinging %d.%d.%d.%d with %u bytes of data:
+Reply from %d.%d.%d.%d: bytes=%u time=%ums TTL=%u (seq=%u).
+Reply from %d.%d.%d.%d: Destination host unreachable (seq=%u).
+Request timed out (seq=%u).
+Ping statistics for %d.%d.%d.%d:
+    Packets: Sent = %u, Received = %u, Lost = %u (%u%% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = %ums, Maximum = %ums, Average = %ums
+diag_type
+ping
+tracert
+software_upgrade
+restore_factory
+backup_and_restore
+system_log
+reboot
+Function %s assertion failed: OK == sntpcRegister(), file:%s, line:%d.
+systool.c
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_ACTION_REBOOT, (FUNCPTR)systemReboot), file:%s, line:%d.
+Function %s assertion failed: OK == registerAction(SYSTEM_NAME, SYSTEM_ACTION_RESET, (FUNCPTR)systemReset), file:%s, line:%d.
+Function %s assertion failed: OK == loglibRegister(), file:%s, line:%d.
+Function %s assertion failed: OK == firmwareActionRegister(), file:%s, line:%d.
+Function %s assertion failed: OK == eventMsgRegister(), file:%s, line:%d.
+SNTPC: dnsPacket malloc error
+SNTPC: sntp Dns Qurey (%s) failed..
+SNTPC: sntp Dns Qurey (%s->%s) success..
+SNTPC: snptcSockHandle error
+sntpc read config error, init fail.
+TIMEZONE=GMT::0:000000:000000
+TIMEZONE=GMT%d::%d:000000:000000
+TIMEZONE=GMT+%d::%d:000000:000000
+creat sntpcSocket error.
+/system/clock_success/clock_success
+/system/runtime/runtime
+timezone
+is_factory
+SNTPC: Switch unit %d->%d.
+totalsec
+time.nist.gov
+clock.redhat.com
+clock.isc.org
+time.windows.com
+ntp.sjtu.edu.cn
+clock.cuhk.edu.hk
+128.138.140.44
+192.36.144.22
+210.72.145.44
+pool.ntp.org
+Bridge Station Cache Contents:
+bridgeIndex MAC Address           Tick     pPortInfo       
+%d  
+%02X:%02X:%02X:%02X:%02X:%02X  
+0x%08X  
+STATIC 
+DYNAMIC
+%s%d
+0x%08X
+Bridge Port Info List:
+BridgeIndex EntryAddr   DevName   Num  MuxCookie   Type
+%d  0x%08X  %-8s   %1d   0x%08X
+UNKNOWN
+the port name is NULL.
+the input param is illegal.
+the index of filter is illegal.
+can not find any bridge.
+the filter is not match.
+the filter list is NULL.
+the desc param is too long.
+there is too many filter.
+bridge is not init or param ERROR.
+can not find %s%d in bridge %d.
+the port have not jion in any bridge.
+pBrInfo or pDevName is NULL.
+packet sent to %s%d returned END_ERR_BLOCK
+END_ERR_BLOCK packet sent from mirror %d.
+net pool of bridge is NULL.
+bridge info or dev name is NULL.
+"%s%d" is not attached to MUX.
+"%s%d" is already attached
+out of memory, malloc failure.
+bridge
+muxTkBind() failed for "%s%d".
+the port is null or have not jion in any bridge.
+the stack mirror of bridge is NULL.
+bridge resource is not init.
+bridge resource is already init.
+port operate sem create error
+mac cache op sem create error
+there is no enough space for bridge
+can not get node from idle list
+bridge resource init error
+can not find bridge or bridge isn't init.
+the input param ERROR.
+-port
+():Invalid argument.
+():Invalid format argument, should be eth0
+wifi0
+%s():%s%d not ready.
+bridge create error
+mirror end init error
+bridge port add error eth0
+bridge port add error mirror1
+Show all bridge stations.
+Function %s assertion failed: NULL != pEventMsg, file:%s, line:%d.
+eventMsg.c
+Function %s assertion failed: OK == regOprInterface(SYSTEM_ALLMSG_PATH, &operation), file:%s, line:%d.
+/system/realtime_push_msg
+Function %s assertion failed: OK == regOprInterface(SYSTEM_RELMSG_PATH, &operation), file:%s, line:%d.
+gb2312
+utf-8
+encodeType
+%d_%u_%02x%02x%02x%02x%02x%02x_%d
+security
+notify
+inetd
+INETD: inetd start fail.
+Function %s assertion failed: NULL != listenArray[index].handle, file:%s, line:%d.
+inetd.c
+Function %s assertion failed: listenArray[index].sock > 0, file:%s, line:%d.
+INETD: select error, abort.
+mr %d muxdev load error
+mr 0 muxdev start error
+mr 1 muxdev load error
+%d:0
+mirrorEndLoad
+Mirroring Enhanced Network Driver
+mirrorEndLoad: No physical device found
+-----BEGIN CERTIFICATE-----
+-----END CERTIFICATE-----
+-----BEGIN RSA PRIVATE KEY-----
+-----END RSA PRIVATE KEY-----
+/conf/priv-key.pem
+/conf/server-cert.pem
+Client message: %s
+I hear you fa shizzle!
+/conf/2048_newroot.cer
+*.tplinkcloud.com.cn
+172.31.70.48
+172.29.88.120
+Server response: %s
+/CN=
+/SN=
+/ST=
+/OU=
+/emailAddress=
+/UID=
+the cipher is %x-%x
+DDDD
+EEEEE
+FFFFFF
+GGGGGGG
+Atheros 956X
+Atheros 5210
+Atheros 5211
+Atheros 5211 (FPGA)
+Atheros 5212 (FPGA)
+Atheros 5312 WiSoC
+Atheros 2315 WiSoC
+Atheros 2317 WiSoC
+Atheros 2313 WiSoC
+Atheros 5424
+Atheros 5212
+Atheros 5212/2417
+Atheros 9380
+Atheros 9340
+Atheros 9485
+Atheros 9580
+Atheros 946X
+AR9380
+NO_COUNTRY_SET
+ALBANIA
+ALGERIA
+ARGENTINA
+ARMENIA
+ARUBA
+AUSTRALIA
+AUSTRALIA2
+AUSTRIA
+AZERBAIJAN
+BAHAMAS
+BAHRAIN
+BANGLADESH
+BARBADOS
+BELARUS
+BELGIUM
+BELGIUM2
+BELIZE
+BERMUDA
+BOLIVIA
+BOSNIA AND HERZEGOVINA
+BRAZIL
+BRUNEI DARUSSALAM
+BULGARIA
+CAMBODIA
+CANADA
+CANADA2
+CHILE
+CHINA
+COLOMBIA
+COSTA RICA
+CROATIA
+CYPRUS
+CZECH REPUBLIC
+DENMARK
+DOMINICAN REPUBLIC
+ECUADOR
+EGYPT
+EL SALVADOR
+ESTONIA
+FINLAND
+FRANCE
+FRENCH GUIANA
+FRENCH POLYNESIA
+GEORGIA
+GERMANY
+GREECE
+GREENLAND
+GRENADA
+GUADELOUPE
+GUAM
+GUATEMALA
+HAITI
+HONDURAS
+HONG KONG
+HUNGARY
+ICELAND
+INDIA
+INDONESIA
+IRAN
+IRELAND
+ISRAEL
+ITALY
+JAMAICA
+JAPAN
+JAPAN1
+JAPAN2
+JAPAN3
+JAPAN4
+JAPAN5
+JAPAN6
+JAPAN7
+JAPAN8
+JAPAN9
+JAPAN10
+JAPAN11
+JAPAN12
+JAPAN13
+JAPAN14
+JAPAN15
+JAPAN16
+JAPAN17
+JAPAN18
+JAPAN19
+JAPAN20
+JAPAN21
+JAPAN22
+JAPAN23
+JAPAN24
+JAPAN25
+JAPAN26
+JAPAN27
+JAPAN28
+JAPAN29
+JAPAN30
+JAPAN31
+JAPAN32
+JAPAN33
+JAPAN34
+JAPAN35
+JAPAN36
+JAPAN37
+JAPAN38
+JAPAN39
+JAPAN40
+JAPAN41
+JAPAN42
+JAPAN43
+JAPAN44
+JAPAN45
+JAPAN46
+JAPAN47
+JAPAN48
+JAPAN49
+JAPAN50
+JAPAN51
+JAPAN52
+JAPAN53
+JAPAN54
+JAPAN57
+JAPAN58
+JAPAN59
+JORDAN
+KAZAKHSTAN
+KENYA
+NORTH KOREA
+KOREA REPUBLIC
+KOREA REPUBLIC3
+KUWAIT
+LATVIA
+LEBANON
+LIECHTENSTEIN
+LITHUANIA
+LUXEMBOURG
+MACAU SAR
+MACEDONIA, FYRO
+MALAYSIA
+MALTA
+MARTINIQUE
+MAURITIUS
+MAYOTTE
+MEXICO
+MONACO
+MOROCCO
+NEPAL
+NETHERLANDS
+NETHERLANDS ANTILLES
+NEW ZEALAND
+NICARAGUA
+NORWAY
+OMAN
+PAKISTAN
+PANAMA
+PAPUA NEW GUINEA
+PARAGUAY
+PERU
+PHILIPPINES
+POLAND
+PORTUGAL
+PUERTO RICO
+QATAR
+REUNION
+ROMANIA
+RUSSIA
+RWANDA
+SAUDI ARABIA
+REPUBLIC OF SERBIA
+MONTENEGRO
+SINGAPORE
+SLOVAKIA
+SLOVENIA
+SOUTH AFRICA
+SPAIN
+SRI LANKA
+SWEDEN
+SWITZERLAND
+SYRIAN ARAB REPUBLIC
+TAIWAN
+TANZANIA
+THAILAND
+TRINIDAD AND TOBAGO
+TUNISIA
+TURKEY
+UGANDA
+UKRAINE
+UNITED ARAB EMIRATES
+UNITED KINGDOM
+UNITED STATES
+UNITED STATES2
+UNITED STATES (PUBLIC SAFETY)
+URUGUAY
+UZBEKISTAN
+VENEZUELA
+VIET NAM
+YEMEN
+ZIMBABWE
+Enterprise mode: 0x%08x
+Restoring Cal data from DRAM
+Restoring Cal data from Flash
+base_eep_header.feature_enable = 0x%x.
+base_eep_header.txrxgain = 0x%x.
+modal_header_2g.temp_slope = 0x%x.
+modal_header_5g.temp_slope = 0x%x.
+base_ext2.temp_slope_low = 0x%x.
+base_ext2.temp_slope_high = 0x%x.
+%s[%d] No vaid CAL, calling default template
+%s: invalid GPIO mask 0x%x
+Slot   Key			          Ucast  Type  Mac  
+%03d    %02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x   %02d     %02d    %02x:%02x:%02x:%02x:%02x:%02x 
+%s: abnormal nav value found 0x%x
+ TPC Register method in use
+===TARGET POWER TABLE===
+ Index[%2d] Rate[0x%02x] %6d kbps Power (%d Chain) [%2d.%1d dBm]
+===TARGET POWER TABLE with STBC===
+standard
+shared
+free success(p=%08X).
+malloc is failed. gCsMallocTimer > 3.
+api malloc failed(size=%u).
+malloc success(p=%08X, size=%u).
+msgId record failed.
+cloudBrd
+proxy to connect cloud server.
+Function %s assertion failed: NULL != gCsBlockMutex, file:%s, line:%d.
+cloudComApi.c
+apiInner socket bind error.
+bind failed, abort.
+(p=%08X), no buffer, timer:%d
+api sendto brd failed(p=%08X)!!
+api get recvfrom error.
+api get msg but check msgic is failed.
+api get brd msg.
+api recv buffer again(len=%u, timer=%d).
+msg don't find msgId).
+get cloud req, method=%s.
+run cloudMsgHandler(%s) failed.
+sendRsp to brd error.
+get cloud rsp, errCode=%d.
+api get send status form brd.
+notify.msgId=%d, notify.status=%d.
+deventry.tplinkcloud.com.cn
+devs-sgw.tplinkcloud.com.cn
+brdInner socket bind error.
+brd sendto api failed(p=%08X)!!
+brd recv buffer again(len=%d, timer=%d).
+brd get recvfrom error.
+brd get msg but check msgic is failed.
+get apiReq msg.
+get apiRsq msg.
+api do reconnect now.
+api do disconnect now.
+api do stopconnect now(reTime=%d,reason=%d).
+api do reconnectTime(ReConnectTime:%d) now.
+is illegal device, so don't connect by inner.
+long mode and at delay, so connect cloud at once.
+api do hearbeat interval(%d) now.
+api set short connect mode(%d) now.
+api do short connect interval(%d) now.
+(len=%d):%s.
+886NV5
+000886050109
+2136463DC9B83E00C203B84248AFBD08
+TL-WR886N
+5ABD293D6199599B09C3E4557A646C9B
+0000000000000001
+2.0.12 Build 150918 Rel.56850n
+-notify
+-heartbeat
+-status
+cloudBrd status is:%d.
+-info
+=============cloudComConfigInfo==============
+sefSvr:%s:%u.
+cachedSvr:%s:%u.
+defaultPort:%s:%u.
+heartbeatIntervalSec:%u.
+shortConnectIntervalSec:%u.
+cachedSvrExpireTicks:%u.
+defaultSvrExpireTicks:%u.
+shortConnectEnable:%u.
+illegalType=%d
+cb recv rsp method=%s.
+cb recv method request.params=%s.
+64CF309EE44F82D7EF7943D620AA8DF566A56DAD
+=============cloudComLinkInfo==============
+linkStatus:%d.
+highReconnectTicks:%u.
+highReconnectServType:%d(0:sef,1:cloud).
+lowReconnectTicks:%u.
+lowReconnectServType:%d(0:sef,1:cloud).
+connectFailedCount:%u.
+reconnectDelaySec:%u.
+linkMsgNextId:%u.
+isIllegalDevice:%u.
+shortConnectTicks:%u(nowTicks:%u).
+heartbeat.reSendTicks:%u(nowTicks:%u).
+heartbeat.sendFailedCount:%u.
+linkMsg.msgId:%u.
+linkMsg.timeoutTicks:%u(nowTicks:%u).
+linkMsg.callback:%X.
+connect sef.
+tcspVer
+heartBeat
+reconnectTime(%d),reconnType(%d),serverType(%d), isClear(%d).
+CE: %d cloudCom send heartbeat timeout.
+CE: %d cloudCom dns error %d.
+CE: %d cloudCom tcp error %d.
+CE: %d cloudCom ssl time error %d.
+CE: %d cloudCom ssl signature error %d.
+CE: %d cloudCom ssl domain error %d.
+CE: %d cloudCom ssl encryption error %d.
+CE: %d cloudCom ssl error %d.
+CE: %d cloudCom tcp close %d.
+CE: %d cloudCom send helloCloud timeout %d.
+CE: %d device illegal %d.
+CE: %d cloudCom error %d.
+cloud errorType=%d failed=%d delay=%d.
+helloCloud
+sef errorType=%d failed=%d delay=%d.
+authCode
+CE: %d cloudCom cloud error.
+CE: %d cloudCom get stopConnect %d.
+tcspStatus
+CE: %d cloudCom illegal device %d.
+CE: %d cloudCom sef error.
+CE: %d cloudCom(sef) stopConnect=%d,reconnectTime=%d..
+CE: %d cloudCom(sef) illegal device %d.
+validTimeOnDevice
+cachedSvr
+cachedSvr:%s,cachedPort:%d,cachedSvrExpireTicks:%d.
+link connected!
+connect cloud.
+<<<<<msgPool>>>>>
+[%d]used:%d	 status:%d	 msgId:%d	 timeoutTicks:%d	 cb:%X	 bufferLen:%d	 buffer:%X
+cloudApi msg: malloc buffer %X (len %d)
+add a msg msgId=%d, cb=%X, timeoutTicks=%d(nowTicks=%d).
+cloudApi msg: free buffer %x
+send msg timeout, msgId=%d
+send msg again, msgId=%d,(%d)%s
+Outer(%d):%s.
+CI: TCP req, cloudCom %d.%d.%d.%d:%d.
+CI: TCP req, succ.
+Wrong relocation entry size.
+Unknown relocation entry type.
+Relocation creates a 256 MB region boundary violation (offset: %#x, type: %i)
+Lo16 relocation expects preceding Hi16 relocation.
+Can't relocate: recompile module with -G 0 flags.
+Unsupported relocation type %d
+Unknown relocation type %d
+cksum: out of data, %d
+usrAppInit
+taskMonitor
+miniFsWriteSectorDirect
+checkFileParam
+miniFsSectorGet
+openModeChkDirect
+writeSector
+miniFsGenStorFileIdx
+miniFsFormatSector
+miniFsGetFileIdxInner
+getPreInsUsedFlashSpace
+getUsedFlashSpace
+miniFsReadFileDirect
+miniFsInit
+miniFsDrv
+miniFsIoctl
+FsReadFile
+miniFsWrite
+miniFsDevBufGet
+miniFsWriteByFd
+miniFsMoveFiles
+miniFsGetMaxSize
+miniFsRead
+miniFsClose
+miniFsDelete
+miniFsDeleteByFd
+miniFsOpen
+miniFsFdGet
+miniFsOpenModeChk
+rcFileDevCreate
+rcFileInit
+readConfigSector
+miniFsCmdParser
+miniFsWritePlugin
+miniFsReinitSectorAddr
+miniFsDecryptConfig
+miniFsEncryptConfig
+appManageRegStaticApp
+preInstalledXmlParse
+minSupportXMLParse
+appModuleInit
+sysSymTableInit
+installPlugin
+uninstallPluginInRam
+unloadPlugin
+cloudMsgUpdateFwHandle
+getPluginUsrCfgList
+deleteModuleMultiTable
+getPluginFileList
+extractPluginBinFile
+tmpDataPkt
+registerPlugin
+resetPluginUsrCfg
+startPlugin
+editManuPluginToConfig
+editAutoPluginToConfig
+addFileParam
+printFileList
+linkUp
+getRegVeriCodeRequestHandle
+uninstallPlugin
+getProcessPktLen
